@@ -1,0 +1,202 @@
+{
+    "Who are you": {
+        "question": "Who are you",
+        "answer": "Kevin"
+    },
+    "One benefit of conducting _____ is that it allows stakeholders to interact with potential solutions and provide feedback early in the development process.": {
+        "question": "One benefit of conducting _____ is that it allows stakeholders to interact with potential solutions and provide feedback early in the development process.",
+        "answer": "prototyping"
+    },
+    "A technique used to describe a requirement from the perspective of the end-user, typically following the template \"As a (type of user), I want (some feature) so that (some benefit),\" is called a _____ .": {
+        "question": "A technique used to describe a requirement from the perspective of the end-user, typically following the template \"As a (type of user), I want (some feature) so that (some benefit),\" is called a _____ .",
+        "answer": "User Story"
+    },
+    "_____ are useful for gathering a large amount of data efficiently from a wide range of stakeholders, but they may lack the depth of information obtained through direct interaction.": {
+        "question": "_____ are useful for gathering a large amount of data efficiently from a wide range of stakeholders, but they may lack the depth of information obtained through direct interaction.",
+        "answer": "Surveys"
+    },
+    "A technique used in Agile software development to describe a requirement from the perspective of the end-user is called a _____ .": {
+        "question": "A technique used in Agile software development to describe a requirement from the perspective of the end-user is called a _____ .",
+        "answer": "User Story"
+    },
+    "_____ are stakeholders who ensure that the system complies with relevant laws, regulations, and standards.": {
+        "question": "_____ are stakeholders who ensure that the system complies with relevant laws, regulations, and standards.",
+        "answer": "Compliance Officers, Regulatory Officers, Legal Officers, Regulatory Compliance Officers, Compliance Managers, Regulatory Managers, Compliance officers, Regulatory officers, Legal officers, Regulatory compliance officers, Compliance managers, Regulatory managers"
+    },
+    "_____ are stakeholders who will be affected by the system but do not directly interact with it, such as customers or clients": {
+        "question": "_____ are stakeholders who will be affected by the system but do not directly interact with it, such as customers or clients",
+        "answer": "Indirect Stakeholders"
+    },
+    "The ability to link product requirements to their origin and to track their evolution over time is known as _____ .": {
+        "question": "The ability to link product requirements to their origin and to track their evolution over time is known as _____ .",
+        "answer": "Traceability"
+    },
+    "A requirement that specifies the system must process transactions within two seconds is an example of a _____ requirement.": {
+        "question": "A requirement that specifies the system must process transactions within two seconds is an example of a _____ requirement.",
+        "answer": "Non-Functional"
+    },
+    "A disadvantage of using _____ is that it can be time-consuming and may not be feasible for large groups of stakeholders.": {
+        "question": "A disadvantage of using _____ is that it can be time-consuming and may not be feasible for large groups of stakeholders.",
+        "answer": "focus groups"
+    },
+    "The creation of a preliminary model of the system or parts of the system to visualise and test certain aspects of the design is called _____ .": {
+        "question": "The creation of a preliminary model of the system or parts of the system to visualise and test certain aspects of the design is called _____ .",
+        "answer": "(no answer)"
+    },
+    "A requirements prioritisation technique that categorises requirements as Must have, Should have, Could have, and Won't have is known as the _____ .": {
+        "question": "A requirements prioritisation technique that categorises requirements as Must have, Should have, Could have, and Won't have is known as the _____ .",
+        "answer": "MoSCoW"
+    },
+    "One advantage of using _____ for requirements elicitation is that it allows for in-depth understanding of stakeholder needs through direct interaction.": {
+        "question": "One advantage of using _____ for requirements elicitation is that it allows for in-depth understanding of stakeholder needs through direct interaction.",
+        "answer": "Interviews"
+    },
+    "One advantage of using _____ is that it facilitates collaboration and consensus among stakeholders, but it requires careful planning and skilled facilitation.": {
+        "question": "One advantage of using _____ is that it facilitates collaboration and consensus among stakeholders, but it requires careful planning and skilled facilitation.",
+        "answer": "Workshops"
+    },
+    "_____ requirements are essential for defining the core functionality of the system and ensuring it meets user needs.": {
+        "question": "_____ requirements are essential for defining the core functionality of the system and ensuring it meets user needs.",
+        "answer": "Functional"
+    },
+    "_____ are stakeholders who provide funding and resources for the project and have a vested interest in its success.": {
+        "question": "_____ are stakeholders who provide funding and resources for the project and have a vested interest in its success.",
+        "answer": "Sponsors"
+    },
+    "_____ requirements are typically described in terms of inputs, processing, and outputs.": {
+        "question": "_____ requirements are typically described in terms of inputs, processing, and outputs.",
+        "answer": "Functional"
+    },
+    "The process of ensuring that the requirements reflect the stakeholder's actual needs and expectations, often involving reviewing and testing the requirements, is called _____ .": {
+        "question": "The process of ensuring that the requirements reflect the stakeholder's actual needs and expectations, often involving reviewing and testing the requirements, is called _____ .",
+        "answer": "Requirements Validation"
+    },
+    "_____ are stakeholders who will directly interact with the system and whose needs must be met for the system to be successful.": {
+        "question": "_____ are stakeholders who will directly interact with the system and whose needs must be met for the system to be successful.",
+        "answer": "End-users"
+    },
+    "The process of ensuring that the requirements reflect the stakeholder's actual needs and expectations is called _____ .": {
+        "question": "The process of ensuring that the requirements reflect the stakeholder's actual needs and expectations is called _____ .",
+        "answer": "Requirements Validation"
+    },
+    "Individuals or groups who have an interest or stake in the system being developed are known as _____ .": {
+        "question": "Individuals or groups who have an interest or stake in the system being developed are known as _____ .",
+        "answer": "Stakeholders"
+    },
+    "The ongoing process of managing changes to the requirements throughout the project lifecycle is known as _____ .": {
+        "question": "The ongoing process of managing changes to the requirements throughout the project lifecycle is known as _____ .",
+        "answer": "Requirements Management"
+    },
+    "The process of identifying and analysing the roles, interests, and influence of different stakeholders is known as _____ .": {
+        "question": "The process of identifying and analysing the roles, interests, and influence of different stakeholders is known as _____ .",
+        "answer": "Stakeholder Analysis"
+    },
+    "_____ are individuals or groups who have an interest or stake in the system being developed.": {
+        "question": "_____ are individuals or groups who have an interest or stake in the system being developed.",
+        "answer": "Stakeholders"
+    },
+    "A preliminary model of the system or parts of the system created to visualise and test certain aspects of the design is called a _____ .": {
+        "question": "A preliminary model of the system or parts of the system created to visualise and test certain aspects of the design is called a _____ .",
+        "answer": "Prototype"
+    },
+    "_____ requirements are often referred to as the \"ilities,\" such as usability, reliability, and maintainability.": {
+        "question": "_____ requirements are often referred to as the \"ilities,\" such as usability, reliability, and maintainability.",
+        "answer": "Non-functional"
+    },
+    "Constraints or qualities that the system must have, such as performance, security, reliability, usability, and maintainability, are known as _____ requirements.": {
+        "question": "Constraints or qualities that the system must have, such as performance, security, reliability, usability, and maintainability, are known as _____ requirements.",
+        "answer": "Non-Functional"
+    },
+    "_____ involves observing users in their natural environment, providing deep insights into their behaviours and interactions, but it can be resource-intensive and time-consuming.": {
+        "question": "_____ involves observing users in their natural environment, providing deep insights into their behaviours and interactions, but it can be resource-intensive and time-consuming.",
+        "answer": "Ethnographic observation"
+    },
+    "_____ allows for the collection of quantitative data that can be statistically analysed, but it may not provide the qualitative insights needed for a comprehensive understanding of requirements.": {
+        "question": "_____ allows for the collection of quantitative data that can be statistically analysed, but it may not provide the qualitative insights needed for a comprehensive understanding of requirements.",
+        "answer": "Surveys"
+    },
+    "A description of a system's behaviour as it responds to a request from outside the system is called a _____ .": {
+        "question": "A description of a system's behaviour as it responds to a request from outside the system is called a _____ .",
+        "answer": "Use Cases"
+    },
+    "The process of managing changes to the requirements throughout the project lifecycle is known as _____ .": {
+        "question": "The process of managing changes to the requirements throughout the project lifecycle is known as _____ .",
+        "answer": "Requirements Management"
+    },
+    "Specific behaviours or functions that the system must perform are referred to as _____ requirements.": {
+        "question": "Specific behaviours or functions that the system must perform are referred to as _____ requirements.",
+        "answer": "functional"
+    },
+    "The ability to link product requirements to their origin and track their evolution over time is referred to as _____ .": {
+        "question": "The ability to link product requirements to their origin and track their evolution over time is referred to as _____ .",
+        "answer": "Traceability"
+    },
+    "_____ can be effective for understanding user needs and preferences, but they may be influenced by group dynamics and dominant participants.": {
+        "question": "_____ can be effective for understanding user needs and preferences, but they may be influenced by group dynamics and dominant participants.",
+        "answer": "Focus groups"
+    },
+    "The process of examining and refining gathered requirements to ensure they are complete, consistent, and feasible is called _____ .": {
+        "question": "The process of examining and refining gathered requirements to ensure they are complete, consistent, and feasible is called _____ .",
+        "answer": "Requirements Analysis"
+    },
+    "_____ are stakeholders responsible for the technical implementation and maintenance of the system.": {
+        "question": "_____ are stakeholders responsible for the technical implementation and maintenance of the system.",
+        "answer": "IT Personnel"
+    },
+    "_____ are stakeholders who use the system to perform their job functions and whose feedback is crucial for system usability.": {
+        "question": "_____ are stakeholders who use the system to perform their job functions and whose feedback is crucial for system usability.",
+        "answer": "Operational Users"
+    },
+    "A requirement that specifies the system must support multiple languages is an example of a _____ requirement.": {
+        "question": "A requirement that specifies the system must support multiple languages is an example of a _____ requirement.",
+        "answer": "Non-Functional"
+    },
+    "_____ requirements often include attributes such as reliability, maintainability, and scalability.": {
+        "question": "_____ requirements often include attributes such as reliability, maintainability, and scalability.",
+        "answer": "Non-functional"
+    },
+    "The formal documentation of the system's requirements, serving as a contract between stakeholders and the development team, is known as _____ .": {
+        "question": "The formal documentation of the system's requirements, serving as a contract between stakeholders and the development team, is known as _____ .",
+        "answer": "requirements specification"
+    },
+    "_____ are stakeholders who have the authority to make decisions about the project's scope, budget, and timeline.": {
+        "question": "_____ are stakeholders who have the authority to make decisions about the project's scope, budget, and timeline.",
+        "answer": "Project Managers"
+    },
+    "A requirement that specifies the system must be available 99.9% of the time is an example of a _____ requirement.": {
+        "question": "A requirement that specifies the system must be available 99.9% of the time is an example of a _____ requirement.",
+        "answer": "non-functional"
+    },
+    "A benefit of using _____ is that it provides a structured way to gather requirements from existing system artifacts, but it may not capture new or changing requirements.": {
+        "question": "A benefit of using _____ is that it provides a structured way to gather requirements from existing system artifacts, but it may not capture new or changing requirements.",
+        "answer": "Document Analysis"
+    },
+    "A drawback of using _____ is that it may not capture the full context of user interactions and can miss out on unspoken requirements.": {
+        "question": "A drawback of using _____ is that it may not capture the full context of user interactions and can miss out on unspoken requirements.",
+        "answer": "Document Analysis"
+    },
+    "_____ requirements describe the constraints or qualities that the system must have, such as performance, security, and usability.": {
+        "question": "_____ requirements describe the constraints or qualities that the system must have, such as performance, security, and usability.",
+        "answer": "Non-Functional"
+    },
+    "In the MoSCoW method, the \"M\" stands for _____ .": {
+        "question": "In the MoSCoW method, the \"M\" stands for _____ .",
+        "answer": "Must have"
+    },
+    "A requirement that specifies the system must allow users to create and manage their profiles is an example of a _____ requirement.": {
+        "question": "A requirement that specifies the system must allow users to create and manage their profiles is an example of a _____ requirement.",
+        "answer": "Functional"
+    },
+    "The process of collecting the requirements or conditions that a particular system or software application must satisfy is known as _____ .": {
+        "question": "The process of collecting the requirements or conditions that a particular system or software application must satisfy is known as _____ .",
+        "answer": "Requirements Gathering"
+    },
+    "_____ are stakeholders who provide expert knowledge and guidance on specific aspects of the system, such as subject matter experts or consultants.": {
+        "question": "_____ are stakeholders who provide expert knowledge and guidance on specific aspects of the system, such as subject matter experts or consultants.",
+        "answer": "(no answer)"
+    },
+    "_____ requirements specify what the system should do, including specific behaviours, functions, and features.": {
+        "question": "_____ requirements specify what the system should do, including specific behaviours, functions, and features.",
+        "answer": "Functional"
+    }
+}
