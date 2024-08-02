@@ -1,0 +1,558 @@
+{
+    "Immediate and clear feedback in UX design helps users understand the _____ of their actions and whether they were successful.": {
+        "question": "Immediate and clear feedback in UX design helps users understand the _____ of their actions and whether they were successful.",
+        "answer": "results, outcomes, effects, consequences, impacts"
+    },
+    "CSS properties like _____ and grid are commonly used to create flexible layouts that can adjust to different screen resolutions and orientations.": {
+        "question": "CSS properties like _____ and grid are commonly used to create flexible layouts that can adjust to different screen resolutions and orientations.",
+        "answer": "flex, flex-box, flex grid"
+    },
+    "Using semantic HTML tags, such as <aside> for tangential content, enhances the _____ of the webpage by clearly defining the role of different content areas.": {
+        "question": "Using semantic HTML tags, such as <aside> for tangential content, enhances the _____ of the webpage by clearly defining the role of different content areas.",
+        "answer": "structure, layout, organization, organisation, hierarchy"
+    },
+    "It's important to consider colour _____ , ensuring that there is sufficient contrast between text and background colours.": {
+        "question": "It's important to consider colour _____ , ensuring that there is sufficient contrast between text and background colours.",
+        "answer": "accessibility, accessibility, contrast, visibility, legibility"
+    },
+    "Auditory feedback can be particularly useful for users with visual impairments, as it provides an additional _____ of interaction.": {
+        "question": "Auditory feedback can be particularly useful for users with visual impairments, as it provides an additional _____ of interaction.",
+        "answer": "layer, mode, form, type, method"
+    },
+    "Conducting thorough user research and creating _____ helps designers understand how different user groups think about and interact with the content.": {
+        "question": "Conducting thorough user research and creating _____ helps designers understand how different user groups think about and interact with the content.",
+        "answer": "personas, persona, user personas, user persona"
+    },
+    "Highlighting a button when it is clicked is an example of visual feedback that indicates the _____ has been registered.": {
+        "question": "Highlighting a button when it is clicked is an example of visual feedback that indicates the _____ has been registered.",
+        "answer": "action, click, input, interaction, command"
+    },
+    "Tree testing evaluates the _____ of information within the proposed hierarchy, providing valuable data on how well the navigation structure meets user needs.": {
+        "question": "Tree testing evaluates the _____ of information within the proposed hierarchy, providing valuable data on how well the navigation structure meets user needs.",
+        "answer": "findability, discoverability, accessibility, usability"
+    },
+    "Using too many colours can lead to a _____ and overwhelming user experience.": {
+        "question": "Using too many colours can lead to a _____ and overwhelming user experience.",
+        "answer": "cluttered, cluttered, chaotic, confusing, busy"
+    },
+    "User journey maps visually represent the steps a user takes to achieve a specific _____ , helping designers understand the user's experience and identify pain points.": {
+        "question": "User journey maps visually represent the steps a user takes to achieve a specific _____ , helping designers understand the user's experience and identify pain points.",
+        "answer": "goal, objective, task, outcome, purpose"
+    },
+    "Intuitive UX design reduces the _____ load on users, allowing them to focus on their tasks rather than figuring out how to use the interface.": {
+        "question": "Intuitive UX design reduces the _____ load on users, allowing them to focus on their tasks rather than figuring out how to use the interface.",
+        "answer": "cognitive, mental, intellectual, thinking, thought"
+    },
+    "A common example of auditory feedback is the _____ sound that confirms a successful action, such as sending an email.": {
+        "question": "A common example of auditory feedback is the _____ sound that confirms a successful action, such as sending an email.",
+        "answer": "notification, ding, chime, alert, confirmation"
+    },
+    "Providing _____ for videos ensures that users with hearing impairments can access the content, enhancing the overall accessibility of the website or application.": {
+        "question": "Providing _____ for videos ensures that users with hearing impairments can access the content, enhancing the overall accessibility of the website or application.",
+        "answer": "captions, subtitles, closed captions, text, transcript"
+    },
+    "Providing a list of available keyboard shortcuts in the _____ section of a website or application helps users learn and utilise these shortcuts effectively.": {
+        "question": "Providing a list of available keyboard shortcuts in the _____ section of a website or application helps users learn and utilise these shortcuts effectively.",
+        "answer": "help, support, assistance, info, information"
+    },
+    "Intuitive labelling with meaningful, concise language helps users quickly grasp the content's _____ .": {
+        "question": "Intuitive labelling with meaningful, concise language helps users quickly grasp the content's _____ .",
+        "answer": "purpose, intent, meaning, function"
+    },
+    "Using different _____ of sounds for errors and successes helps users quickly understand the nature of the feedback.": {
+        "question": "Using different _____ of sounds for errors and successes helps users quickly understand the nature of the feedback.",
+        "answer": "types, kinds, categories, variations, forms"
+    },
+    "Intuitive UX design ensures that users can navigate and interact with a product without extensive prior knowledge or _____ .": {
+        "question": "Intuitive UX design ensures that users can navigate and interact with a product without extensive prior knowledge or _____ .",
+        "answer": "effort, training, instruction, learning, guidance"
+    },
+    "Ensuring that all multimedia content has appropriate text alternatives is a key aspect of _____ design, making digital products accessible to all users.": {
+        "question": "Ensuring that all multimedia content has appropriate text alternatives is a key aspect of _____ design, making digital products accessible to all users.",
+        "answer": "inclusive, accessible, universal, user-centered, equitable"
+    },
+    "A common example of haptic feedback is the _____ felt when typing on a virtual keyboard on a smartphone.": {
+        "question": "A common example of haptic feedback is the _____ felt when typing on a virtual keyboard on a smartphone.",
+        "answer": "vibration, buzz, haptic response, tactile response, tactile feedback"
+    },
+    "Consistent use of colour helps to reinforce the _____ identity across different touchpoints.": {
+        "question": "Consistent use of colour helps to reinforce the _____ identity across different touchpoints.",
+        "answer": "brand, branding, brand, corporate, company"
+    },
+    "Fast page _____ is crucial for both user experience and search engine optimisation, as search engines favour websites that load quickly.": {
+        "question": "Fast page _____ is crucial for both user experience and search engine optimisation, as search engines favour websites that load quickly.",
+        "answer": "load time, loading time, speed, performance"
+    },
+    "Keyboard shortcuts can significantly improve _____ by allowing users to perform actions quickly without relying on a mouse.": {
+        "question": "Keyboard shortcuts can significantly improve _____ by allowing users to perform actions quickly without relying on a mouse.",
+        "answer": "efficiency, productivity, speed, effectiveness, usability"
+    },
+    "Wireframes are low-fidelity representations of a design that focus on the layout and _____ of elements on a page, without including detailed visual design.": {
+        "question": "Wireframes are low-fidelity representations of a design that focus on the layout and _____ of elements on a page, without including detailed visual design.",
+        "answer": "structure, arrangement, placement, organisation, positioning"
+    },
+    "In the United States, the _____ Act requires federal agencies to make their electronic and information technology accessible to people with disabilities.": {
+        "question": "In the United States, the _____ Act requires federal agencies to make their electronic and information technology accessible to people with disabilities.",
+        "answer": "Rehabilitation, Rehab, Rehabilitation Act, Rehab Act"
+    },
+    "Clear feedback is essential for error prevention and _____ , as it allows users to understand and correct mistakes in real-time.": {
+        "question": "Clear feedback is essential for error prevention and _____ , as it allows users to understand and correct mistakes in real-time.",
+        "answer": "correction, fixing, resolution, rectification, adjustment"
+    },
+    "To improve usability on touchscreen devices, it is important to provide immediate _____ feedback, such as visual or haptic responses, when users interact with elements.": {
+        "question": "To improve usability on touchscreen devices, it is important to provide immediate _____ feedback, such as visual or haptic responses, when users interact with elements.",
+        "answer": "tactile, haptic, visual, immediate, instant"
+    },
+    "Creating personas based on thorough user research, including interviews and _____ , ensures that they accurately reflect the characteristics and needs of real users.": {
+        "question": "Creating personas based on thorough user research, including interviews and _____ , ensures that they accurately reflect the characteristics and needs of real users.",
+        "answer": "surveys, questionnaires, feedback, observations, studies"
+    },
+    "Flexible layouts in UX design often use _____ units, such as percentages or ems, to ensure that elements resize proportionally across different screen sizes.": {
+        "question": "Flexible layouts in UX design often use _____ units, such as percentages or ems, to ensure that elements resize proportionally across different screen sizes.",
+        "answer": "relative, flexible, scalable, proportional, responsive"
+    },
+    "Auditory feedback should be _____ and not disruptive, ensuring it enhances the user experience without causing annoyance.": {
+        "question": "Auditory feedback should be _____ and not disruptive, ensuring it enhances the user experience without causing annoyance.",
+        "answer": "subtle, gentle, soft, unobtrusive, mild"
+    },
+    "Implementing ARIA (Accessible Rich Internet Applications) attributes helps enhance the _____ of dynamic content for users relying on assistive technologies.": {
+        "question": "Implementing ARIA (Accessible Rich Internet Applications) attributes helps enhance the _____ of dynamic content for users relying on assistive technologies.",
+        "answer": "semantics, accessibility, meaning, context, interpretability"
+    },
+    "Keyboard navigation in UX design ensures that all functionality is accessible via the _____ , allowing users to navigate without a mouse.": {
+        "question": "Keyboard navigation in UX design ensures that all functionality is accessible via the _____ , allowing users to navigate without a mouse.",
+        "answer": "keyboard, keys, keystrokes, key input, key commands"
+    },
+    "In user-centred design, iterative testing and _____ are crucial for refining the product based on real user feedback and ensuring it meets user expectations.": {
+        "question": "In user-centred design, iterative testing and _____ are crucial for refining the product based on real user feedback and ensuring it meets user expectations.",
+        "answer": "prototyping, iteration, iterations, testing, feedback"
+    },
+    "Search engine optimisation in UX design involves improving the _____ of a website to increase its visibility in search engine results.": {
+        "question": "Search engine optimisation in UX design involves improving the _____ of a website to increase its visibility in search engine results.",
+        "answer": "ranking, rank, position, visibility, placement"
+    },
+    "Visual feedback, such as changing the colour of a form field to red, can indicate an _____ and guide users to correct it.": {
+        "question": "Visual feedback, such as changing the colour of a form field to red, can indicate an _____ and guide users to correct it.",
+        "answer": "error, mistake, issue, problem, invalid input"
+    },
+    "Haptic feedback can enhance the user experience by providing a _____ confirmation of an action, such as a button press.": {
+        "question": "Haptic feedback can enhance the user experience by providing a _____ confirmation of an action, such as a button press.",
+        "answer": "physical, tactile, tangible, real, concrete"
+    },
+    "Colour can be used to convey _____ , such as using red for errors and green for success messages.": {
+        "question": "Colour can be used to convey _____ , such as using red for errors and green for success messages.",
+        "answer": "meaning, meaning, information, status, feedback"
+    },
+    "Media _____ are CSS techniques used in responsive UX design to apply different styles based on the characteristics of the device, such as its width or height.": {
+        "question": "Media _____ are CSS techniques used in responsive UX design to apply different styles based on the characteristics of the device, such as its width or height.",
+        "answer": "queries, query, rules, conditions, breakpoints"
+    },
+    "To develop accurate user journey maps, designers should gather data from various sources, including user interviews, surveys, and _____ , to capture a comprehensive view of the user experience.": {
+        "question": "To develop accurate user journey maps, designers should gather data from various sources, including user interviews, surveys, and _____ , to capture a comprehensive view of the user experience.",
+        "answer": "observations, analytics, feedback, usability tests, studies"
+    },
+    "Aligning the design with users' mental _____ makes the interface more intuitive and easier to use.": {
+        "question": "Aligning the design with users' mental _____ makes the interface more intuitive and easier to use.",
+        "answer": "models, model, frameworks, framework, expectations"
+    },
+    "Heatmaps visually represent user clicks, taps, and _____ behaviour, helping designers identify where users focus their attention and where they may be struggling.": {
+        "question": "Heatmaps visually represent user clicks, taps, and _____ behaviour, helping designers identify where users focus their attention and where they may be struggling.",
+        "answer": "scrolling, scroll, scrolls, scroll behaviour, scroll activity"
+    },
+    "A well-designed affordance helps users understand the _____ of an element without needing additional instructions or labels.": {
+        "question": "A well-designed affordance helps users understand the _____ of an element without needing additional instructions or labels.",
+        "answer": "function, purpose, use, role, action"
+    },
+    "Providing support for multiple _____ within the interface allows users from different linguistic backgrounds to interact with the product in their preferred language.": {
+        "question": "Providing support for multiple _____ within the interface allows users from different linguistic backgrounds to interact with the product in their preferred language.",
+        "answer": "languages, locales, dialects, tongues, language options"
+    },
+    "Multimodal content can improve user engagement by offering interactive elements, such as quizzes or _____ , that complement the primary content and provide a richer experience.": {
+        "question": "Multimodal content can improve user engagement by offering interactive elements, such as quizzes or _____ , that complement the primary content and provide a richer experience.",
+        "answer": "surveys, polls, questionnaires, forms, feedback forms"
+    },
+    "Avoiding _____ and technical jargon in user interfaces makes the content more accessible to a broader audience, including those who may not be familiar with specialised terms.": {
+        "question": "Avoiding _____ and technical jargon in user interfaces makes the content more accessible to a broader audience, including those who may not be familiar with specialised terms.",
+        "answer": "jargon, slang, technical terms, buzzwords, complex language"
+    },
+    "Establishing a clear and logical hierarchy that reflects the importance and relationships between different pieces of content often involves a _____ approach.": {
+        "question": "Establishing a clear and logical hierarchy that reflects the importance and relationships between different pieces of content often involves a _____ approach.",
+        "answer": "top-down, hierarchical, structured, systematic"
+    },
+    "Employing both analytics and heatmaps allows designers to make _____ -driven decisions, ensuring that changes to the user interface are based on empirical evidence rather than assumptions.": {
+        "question": "Employing both analytics and heatmaps allows designers to make _____ -driven decisions, ensuring that changes to the user interface are based on empirical evidence rather than assumptions.",
+        "answer": "data, evidence, fact, research, user"
+    },
+    "Providing visual feedback, such as highlighting a selected item, helps users feel _____ in their interactions with the interface.": {
+        "question": "Providing visual feedback, such as highlighting a selected item, helps users feel _____ in their interactions with the interface.",
+        "answer": "confident, assured, certain, secure, positive"
+    },
+    "Organising and labelling content in a user-friendly manner is essential for effective navigation and _____ architecture in UX design.": {
+        "question": "Organising and labelling content in a user-friendly manner is essential for effective navigation and _____ architecture in UX design.",
+        "answer": "information, info, data, content"
+    },
+    "Ensuring that all interactive elements are _____ accessible is crucial for users who rely on keyboards or assistive technologies to navigate a website.": {
+        "question": "Ensuring that all interactive elements are _____ accessible is crucial for users who rely on keyboards or assistive technologies to navigate a website.",
+        "answer": "keyboard, key, keyboard-accessible, key-accessible, keyboard friendly"
+    },
+    "Colour _____ can help in creating a cohesive and visually appealing design.": {
+        "question": "Colour _____ can help in creating a cohesive and visually appealing design.",
+        "answer": "palettes, palette, schemes, scheme, combinations"
+    },
+    "Feedback should be _____ and actionable, providing users with specific information on how to proceed or correct an error.": {
+        "question": "Feedback should be _____ and actionable, providing users with specific information on how to proceed or correct an error.",
+        "answer": "clear, understandable, comprehensible, explicit, unambiguous"
+    },
+    "Customisable themes in UX design allow users to select different _____ schemes, enabling them to personalise the interface according to their preferences.": {
+        "question": "Customisable themes in UX design allow users to select different _____ schemes, enabling them to personalise the interface according to their preferences.",
+        "answer": "colour, color, palette, colour palette, color palette"
+    },
+    "A well-structured _____ with clear headings and subheadings can enhance both user experience and search engine optimisation by making content easier to navigate and index.": {
+        "question": "A well-structured _____ with clear headings and subheadings can enhance both user experience and search engine optimisation by making content easier to navigate and index.",
+        "answer": "hierarchy, structure, outline, organisation, organization"
+    },
+    "Designing touch targets that are large enough to accommodate users with motor impairments is an example of considering _____ needs in UX design.": {
+        "question": "Designing touch targets that are large enough to accommodate users with motor impairments is an example of considering _____ needs in UX design.",
+        "answer": "diverse, different, varied, various, multiple"
+    },
+    "Affinity diagramming is a technique used to organise and categorise large amounts of _____ data by grouping similar items together.": {
+        "question": "Affinity diagramming is a technique used to organise and categorise large amounts of _____ data by grouping similar items together.",
+        "answer": "qualitative, user, research, observational, feedback"
+    },
+    "Multimodal content in UX design involves presenting information in various formats, such as text, audio, and _____ , to cater to different user preferences and needs.": {
+        "question": "Multimodal content in UX design involves presenting information in various formats, such as text, audio, and _____ , to cater to different user preferences and needs.",
+        "answer": "video, videos, visual, visuals, multimedia"
+    },
+    "A key aspect of responsive UX design is the use of flexible _____ that adjust to different screen sizes and orientations": {
+        "question": "A key aspect of responsive UX design is the use of flexible _____ that adjust to different screen sizes and orientations",
+        "answer": "layouts, designs, structures, formats, grids"
+    },
+    "Adhering to platform-specific design guidelines includes using standard element sizes, spacing, and _____ that are expected within the context of the platform.": {
+        "question": "Adhering to platform-specific design guidelines includes using standard element sizes, spacing, and _____ that are expected within the context of the platform.",
+        "answer": "behaviours, behaviors, actions, interactions, functions"
+    },
+    "Haptic feedback in UX design uses _____ to provide tactile sensations that inform users about the results of their actions.": {
+        "question": "Haptic feedback in UX design uses _____ to provide tactile sensations that inform users about the results of their actions.",
+        "answer": "vibrations, haptics, tactile feedback, tactile sensations, physical feedback"
+    },
+    "Analytics data can reveal patterns in user behaviour, such as the most frequently visited pages or the most common _____ paths, providing insights into user preferences and needs.": {
+        "question": "Analytics data can reveal patterns in user behaviour, such as the most frequently visited pages or the most common _____ paths, providing insights into user preferences and needs.",
+        "answer": "navigation, user, browsing, click, interaction"
+    },
+    "Platform-specific design guidelines often provide recommendations for _____ , ensuring that all functionality is accessible via the keyboard.": {
+        "question": "Platform-specific design guidelines often provide recommendations for _____ , ensuring that all functionality is accessible via the keyboard.",
+        "answer": "accessibility, accessible design, inclusivity, inclusive design, usability"
+    },
+    "Aligning design goals with both user needs and _____ objectives ensures that the final product is not only user-friendly but also supports the overall business strategy.": {
+        "question": "Aligning design goals with both user needs and _____ objectives ensures that the final product is not only user-friendly but also supports the overall business strategy.",
+        "answer": "business, organisational, company, corporate, strategic"
+    },
+    "Ensuring compatibility with _____ readers is crucial for making web content accessible to users with visual impairments.": {
+        "question": "Ensuring compatibility with _____ readers is crucial for making web content accessible to users with visual impairments.",
+        "answer": "screen, screen readers, screen-readers, screenreader, screen-reader"
+    },
+    "Clear navigation plays a critical role in _____ , ensuring that all users, including those with disabilities, can successfully interact with the digital product.": {
+        "question": "Clear navigation plays a critical role in _____ , ensuring that all users, including those with disabilities, can successfully interact with the digital product.",
+        "answer": "accessibility, accessible design, inclusivity, inclusive design"
+    },
+    "Colour in UX design is a powerful tool that can evoke _____ , guide attention, and reinforce brand identity.": {
+        "question": "Colour in UX design is a powerful tool that can evoke _____ , guide attention, and reinforce brand identity.",
+        "answer": "emotions, emotion, feelings, feeling, moods, mood"
+    },
+    "Providing clear and consistent _____ helps users understand their location within a website and how to navigate to other sections.": {
+        "question": "Providing clear and consistent _____ helps users understand their location within a website and how to navigate to other sections.",
+        "answer": "breadcrumbs, breadcrumb, breadcrumb trail, navigation path, navigation trail"
+    },
+    "Visual feedback in UX design helps users understand the _____ of their actions by providing immediate visual cues.": {
+        "question": "Visual feedback in UX design helps users understand the _____ of their actions by providing immediate visual cues.",
+        "answer": "results, outcomes, effects, consequences, impacts"
+    },
+    "Inclusive UX design can lead to increased _____ by making products easier to use for everyone, including people with disabilities.": {
+        "question": "Inclusive UX design can lead to increased _____ by making products easier to use for everyone, including people with disabilities.",
+        "answer": "usability, accessibility, user-friendliness, efficiency, effectiveness"
+    },
+    "A well-implemented _____ functionality is crucial for larger sites, offering users an alternative means to find information directly.": {
+        "question": "A well-implemented _____ functionality is crucial for larger sites, offering users an alternative means to find information directly.",
+        "answer": "search, search bar, search feature, search tool"
+    },
+    "Affinity diagramming helps UX designers identify patterns and _____ in user research data, leading to more informed design decisions.": {
+        "question": "Affinity diagramming helps UX designers identify patterns and _____ in user research data, leading to more informed design decisions.",
+        "answer": "insights, trends, themes, commonalities, findings"
+    },
+    "The _____ with Disabilities Act (ADA) in the United States includes provisions that require websites to be accessible to individuals with disabilities.": {
+        "question": "The _____ with Disabilities Act (ADA) in the United States includes provisions that require websites to be accessible to individuals with disabilities.",
+        "answer": "Americans, ADA, Americans with Disabilities, Americans with Disabilities Act"
+    },
+    "Text alternatives for videos, such as _____ , provide a written version of the spoken content, making it accessible to users with hearing impairments as well.": {
+        "question": "Text alternatives for videos, such as _____ , provide a written version of the spoken content, making it accessible to users with hearing impairments as well.",
+        "answer": "transcripts, captions, subtitles, text versions, written descriptions"
+    },
+    "Using different _____ of haptic feedback for various actions can help users distinguish between different types of interactions.": {
+        "question": "Using different _____ of haptic feedback for various actions can help users distinguish between different types of interactions.",
+        "answer": "patterns, types, kinds, forms, variations"
+    },
+    "Implementing _____ shortcuts for frequent actions can enhance the efficiency and accessibility of the user interface.": {
+        "question": "Implementing _____ shortcuts for frequent actions can enhance the efficiency and accessibility of the user interface.",
+        "answer": "keyboard, key, keystroke, hotkey, shortcut"
+    },
+    "Providing _____ feedback in user interfaces helps users understand the results of their actions and what steps they need to take next.": {
+        "question": "Providing _____ feedback in user interfaces helps users understand the results of their actions and what steps they need to take next.",
+        "answer": "actionable, clear, specific, detailed, understandable"
+    },
+    "The _____ of colour in UX design can significantly impact user engagement and satisfaction.": {
+        "question": "The _____ of colour in UX design can significantly impact user engagement and satisfaction.",
+        "answer": "use, application, implementation, choice"
+    },
+    "When creating wireframes, it is important to use _____ to represent images, text, and other content, allowing designers to focus on the overall layout.": {
+        "question": "When creating wireframes, it is important to use _____ to represent images, text, and other content, allowing designers to focus on the overall layout.",
+        "answer": "placeholders, dummy content, mock content, stand-ins, temporary elements"
+    },
+    "Businesses that prioritize inclusive UX design often see a positive impact on their _____ , as they are perceived as socially responsible and ethical.": {
+        "question": "Businesses that prioritize inclusive UX design often see a positive impact on their _____ , as they are perceived as socially responsible and ethical.",
+        "answer": "reputation, brand image, public image, credibility, standing"
+    },
+    "Accessible navigation often includes _____ links, which allow users to bypass repetitive content and go directly to the main content of the page.": {
+        "question": "Accessible navigation often includes _____ links, which allow users to bypass repetitive content and go directly to the main content of the page.",
+        "answer": "skip, skip-to, skip to, skip-to-content, skip-to-main-content"
+    },
+    "Best practices for using colour include limiting the palette to a few _____ colours to maintain visual consistency.": {
+        "question": "Best practices for using colour include limiting the palette to a few _____ colours to maintain visual consistency.",
+        "answer": "harmonious, harmonious, No answer text provided., complementary, matching, coordinated"
+    },
+    "Using a combination of visual, auditory, and _____ feedback can cater to different user preferences and enhance the overall user experience.": {
+        "question": "Using a combination of visual, auditory, and _____ feedback can cater to different user preferences and enhance the overall user experience.",
+        "answer": "haptic, tactile, touch, physical, sensory"
+    },
+    "Each operating system, such as iOS, Android, and Windows, has its own set of established patterns and _____ for input and control elements.": {
+        "question": "Each operating system, such as iOS, Android, and Windows, has its own set of established patterns and _____ for input and control elements.",
+        "answer": "conventions, guidelines, standards, rules, norms"
+    },
+    "Creating detailed _____ helps designers empathise with the end-users and make informed design decisions that cater to their specific needs and behaviours.": {
+        "question": "Creating detailed _____ helps designers empathise with the end-users and make informed design decisions that cater to their specific needs and behaviours.",
+        "answer": "personas, user personas, profiles, user profiles, characters"
+    },
+    "Implementing _____ gestures, such as swiping and pinching, can enhance the user experience by providing intuitive ways to interact with the interface.": {
+        "question": "Implementing _____ gestures, such as swiping and pinching, can enhance the user experience by providing intuitive ways to interact with the interface.",
+        "answer": "touch, multi-touch, touchscreen, gesture, gestures"
+    },
+    "Effective personas should include detailed information such as user goals, pain points, and _____ , which provide context for how the user interacts with the product.": {
+        "question": "Effective personas should include detailed information such as user goals, pain points, and _____ , which provide context for how the user interacts with the product.",
+        "answer": "scenarios, use cases, situations, contexts, stories"
+    },
+    "Creating user journey maps involves identifying key touchpoints and _____ where users interact with the product, providing insights into their overall experience.": {
+        "question": "Creating user journey maps involves identifying key touchpoints and _____ where users interact with the product, providing insights into their overall experience.",
+        "answer": "channels, interactions, points, stages, steps"
+    },
+    "Common methods for implementing focus indicators include changing the _____ , border, or background color of the focused element.": {
+        "question": "Common methods for implementing focus indicators include changing the _____ , border, or background color of the focused element.",
+        "answer": "outline, border, color, colour, background"
+    },
+    "In Australia, the _____ Discrimination Act requires that websites and digital services be accessible to people with disabilities. ": {
+        "question": "In Australia, the _____ Discrimination Act requires that websites and digital services be accessible to people with disabilities. ",
+        "answer": "Disability, Disabilities, Disability Discrimination, Disabilities Discrimination"
+    },
+    "Providing clear and consistent focus indicators is essential for ensuring _____ , as it helps users with disabilities navigate the interface more effectively.": {
+        "question": "Providing clear and consistent focus indicators is essential for ensuring _____ , as it helps users with disabilities navigate the interface more effectively.",
+        "answer": "accessibility, usability, inclusivity, user-friendliness, ease of use"
+    },
+    "Personalisation options in UX design allow users to set their preferred _____ , enabling them to interact with the interface in their native tongue.": {
+        "question": "Personalisation options in UX design allow users to set their preferred _____ , enabling them to interact with the interface in their native tongue.",
+        "answer": "language, languages, locale, dialect, tongue"
+    },
+    "Providing clear visual _____ of keyboard focus helps users understand which element is currently selected and ready for interaction.": {
+        "question": "Providing clear visual _____ of keyboard focus helps users understand which element is currently selected and ready for interaction.",
+        "answer": "indicators, cues, highlights, outlines, markers"
+    },
+    "Implementing _____ and clear signposts provides users with a sense of location within the site and guides them through the content.": {
+        "question": "Implementing _____ and clear signposts provides users with a sense of location within the site and guides them through the content.",
+        "answer": "breadcrumbs, breadcrumb, breadcrumb trail, breadcrumb trails"
+    },
+    "Customisable themes often include a _____ mode, which uses darker colours to reduce eye strain and improve usability in low-light environments.": {
+        "question": "Customisable themes often include a _____ mode, which uses darker colours to reduce eye strain and improve usability in low-light environments.",
+        "answer": "dark, night, dark theme, night mode, dark mode"
+    },
+    "Implementing a _____ grid system allows designers to create layouts that adapt seamlessly to various devices, enhancing the user experience on both mobile and desktop.": {
+        "question": "Implementing a _____ grid system allows designers to create layouts that adapt seamlessly to various devices, enhancing the user experience on both mobile and desktop.",
+        "answer": "responsive, flexible, fluid, adaptive, dynamic"
+    },
+    "Colour _____ tools can help designers choose accessible colour combinations by simulating how colours appear to users with different types of colour blindness.": {
+        "question": "Colour _____ tools can help designers choose accessible colour combinations by simulating how colours appear to users with different types of colour blindness.",
+        "answer": "contrast, accessibility, simulation, testing"
+    },
+    "Responsive UX design often involves the use of _____ images that scale appropriately to fit different screen sizes without losing quality.": {
+        "question": "Responsive UX design often involves the use of _____ images that scale appropriately to fit different screen sizes without losing quality.",
+        "answer": "responsive, scalable, adaptive, flexible, fluid"
+    },
+    "Analytics tools, such as Google Analytics, can provide valuable data on user interactions, including click-through rates, bounce rates, and _____ spent on pages.": {
+        "question": "Analytics tools, such as Google Analytics, can provide valuable data on user interactions, including click-through rates, bounce rates, and _____ spent on pages.",
+        "answer": "time, duration, time spent, session duration, visit length"
+    },
+    "Including descriptive _____ for images ensures that visually impaired users receive meaningful information about the visual content.": {
+        "question": "Including descriptive _____ for images ensures that visually impaired users receive meaningful information about the visual content.",
+        "answer": "captions, descriptions, labels, alt text, annotations"
+    },
+    "Providing options for users to adjust font sizes and styles within customisable themes can significantly improve _____ for individuals with visual impairments.": {
+        "question": "Providing options for users to adjust font sizes and styles within customisable themes can significantly improve _____ for individuals with visual impairments.",
+        "answer": "readability, legibility, accessibility, user experience, UX"
+    },
+    "Inclusive UX design can help businesses reach a _____ audience by making their products accessible to people with diverse abilities and needs.": {
+        "question": "Inclusive UX design can help businesses reach a _____ audience by making their products accessible to people with diverse abilities and needs.",
+        "answer": "wider, broader, larger, more extensive, expanded"
+    },
+    "The _____ Content Accessibility Guidelines (WCAG) are internationally recognised standards for web accessibility, often referenced in legal requirements.": {
+        "question": "The _____ Content Accessibility Guidelines (WCAG) are internationally recognised standards for web accessibility, often referenced in legal requirements.",
+        "answer": "Web, WCAG, Web Content, Web Content Accessibility, Web Content Accessibility Guidelines"
+    },
+    "Visual cues, such as raised buttons, provide _____ that guide users on how to interact with the interface.": {
+        "question": "Visual cues, such as raised buttons, provide _____ that guide users on how to interact with the interface.",
+        "answer": "affordance, hints, signals, indicators, clues"
+    },
+    "Designing for inclusivity involves considering the diverse needs of users, including those with _____ , to ensure that the product is usable by everyone.": {
+        "question": "Designing for inclusivity involves considering the diverse needs of users, including those with _____ , to ensure that the product is usable by everyone.",
+        "answer": "disabilities, impairments, limitations, special needs, challenges"
+    },
+    "Personas are fictional characters that represent different _____ of the target user base, helping designers understand and empathise with their needs and behaviours.": {
+        "question": "Personas are fictional characters that represent different _____ of the target user base, helping designers understand and empathise with their needs and behaviours.",
+        "answer": "segments, groups, types, categories, demographics"
+    },
+    "Providing text alternatives for images, known as _____ text, helps visually impaired users understand the content through screen readers.": {
+        "question": "Providing text alternatives for images, known as _____ text, helps visually impaired users understand the content through screen readers.",
+        "answer": "alt, alternative, alt text, alternative text, descriptive text"
+    },
+    "Intuitive navigation minimises the cognitive load on users by aligning with their mental models and _____ .": {
+        "question": "Intuitive navigation minimises the cognitive load on users by aligning with their mental models and _____ .",
+        "answer": "expectations, expectation, anticipations, anticipation"
+    },
+    "Clear and intuitive navigation directly impacts a user's ability to find information, complete tasks, and achieve their _____ within a digital product or website.": {
+        "question": "Clear and intuitive navigation directly impacts a user's ability to find information, complete tasks, and achieve their _____ within a digital product or website.",
+        "answer": "goals, goal, objectives, objective, aims, aim"
+    },
+    "Familiar design patterns and clear visual _____ help users understand how to interact with an interface intuitively.": {
+        "question": "Familiar design patterns and clear visual _____ help users understand how to interact with an interface intuitively.",
+        "answer": "cues, indicators, signals, hints, prompts"
+    },
+    "Personalisation options can include the ability to adjust the _____ level of content, ensuring that users receive information that matches their expertise and interests.": {
+        "question": "Personalisation options can include the ability to adjust the _____ level of content, ensuring that users receive information that matches their expertise and interests.",
+        "answer": "difficulty, complexity, detail, depth, proficiency"
+    },
+    "Following platform-specific design guidelines ensures that users can leverage their existing _____ and experience, making the interaction intuitive and familiar.": {
+        "question": "Following platform-specific design guidelines ensures that users can leverage their existing _____ and experience, making the interaction intuitive and familiar.",
+        "answer": "knowledge, skills, understanding, familiarity, expertise"
+    },
+    "Providing keyboard _____ for all interactive elements ensures that users who cannot use a mouse can still navigate and interact with the website or application.": {
+        "question": "Providing keyboard _____ for all interactive elements ensures that users who cannot use a mouse can still navigate and interact with the website or application.",
+        "answer": "access, accessibility, shortcuts, navigation, controls"
+    },
+    "By analysing heatmaps, UX designers can identify areas of the user interface that may be _____ or causing user frustration, guiding targeted improvements.": {
+        "question": "By analysing heatmaps, UX designers can identify areas of the user interface that may be _____ or causing user frustration, guiding targeted improvements.",
+        "answer": "underperforming, problematic, confusing, ineffective, troublesome"
+    },
+    "Consistency in the use of labels and navigation patterns across the site helps reinforce the structure and makes it easier for users to _____ the system.": {
+        "question": "Consistency in the use of labels and navigation patterns across the site helps reinforce the structure and makes it easier for users to _____ the system.",
+        "answer": "navigate, use, understand, explore"
+    },
+    "After grouping the data in an affinity diagram, designers can prioritise the identified themes based on their relevance to user needs and _____ goals.": {
+        "question": "After grouping the data in an affinity diagram, designers can prioritise the identified themes based on their relevance to user needs and _____ goals.",
+        "answer": "business, project, organisational, company, strategic"
+    },
+    "One of the key benefits of wireframing is that it allows designers to quickly iterate and test different _____ before committing to high-fidelity designs.": {
+        "question": "One of the key benefits of wireframing is that it allows designers to quickly iterate and test different _____ before committing to high-fidelity designs.",
+        "answer": "concepts, ideas, layouts, structures, designs"
+    },
+    "The European Union's _____ Directive mandates that public sector websites and mobile applications must meet specific accessibility standards.": {
+        "question": "The European Union's _____ Directive mandates that public sector websites and mobile applications must meet specific accessibility standards.",
+        "answer": "Web Accessibility, Web Accessibility Directive, Accessibility, Accessibility Directive"
+    },
+    "During the affinity diagramming process, team members write down individual pieces of information on _____ notes and then group them based on common themes.": {
+        "question": "During the affinity diagramming process, team members write down individual pieces of information on _____ notes and then group them based on common themes.",
+        "answer": "sticky, post-it, sticky notes, post-it notes, adhesive"
+    },
+    "Designers should use _____ colours to draw attention to primary actions or important information.": {
+        "question": "Designers should use _____ colours to draw attention to primary actions or important information.",
+        "answer": "accent, accent, highlight, primary, key"
+    },
+    "Ensuring that icons and _____ used in the interface are culturally appropriate helps avoid misunderstandings and ensures that the design is respectful to all users.": {
+        "question": "Ensuring that icons and _____ used in the interface are culturally appropriate helps avoid misunderstandings and ensures that the design is respectful to all users.",
+        "answer": "symbols, imagery, icons, graphics, visuals"
+    },
+    "Affordance is essential for creating intuitive interfaces, as it leverages users' prior _____ and expectations about how objects should behave.": {
+        "question": "Affordance is essential for creating intuitive interfaces, as it leverages users' prior _____ and expectations about how objects should behave.",
+        "answer": "knowledge, experience, understanding, familiarity, learning"
+    },
+    "Auditory feedback in UX design uses _____ to inform users about the results of their actions or system status.": {
+        "question": "Auditory feedback in UX design uses _____ to inform users about the results of their actions or system status.",
+        "answer": "sounds, audio, noises, tones, alerts"
+    },
+    "Affordance in UX design refers to the perceived and actual properties of an object that indicate how it can be _____ .": {
+        "question": "Affordance in UX design refers to the perceived and actual properties of an object that indicate how it can be _____ .",
+        "answer": "used, interacted with, operated, manipulated, handled"
+    },
+    "The use of _____ colours can create a calming and professional atmosphere in a design.": {
+        "question": "The use of _____ colours can create a calming and professional atmosphere in a design.",
+        "answer": "neutral, muted, subdued, soft"
+    },
+    "Card sorting helps determine the most intuitive grouping and _____ of content categories.": {
+        "question": "Card sorting helps determine the most intuitive grouping and _____ of content categories.",
+        "answer": "labelling, labeling, naming, categorisation, categorization"
+    },
+    "For complex images like charts or graphs, providing a detailed _____ can help visually impaired users understand the data being presented.": {
+        "question": "For complex images like charts or graphs, providing a detailed _____ can help visually impaired users understand the data being presented.",
+        "answer": "description, explanation, summary, text alternative, narrative"
+    },
+    "Haptic feedback should be _____ to ensure it enhances the user experience without becoming overwhelming or annoying.": {
+        "question": "Haptic feedback should be _____ to ensure it enhances the user experience without becoming overwhelming or annoying.",
+        "answer": "subtle, gentle, mild, soft, unobtrusive"
+    },
+    "High _____ between text and background colours is essential for readability, especially for users with visual impairments.": {
+        "question": "High _____ between text and background colours is essential for readability, especially for users with visual impairments.",
+        "answer": "contrast, contrast, No answer text provided., differentiation, distinction"
+    },
+    "Providing visual feedback through progress bars helps users understand the _____ of a task or process.": {
+        "question": "Providing visual feedback through progress bars helps users understand the _____ of a task or process.",
+        "answer": "status, progress, stage, completion, advancement"
+    },
+    "Using _____ text for images helps search engines understand the content of the images, improving accessibility and search engine optimisation.": {
+        "question": "Using _____ text for images helps search engines understand the content of the images, improving accessibility and search engine optimisation.",
+        "answer": "alt, alternative, alt text, alternative text"
+    },
+    "Ensuring that keyboard shortcuts do not conflict with existing _____ shortcuts is important to avoid confusion and ensure a seamless user experience.": {
+        "question": "Ensuring that keyboard shortcuts do not conflict with existing _____ shortcuts is important to avoid confusion and ensure a seamless user experience.",
+        "answer": "system, operating system, OS, default, global"
+    },
+    "Wireframes are typically created in black and white or greyscale to avoid distractions from _____ elements and to keep the focus on the layout and functionality.": {
+        "question": "Wireframes are typically created in black and white or greyscale to avoid distractions from _____ elements and to keep the focus on the layout and functionality.",
+        "answer": "visual, colour, aesthetic, decorative, stylistic"
+    },
+    "Using semantic HTML elements, such as <header> and <footer>, helps improve the _____ of a webpage for screen readers and search engines.": {
+        "question": "Using semantic HTML elements, such as <header> and <footer>, helps improve the _____ of a webpage for screen readers and search engines.",
+        "answer": "accessibility, usability, readability, comprehensibility, SEO"
+    },
+    "Semantic HTML elements, like <article> and <section>, provide meaningful _____ about the content, which helps both users and search engines understand the structure of the page.": {
+        "question": "Semantic HTML elements, like <article> and <section>, provide meaningful _____ about the content, which helps both users and search engines understand the structure of the page.",
+        "answer": "information, context, details, metadata, data"
+    },
+    "Providing alternative input methods, such as voice control or keyboard shortcuts, can greatly enhance the user experience for those who prefer or _____ these options.": {
+        "question": "Providing alternative input methods, such as voice control or keyboard shortcuts, can greatly enhance the user experience for those who prefer or _____ these options.",
+        "answer": "require, need, use, depend on, rely on"
+    },
+    "The use of _____ can guide users through the content hierarchy and help them understand the relationship between different sections of the site.": {
+        "question": "The use of _____ can guide users through the content hierarchy and help them understand the relationship between different sections of the site.",
+        "answer": "breadcrumbs, breadcrumb, breadcrumb trail, breadcrumb trails"
+    },
+    "Colour _____ is the practice of ensuring that colour choices are accessible to users with colour vision deficiencies.": {
+        "question": "Colour _____ is the practice of ensuring that colour choices are accessible to users with colour vision deficiencies.",
+        "answer": "accessibility"
+    },
+    "Conducting thorough _____ research is essential in user-centred design to understand the behaviours, motivations, and pain points of the target audience.": {
+        "question": "Conducting thorough _____ research is essential in user-centred design to understand the behaviours, motivations, and pain points of the target audience.",
+        "answer": "user"
+    },
+    "One of the key benefits of affinity diagramming is that it encourages _____ collaboration, allowing team members to contribute their perspectives and ideas.": {
+        "question": "One of the key benefits of affinity diagramming is that it encourages _____ collaboration, allowing team members to contribute their perspectives and ideas.",
+        "answer": "team, group, collaborative, cross-functional, collective"
+    },
+    "Colours should be used strategically to highlight important elements and create visual _____ .": {
+        "question": "Colours should be used strategically to highlight important elements and create visual _____ .",
+        "answer": "hierarchy"
+    }
+}

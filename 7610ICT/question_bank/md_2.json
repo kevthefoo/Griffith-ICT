@@ -1,0 +1,266 @@
+{
+    "In a _____ architecture, each microservice can be developed, deployed, and scaled independently of the others.": {
+        "question": "In a _____ architecture, each microservice can be developed, deployed, and scaled independently of the others.",
+        "answer": "microservices"
+    },
+    "_____ apps are developed specifically for a given platform using the platform's official development tools and languages.": {
+        "question": "_____ apps are developed specifically for a given platform using the platform's official development tools and languages.",
+        "answer": "Native, Native-based, native, native-based"
+    },
+    "_____ apps are designed to work on multiple platforms using cross-platform frameworks like React Native or Flutter.": {
+        "question": "_____ apps are designed to work on multiple platforms using cross-platform frameworks like React Native or Flutter.",
+        "answer": "Cross-Platform"
+    },
+    "The _____ Layer in a layered architecture is responsible for the user interface and user interaction.": {
+        "question": "The _____ Layer in a layered architecture is responsible for the user interface and user interaction.",
+        "answer": "Presentation, presentation"
+    },
+    "A key benefit of _____ is the ability to scale each service independently based on demand.": {
+        "question": "A key benefit of _____ is the ability to scale each service independently based on demand.",
+        "answer": "Microservices, Microservices, Microservice"
+    },
+    "In a _____ architecture, applications are broken down into event-driven functions that are executed in response to specific triggers.": {
+        "question": "In a _____ architecture, applications are broken down into event-driven functions that are executed in response to specific triggers.",
+        "answer": "serverless"
+    },
+    "Implementing robust authentication and authorisation mechanisms is crucial for addressing _____ requirements in system architecture.": {
+        "question": "Implementing robust authentication and authorisation mechanisms is crucial for addressing _____ requirements in system architecture.",
+        "answer": "Security, security"
+    },
+    "The _____ side of a web application is usually built using HTML, CSS, and JavaScript.": {
+        "question": "The _____ side of a web application is usually built using HTML, CSS, and JavaScript.",
+        "answer": "front-end"
+    },
+    "One of the primary advantages of _____ architectures is the ability to pay only for the actual compute time used by the application.": {
+        "question": "One of the primary advantages of _____ architectures is the ability to pay only for the actual compute time used by the application.",
+        "answer": "Serverless, Server-less, serverless, server-less"
+    },
+    "_____ applications are designed to run on mobile devices such as smartphones and tablets.": {
+        "question": "_____ applications are designed to run on mobile devices such as smartphones and tablets.",
+        "answer": "Mobile"
+    },
+    "_____ architecture is an approach to designing and implementing services in a way that allows them to be composed and reused flexibly.": {
+        "question": "_____ architecture is an approach to designing and implementing services in a way that allows them to be composed and reused flexibly.",
+        "answer": "Service-Oriented, Service Oriented, SOA, service-oriented, service oriented"
+    },
+    "Embedded systems often have limited _____ , storage, and processing power due to cost, size, and power consumption constraints.": {
+        "question": "Embedded systems often have limited _____ , storage, and processing power due to cost, size, and power consumption constraints.",
+        "answer": "memory"
+    },
+    "In a microservices architecture, services are designed to be _____ coupled, meaning they interact with minimal dependencies.": {
+        "question": "In a microservices architecture, services are designed to be _____ coupled, meaning they interact with minimal dependencies.",
+        "answer": "loosely"
+    },
+    "An _____ serves as a boundary or a point of interaction between two components, allowing them to exchange information without needing to understand each other's internal workings.": {
+        "question": "An _____ serves as a boundary or a point of interaction between two components, allowing them to exchange information without needing to understand each other's internal workings.",
+        "answer": "interface"
+    },
+    "In a microservices architecture, each service is independently deployable and _____ .": {
+        "question": "In a microservices architecture, each service is independently deployable and _____ .",
+        "answer": "scalable"
+    },
+    "In SOA, services communicate with each other using standard protocols such as _____ or SOAP.": {
+        "question": "In SOA, services communicate with each other using standard protocols such as _____ or SOAP.",
+        "answer": "REST"
+    },
+    "The principle of _____ ensures that changes in one part of the system are less likely to require changes in others.": {
+        "question": "The principle of _____ ensures that changes in one part of the system are less likely to require changes in others.",
+        "answer": "Separation of Concerns, Separation of Concern, Separation of Concerns, Separation-of-Concerns, Separation-of-Concern"
+    },
+    "One of the main advantages of _____ applications is their simplicity, as all components are integrated into a single system.": {
+        "question": "One of the main advantages of _____ applications is their simplicity, as all components are integrated into a single system.",
+        "answer": "Monolithic"
+    },
+    "_____ allows developers to work at a higher level of thinking, focusing on what the system does rather than how it does it.": {
+        "question": "_____ allows developers to work at a higher level of thinking, focusing on what the system does rather than how it does it.",
+        "answer": "Abstraction"
+    },
+    "The _____ Layer in a layered architecture contains the core business logic of the application.": {
+        "question": "The _____ Layer in a layered architecture contains the core business logic of the application.",
+        "answer": "Application"
+    },
+    "The heart of an embedded system is typically a _____ or microprocessor.": {
+        "question": "The heart of an embedded system is typically a _____ or microprocessor.",
+        "answer": "microcontroller, MCU"
+    },
+    "_____ are formal specifications that define the rules and expectations governing the interactions between components via their interfaces.": {
+        "question": "_____ are formal specifications that define the rules and expectations governing the interactions between components via their interfaces.",
+        "answer": "Contracts"
+    },
+    "_____ applications are designed from the ground up to leverage the scalability, flexibility, and resilience of cloud computing environments.": {
+        "question": "_____ applications are designed from the ground up to leverage the scalability, flexibility, and resilience of cloud computing environments.",
+        "answer": "Cloud-native"
+    },
+    "_____ is the practice of hiding the internal state and workings of a module from the outside world.": {
+        "question": "_____ is the practice of hiding the internal state and workings of a module from the outside world.",
+        "answer": "Information Hiding, Information Hiding, Information-Hiding"
+    },
+    "A _____ often acts as the single entry point for all client requests in a microservices architecture.": {
+        "question": "A _____ often acts as the single entry point for all client requests in a microservices architecture.",
+        "answer": "API Gateway, API-Gateway, Gateway, API gateway, gateway"
+    },
+    "In a layered architecture, the _____ Layer is responsible for managing data storage and retrieval.": {
+        "question": "In a layered architecture, the _____ Layer is responsible for managing data storage and retrieval.",
+        "answer": "Data Access, Persistence, data access, persistence"
+    },
+    "_____ is the measure of how well a system executes its operations in terms of speed and efficiency.": {
+        "question": "_____ is the measure of how well a system executes its operations in terms of speed and efficiency.",
+        "answer": "Performance, Performance, Performances"
+    },
+    "In a client-server architecture, clients communicate with servers over a network using standardised _____ .": {
+        "question": "In a client-server architecture, clients communicate with servers over a network using standardised _____ .",
+        "answer": "protocols"
+    },
+    "A common hybrid approach is the combination of _____ and microservices architectures.": {
+        "question": "A common hybrid approach is the combination of _____ and microservices architectures.",
+        "answer": "Monolithic"
+    },
+    "A significant drawback of _____ applications is that as they grow in size and complexity, the codebase can become unwieldy and difficult to maintain.": {
+        "question": "A significant drawback of _____ applications is that as they grow in size and complexity, the codebase can become unwieldy and difficult to maintain.",
+        "answer": "Monolithic"
+    },
+    "_____ architectures abstract away the need for developers to manage the underlying servers and infrastructure.": {
+        "question": "_____ architectures abstract away the need for developers to manage the underlying servers and infrastructure.",
+        "answer": "Serverless, serverless, Server-less, server-less"
+    },
+    "In SOA, services are designed to be _____ across different applications and contexts, reducing duplication of effort.": {
+        "question": "In SOA, services are designed to be _____ across different applications and contexts, reducing duplication of effort.",
+        "answer": "Reusable, Reused, reusable, reused"
+    },
+    "The principle of _____ encourages dividing a program into distinct sections, each addressing a separate concern.": {
+        "question": "The principle of _____ encourages dividing a program into distinct sections, each addressing a separate concern.",
+        "answer": "Separation of Concerns"
+    },
+    "_____ is the principle of hiding the internal state and functionality of a module behind a well-defined interface.": {
+        "question": "_____ is the principle of hiding the internal state and functionality of a module behind a well-defined interface.",
+        "answer": "Encapsulation, encapsulation, Encapsulating, encapsulating"
+    },
+    "A _____ is often used in SOA to keep track of all the services available within the architecture.": {
+        "question": "A _____ is often used in SOA to keep track of all the services available within the architecture.",
+        "answer": "Service Registry, Service-Registry, Registry, service registry, service-registry, registry"
+    },
+    "_____ involves creating a simplified representation of a system by exposing only the necessary details.": {
+        "question": "_____ involves creating a simplified representation of a system by exposing only the necessary details.",
+        "answer": "Abstraction, Abstraction, Abstracting"
+    },
+    "Vertical _____ involves adding more power to an existing server, such as upgrading the CPU or adding more RAM.": {
+        "question": "Vertical _____ involves adding more power to an existing server, such as upgrading the CPU or adding more RAM.",
+        "answer": "Scalability, Scalability, Scaling, Vertical Scalability, Vertical Scaling"
+    },
+    "_____ refers to the division of a system into smaller, independent modules, each with a specific functionality.": {
+        "question": "_____ refers to the division of a system into smaller, independent modules, each with a specific functionality.",
+        "answer": "Modularity, Modularity, Modularisation, Modularization"
+    },
+    "The process of _____ involves examining the system's requirements and identifying the essential building blocks that will constitute the system.": {
+        "question": "The process of _____ involves examining the system's requirements and identifying the essential building blocks that will constitute the system.",
+        "answer": "identifying key components, identifying components, identifying key-components"
+    },
+    "Service Level Agreements (SLA) typically include metrics such as uptime, response time, and _____ time to ensure that the service provider meets the agreed-upon performance standards.": {
+        "question": "Service Level Agreements (SLA) typically include metrics such as uptime, response time, and _____ time to ensure that the service provider meets the agreed-upon performance standards.",
+        "answer": "Resolution"
+    },
+    "_____ applications are software applications that run in a web browser or on a web server.": {
+        "question": "_____ applications are software applications that run in a web browser or on a web server.",
+        "answer": "Web, Web-based, web, web-based"
+    },
+    "In a client-server architecture, the _____ is the provider of services, and the client is the consumer of those services.": {
+        "question": "In a client-server architecture, the _____ is the provider of services, and the client is the consumer of those services.",
+        "answer": "Server"
+    },
+    "Desktop applications are installed directly onto the _____ system of the computer.": {
+        "question": "Desktop applications are installed directly onto the _____ system of the computer.",
+        "answer": "operating"
+    },
+    "Orchestration tools like _____ are used to automate the deployment, scaling, and management of containerised applications.": {
+        "question": "Orchestration tools like _____ are used to automate the deployment, scaling, and management of containerised applications.",
+        "answer": "Kubernetes, K8s"
+    },
+    "_____ refers to the ability of a system to handle increased load by adding resources.": {
+        "question": "_____ refers to the ability of a system to handle increased load by adding resources.",
+        "answer": "Scalability, Scalability, Scalable"
+    },
+    "_____ are the pathways through which data and control signals flow within the system.": {
+        "question": "_____ are the pathways through which data and control signals flow within the system.",
+        "answer": "Interactions"
+    },
+    "In cloud-native applications, _____ are used to package the application code along with its dependencies into a lightweight, standalone, executable package.": {
+        "question": "In cloud-native applications, _____ are used to package the application code along with its dependencies into a lightweight, standalone, executable package.",
+        "answer": "containers"
+    },
+    "_____ systems are specialised computing systems that are part of a larger system or machine.": {
+        "question": "_____ systems are specialised computing systems that are part of a larger system or machine.",
+        "answer": "Embedded"
+    },
+    "_____ architectures combine the strengths of different architectural styles to address the specific needs of complex applications.": {
+        "question": "_____ architectures combine the strengths of different architectural styles to address the specific needs of complex applications.",
+        "answer": "Hybrid, Hybrid, Hybrids"
+    },
+    "_____ is the system's ability to accommodate new features and capabilities without significant structural changes.": {
+        "question": "_____ is the system's ability to accommodate new features and capabilities without significant structural changes.",
+        "answer": "Extensibility, Extendability, extensibility, extendability"
+    },
+    "_____ architectures are well-suited for modern distributed systems that need to handle a large number of concurrent operations and respond to changes in real-time.": {
+        "question": "_____ architectures are well-suited for modern distributed systems that need to handle a large number of concurrent operations and respond to changes in real-time.",
+        "answer": "Event-driven, Event driven, event-driven, event driven"
+    },
+    "_____ is achieved by carefully organising the code so that functions and data that are closely related are grouped together within the same module.": {
+        "question": "_____ is achieved by carefully organising the code so that functions and data that are closely related are grouped together within the same module.",
+        "answer": "High Cohesion, High Cohesion, High-Cohesion"
+    },
+    "Cloud-native applications often use _____ configuration files to define the desired state of the system.": {
+        "question": "Cloud-native applications often use _____ configuration files to define the desired state of the system.",
+        "answer": "Declarative"
+    },
+    "_____ refers to the ability of a system to handle increased load without compromising its functionality or performance.": {
+        "question": "_____ refers to the ability of a system to handle increased load without compromising its functionality or performance.",
+        "answer": "Scalability"
+    },
+    "An _____ architecture is designed around the production, detection, consumption, and reaction to events.": {
+        "question": "An _____ architecture is designed around the production, detection, consumption, and reaction to events.",
+        "answer": "Event-driven, Event-driven, Event driven, Event-Driven"
+    },
+    "_____ applications are traditional software systems where all components are interconnected and work together as a single, unified service.": {
+        "question": "_____ applications are traditional software systems where all components are interconnected and work together as a single, unified service.",
+        "answer": "Monolithic, Monolithic, Monolith"
+    },
+    "To achieve high _____ , architects must design systems with redundancy and fault tolerance in mind.": {
+        "question": "To achieve high _____ , architects must design systems with redundancy and fault tolerance in mind.",
+        "answer": "Reliability, reliability"
+    },
+    "High _____ means that the elements within a module are strongly related and focused on a single task or responsibility.": {
+        "question": "High _____ means that the elements within a module are strongly related and focused on a single task or responsibility.",
+        "answer": "Cohesion, Cohesion, Cohesiveness"
+    },
+    "A _____ is a formal agreement between a service provider and a customer that defines the level of service expected from the service provider.": {
+        "question": "A _____ is a formal agreement between a service provider and a customer that defines the level of service expected from the service provider.",
+        "answer": "Service-Level Agreement"
+    },
+    "In a client-server architecture, the client sends _____ to the server for specific operations, such as retrieving data or processing a transaction.": {
+        "question": "In a client-server architecture, the client sends _____ to the server for specific operations, such as retrieving data or processing a transaction.",
+        "answer": "requests"
+    },
+    "A key characteristic of _____ architecture is that each microservice runs its own process and communicates with lightweight mechanisms.": {
+        "question": "A key characteristic of _____ architecture is that each microservice runs its own process and communicates with lightweight mechanisms.",
+        "answer": "microservices"
+    },
+    "In a _____ architecture, applications are decomposed into small, independent services that perform specific business functions.": {
+        "question": "In a _____ architecture, applications are decomposed into small, independent services that perform specific business functions.",
+        "answer": "Microservices, microservices, Microservice, microservice"
+    },
+    "_____ promotes information hiding by providing a public interface while keeping the implementation details private.": {
+        "question": "_____ promotes information hiding by providing a public interface while keeping the implementation details private.",
+        "answer": "Encapsulation, Encapsulation, Encapsulating"
+    },
+    "_____ refers to the ease with which changes can be made to the system to fix bugs, improve performance, or adapt to changing requirements.": {
+        "question": "_____ refers to the ease with which changes can be made to the system to fix bugs, improve performance, or adapt to changing requirements.",
+        "answer": "Maintainability"
+    },
+    "_____ is achieved by designing modules that interact with each other through simple and stable interfaces.": {
+        "question": "_____ is achieved by designing modules that interact with each other through simple and stable interfaces.",
+        "answer": "Loose Coupling, Loose Coupling, Loose-Coupling"
+    },
+    "Low _____ is desirable in system design because it indicates that modules are relatively independent of each other.": {
+        "question": "Low _____ is desirable in system design because it indicates that modules are relatively independent of each other.",
+        "answer": "Coupling, coupling, Couplings, couplings"
+    }
+}

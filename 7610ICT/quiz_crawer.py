@@ -21,7 +21,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # --------------------------------------Go To The Target URL--------------------------------------
 
-inspect_url = "https://lms.griffith.edu.au/courses/24045/assignments/93455/submissions/121219"
+inspect_url = "https://lms.griffith.edu.au/courses/24045/assignments/93440"
 if driver.current_url == inspect_url:
     pass
 else:
@@ -31,13 +31,19 @@ driver.maximize_window()
 time.sleep(5)
 
 # --------------------------------------Start Scraping--------------------------------------
-ifame = driver.find_element(By.ID, "preview_frame")
-driver.switch_to.frame(ifame)
-question_objects = driver.find_elements(By.CLASS_NAME, "css-gphj19")
-print(f"{len(question_objects)} questions are founded!\n")
-
 with open('./z.json', 'r') as f:
     data = json.load(f)
+    print(f"There are {len(data)} questions in the bank!\n")
+
+try:
+    ifame = driver.find_element(By.CLASS_NAME, "tool_launch")
+except:
+    pass
+else:
+    driver.switch_to.frame(ifame)
+
+question_objects = driver.find_elements(By.CLASS_NAME, "css-gphj19")
+print(f"{len(question_objects)} questions are founded!\n")
 
 new_question = 0
 for _ in question_objects:
