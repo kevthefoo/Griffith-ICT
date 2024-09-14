@@ -21,7 +21,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # --------------------------------------Go To The Target URL--------------------------------------
 
-inspect_url = "https://lms.griffith.edu.au/courses/24045/assignments/93440"
+inspect_url = "https://lms.griffith.edu.au/courses/24045/assignments/94932"
 if driver.current_url == inspect_url:
     pass
 else:

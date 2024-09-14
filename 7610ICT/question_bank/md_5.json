@@ -1,0 +1,422 @@
+{
+    "Horizontal scaling involves adding more _____ to a system to distribute the workload across multiple machines.  ": {
+        "question": "Horizontal scaling involves adding more _____ to a system to distribute the workload across multiple machines.  ",
+        "answer": "servers, nodes, machines, instances, systems"
+    },
+    "Technologies like Apache Kafka and Apache Flink are commonly used in big data environments to facilitate _____ data processing and streaming analytics.  ": {
+        "question": "Technologies like Apache Kafka and Apache Flink are commonly used in big data environments to facilitate _____ data processing and streaming analytics.  ",
+        "answer": "real-time, realtime, immediate, near-real-time, live"
+    },
+    "Data compression is the process of reducing the _____ of data to save storage space or transmission time.  ": {
+        "question": "Data compression is the process of reducing the _____ of data to save storage space or transmission time.  ",
+        "answer": "size, volume, amount, footprint, dimensions"
+    },
+    "Multi-factor _____ enhances security by requiring users to provide two or more verification factors to access their accounts.  ": {
+        "question": "Multi-factor _____ enhances security by requiring users to provide two or more verification factors to access their accounts.  ",
+        "answer": "authentication, Auth, identity verification, user verification, authorisation, authorization, Authorisation, Authorization, Authentication"
+    },
+    "Space complexity measures the amount of _____ an algorithm requires to execute.  ": {
+        "question": "Space complexity measures the amount of _____ an algorithm requires to execute.  ",
+        "answer": "memory, space, storage, RAM, resources"
+    },
+    "Query optimisation in databases often involves using _____ to speed up data retrieval by reducing the number of rows scanned.  ": {
+        "question": "Query optimisation in databases often involves using _____ to speed up data retrieval by reducing the number of rows scanned.  ",
+        "answer": "indexes, indices, index, indexing, indexed"
+    },
+    "One common pitfall in balancing performance and scalability is the failure to accurately predict future _____ and load patterns.": {
+        "question": "One common pitfall in balancing performance and scalability is the failure to accurately predict future _____ and load patterns.",
+        "answer": "growth, expansion, increase, scaling, demand, demands, increases"
+    },
+    "Symmetric encryption is often used in _____ storage to protect data at rest.  ": {
+        "question": "Symmetric encryption is often used in _____ storage to protect data at rest.  ",
+        "answer": "disk, file, data, database, local"
+    },
+    "Latency is often measured in _____ , which represent one-thousandth of a second.  ": {
+        "question": "Latency is often measured in _____ , which represent one-thousandth of a second.  ",
+        "answer": "milliseconds, ms, millisecond, msec, millis"
+    },
+    "Error rates refer to the frequency of _____ failures during data transmission over a network.  ": {
+        "question": "Error rates refer to the frequency of _____ failures during data transmission over a network.  ",
+        "answer": "transmission, data, packet, communication, signal"
+    },
+    "A Virtual Private Network (VPN) can help you bypass geographical restrictions by making it appear as if you are accessing the internet from a different _____ .  ": {
+        "question": "A Virtual Private Network (VPN) can help you bypass geographical restrictions by making it appear as if you are accessing the internet from a different _____ .  ",
+        "answer": "location, place, country, region, geographic location, locations"
+    },
+    "NoSQL databases, such as document stores and key-value stores, offer alternative models that can scale out more _____ than traditional relational databases.  ": {
+        "question": "NoSQL databases, such as document stores and key-value stores, offer alternative models that can scale out more _____ than traditional relational databases.  ",
+        "answer": "easily, efficiently, effectively, seamlessly, flexibly"
+    },
+    "One common goal of phishing attacks is to steal _____ and other personal information that can be used for identity theft or fraud.  ": {
+        "question": "One common goal of phishing attacks is to steal _____ and other personal information that can be used for identity theft or fraud.  ",
+        "answer": "passwords, login credentials, credentials, account information, user information"
+    },
+    "Symmetric encryption requires both parties to have the same _____ key.  ": {
+        "question": "Symmetric encryption requires both parties to have the same _____ key.  ",
+        "answer": "secret, shared, identical, common, same, private"
+    },
+    "To prevent privilege escalation attacks, it is important to regularly update and patch _____ to fix known vulnerabilities.  ": {
+        "question": "To prevent privilege escalation attacks, it is important to regularly update and patch _____ to fix known vulnerabilities.  ",
+        "answer": "software, systems, applications, programs, code"
+    },
+    "Improving performance by using the latest hardware might limit _____ if the same level of hardware cannot be easily replicated as the user base grows.": {
+        "question": "Improving performance by using the latest hardware might limit _____ if the same level of hardware cannot be easily replicated as the user base grows.",
+        "answer": "scalability, scaling, expandability, growth, scale"
+    },
+    "Contention occurs when two or more processes attempt to access the same _____ simultaneously, leading to delays and increased wait times.": {
+        "question": "Contention occurs when two or more processes attempt to access the same _____ simultaneously, leading to delays and increased wait times.",
+        "answer": "resource, resources, asset, assets, component, components"
+    },
+    "Network _____ can significantly impact throughput by causing delays and reducing the effective data transfer rate.  ": {
+        "question": "Network _____ can significantly impact throughput by causing delays and reducing the effective data transfer rate.  ",
+        "answer": "congestion, traffic, bottlenecks, overload, contention"
+    },
+    "One of the primary benefits of indexing in databases is that it can significantly reduce the amount of data that needs to be _____ from disk during a query.  ": {
+        "question": "One of the primary benefits of indexing in databases is that it can significantly reduce the amount of data that needs to be _____ from disk during a query.  ",
+        "answer": "read, fetched, retrieved, accessed, scanned"
+    },
+    "Unstructured data, such as images and videos, often requires significant _____ for storage, making efficient storage solutions essential.  ": {
+        "question": "Unstructured data, such as images and videos, often requires significant _____ for storage, making efficient storage solutions essential.  ",
+        "answer": "capacity, space, storage, volume, size"
+    },
+    "TCP/IP stands for Transmission Control Protocol/ _____ Protocol, which is the foundational suite of protocols for the internet.  ": {
+        "question": "TCP/IP stands for Transmission Control Protocol/ _____ Protocol, which is the foundational suite of protocols for the internet.  ",
+        "answer": "Internet, IP, internet, InterNet, inter-net"
+    },
+    "Sharding involves distributing data across multiple _____ to improve performance and scalability.  ": {
+        "question": "Sharding involves distributing data across multiple _____ to improve performance and scalability.  ",
+        "answer": "servers, nodes, machines, instances, databases"
+    },
+    "Adopting _____ communication patterns, such as message queues or event-driven architectures, can improve responsiveness and throughput by allowing processes to continue without waiting for a response.  ": {
+        "question": "Adopting _____ communication patterns, such as message queues or event-driven architectures, can improve responsiveness and throughput by allowing processes to continue without waiting for a response.  ",
+        "answer": "asynchronous, async, non-blocking, event-driven, concurrent"
+    },
+    "A strong password should include a mix of uppercase and lowercase letters, numbers, and _____ characters.  ": {
+        "question": "A strong password should include a mix of uppercase and lowercase letters, numbers, and _____ characters.  ",
+        "answer": "special, special characters, symbols, punctuation, non-alphanumeric"
+    },
+    "Microservices often communicate over a network, making them more susceptible to _____ attacks if not properly secured.  ": {
+        "question": "Microservices often communicate over a network, making them more susceptible to _____ attacks if not properly secured.  ",
+        "answer": "man-in-the-middle, MitM, MITM, interception, eavesdropping"
+    },
+    "Monitoring error rates is crucial for maintaining the _____ of a network, ensuring that data is transmitted accurately and efficiently.  ": {
+        "question": "Monitoring error rates is crucial for maintaining the _____ of a network, ensuring that data is transmitted accurately and efficiently.  ",
+        "answer": "reliability, integrity, performance, quality, stability"
+    },
+    "Cross-Site Scripting (XSS) allows attackers to inject _____ into web pages, which can then be executed in the victim's browser.  ": {
+        "question": "Cross-Site Scripting (XSS) allows attackers to inject _____ into web pages, which can then be executed in the victim's browser.  ",
+        "answer": "malicious scripts, dangerous scripts, unauthorised scripts, rogue scripts, malevolent scripts"
+    },
+    "To prevent SQL injection, developers should use _____ to validate and sanitise user inputs.  ": {
+        "question": "To prevent SQL injection, developers should use _____ to validate and sanitise user inputs.  ",
+        "answer": "parameterised queries, prepared statements, parameterised statement, SQL parameters, query parameters"
+    },
+    "Technologies like Hadoop and NoSQL databases are often used to store and manage large volumes of _____ data efficiently.  ": {
+        "question": "Technologies like Hadoop and NoSQL databases are often used to store and manage large volumes of _____ data efficiently.  ",
+        "answer": "unstructured, non-structured, semi-structured, raw, complex"
+    },
+    "Asymmetric encryption is computationally more _____ than symmetric encryption, making it less suitable for large data volumes.  ": {
+        "question": "Asymmetric encryption is computationally more _____ than symmetric encryption, making it less suitable for large data volumes.  ",
+        "answer": "intensive, demanding, heavy, complex, slower, more intensive"
+    },
+    "Content caching can be implemented at various levels, including application-level caches, database caches, and _____ caches.  ": {
+        "question": "Content caching can be implemented at various levels, including application-level caches, database caches, and _____ caches.  ",
+        "answer": "browser, client-side, client, web, frontend"
+    },
+    "Weak encryption algorithms can be easily cracked by _____ attacks due to their vulnerabilities.  ": {
+        "question": "Weak encryption algorithms can be easily cracked by _____ attacks due to their vulnerabilities.  ",
+        "answer": "brute force, bruteforcing, brute force attack, brute-force attack, forced entry, brute-force"
+    },
+    "The use of _____ communication, where processes wait for a response before proceeding, can exacerbate performance issues by causing threads or processes to block.  ": {
+        "question": "The use of _____ communication, where processes wait for a response before proceeding, can exacerbate performance issues by causing threads or processes to block.  ",
+        "answer": "synchronous, blocking, sequential, wait-for-response, sync"
+    },
+    "Client-side validation is typically performed using _____ that runs in the user's web browser.  ": {
+        "question": "Client-side validation is typically performed using _____ that runs in the user's web browser.  ",
+        "answer": "JavaScript, java script, JS, javascript, ECMAScript"
+    },
+    "To protect data in cloud-native architectures, it is important to use _____ encryption to secure data both in transit and at rest.  ": {
+        "question": "To protect data in cloud-native architectures, it is important to use _____ encryption to secure data both in transit and at rest.  ",
+        "answer": "end-to-end, E2E, comprehensive, full, complete"
+    },
+    "Protocols like HTTP/2 and QUIC are designed to improve network communication by reducing _____ and improving data transfer speeds.  ": {
+        "question": "Protocols like HTTP/2 and QUIC are designed to improve network communication by reducing _____ and improving data transfer speeds.  ",
+        "answer": "latency, delay, wait time, response time, lag"
+    },
+    "Vertical scaling involves increasing the capacity of existing servers by adding more _____ such as CPU, memory, or storage.  ": {
+        "question": "Vertical scaling involves increasing the capacity of existing servers by adding more _____ such as CPU, memory, or storage.  ",
+        "answer": "resources, resource, capacity, components, hardware"
+    },
+    "Load balancing is a key component of horizontal scaling, as it distributes network _____ across multiple servers to prevent any one server from becoming overwhelmed.  ": {
+        "question": "Load balancing is a key component of horizontal scaling, as it distributes network _____ across multiple servers to prevent any one server from becoming overwhelmed.  ",
+        "answer": "traffic, load, requests, connections, data"
+    },
+    "One common method of sharding is _____ sharding, where data is distributed based on a hash function applied to a key.  ": {
+        "question": "One common method of sharding is _____ sharding, where data is distributed based on a hash function applied to a key.  ",
+        "answer": "hash, hashed, hashing, hash-based, hash function"
+    },
+    "Designing applications to be stateless or to use distributed caching and storage can make them more amenable to _____ scaling.  ": {
+        "question": "Designing applications to be stateless or to use distributed caching and storage can make them more amenable to _____ scaling.  ",
+        "answer": "horizontal, distributed, lateral, scale-out, parallel"
+    },
+    "Phishing attacks often involve sending deceptive emails that appear to be from _____ sources in order to trick individuals into revealing sensitive information.  ": {
+        "question": "Phishing attacks often involve sending deceptive emails that appear to be from _____ sources in order to trick individuals into revealing sensitive information.  ",
+        "answer": "legitimate, authentic, reputable, genuine, credible, trusted"
+    },
+    "While _____ confirms who you are, _____ determines what you can do within the system.": {
+        "question": "While _____ confirms who you are, _____ determines what you can do within the system.",
+        "answer": "(no answer)"
+    },
+    "To support real-time analytics, data must be ingested, processed, and analysed with minimal _____ to ensure up-to-date information.  ": {
+        "question": "To support real-time analytics, data must be ingested, processed, and analysed with minimal _____ to ensure up-to-date information.  ",
+        "answer": "latency, delay, lag, wait time, response time"
+    },
+    "Implementing _____ strategies can bring data processing closer to the user, reducing the distance over which data must travel and thus minimising latency.  ": {
+        "question": "Implementing _____ strategies can bring data processing closer to the user, reducing the distance over which data must travel and thus minimising latency.  ",
+        "answer": "edge computing, edge, fog computing, local processing, distributed computing"
+    },
+    "To minimise network overhead, it is important to reduce the size of data _____ by compressing data and minimising the frequency of updates.  ": {
+        "question": "To minimise network overhead, it is important to reduce the size of data _____ by compressing data and minimising the frequency of updates.  ",
+        "answer": "payloads, packets, transfers, messages, transmissions"
+    },
+    "SQL injection can lead to _____ of the database, potentially exposing confidential data.  ": {
+        "question": "SQL injection can lead to _____ of the database, potentially exposing confidential data.  ",
+        "answer": "unauthorised access, unauthorised control, unauthorised usage, unauthorised exploitation, unauthorised intrusion"
+    },
+    "Implementing caching mechanisms to store frequently accessed data can reduce the number of _____ operations required per user request.": {
+        "question": "Implementing caching mechanisms to store frequently accessed data can reduce the number of _____ operations required per user request.",
+        "answer": "CPU-intensive, CPU intensive, cpu-intensive, cpu intensive, processor-intensive, processor intensive, processing-intensive, processing intensive, compute-intensive, compute intensive"
+    },
+    "While client-side validation enhances user experience, it is not sufficient for security purposes and should be complemented with _____ validation.  ": {
+        "question": "While client-side validation enhances user experience, it is not sufficient for security purposes and should be complemented with _____ validation.  ",
+        "answer": "server-side, back-end, server-end, server, server-based"
+    },
+    "Application-level logging can provide specific information about resource consumption within applications, helping to identify _____ areas.  ": {
+        "question": "Application-level logging can provide specific information about resource consumption within applications, helping to identify _____ areas.  ",
+        "answer": "bottleneck, bottlenecks, constrained, limited, problematic"
+    },
+    "Real-time data processing is essential for applications that need to respond to events as they happen, such as _____ trading systems.  ": {
+        "question": "Real-time data processing is essential for applications that need to respond to events as they happen, such as _____ trading systems.  ",
+        "answer": "high-frequency, high frequency, HFT, algorithmic, rapid"
+    },
+    "Refactoring the application code to improve _____ efficiency can significantly reduce CPU load and enhance overall performance.": {
+        "question": "Refactoring the application code to improve _____ efficiency can significantly reduce CPU load and enhance overall performance.",
+        "answer": "algorithm, algorithms, algorithmic, logic, computation"
+    },
+    "Database locks can cause contention when multiple transactions try to access the same data, leading to _____ or increased latency.": {
+        "question": "Database locks can cause contention when multiple transactions try to access the same data, leading to _____ or increased latency.",
+        "answer": "deadlocks, deadlock, lock, locks, bottlenecks"
+    },
+    "Secondary storage, such as hard drives and SSDs, provides large _____ but is slower than both cache and main memory.  ": {
+        "question": "Secondary storage, such as hard drives and SSDs, provides large _____ but is slower than both cache and main memory.  ",
+        "answer": "capacity, storage, space, volume, size"
+    },
+    "Profiling tools can reveal which components of the application are consuming the most _____ and under what conditions.": {
+        "question": "Profiling tools can reveal which components of the application are consuming the most _____ and under what conditions.",
+        "answer": "resources, resource, capacity, power, utilisation"
+    },
+    "protect user sessions in web applications, it is important to use _____ cookies that are only sent over HTTPS connections.  ": {
+        "question": "protect user sessions in web applications, it is important to use _____ cookies that are only sent over HTTPS connections.  ",
+        "answer": "secure, Secure, encrypted, HTTPS-only, http-only"
+    },
+    "Privilege escalation attacks occur when an attacker gains higher levels of _____ than initially granted.  ": {
+        "question": "Privilege escalation attacks occur when an attacker gains higher levels of _____ than initially granted.  ",
+        "answer": "access, privilege, permissions, rights, authority"
+    },
+    "In the memory hierarchy, _____ memory is typically the fastest and most expensive type of memory.  ": {
+        "question": "In the memory hierarchy, _____ memory is typically the fastest and most expensive type of memory.  ",
+        "answer": "cache, cached, caching, L1 cache, L2 cache"
+    },
+    "Data _____ reduces the size of data packets before they are transmitted over the network, lowering bandwidth requirements and minimising transmission time.  ": {
+        "question": "Data _____ reduces the size of data packets before they are transmitted over the network, lowering bandwidth requirements and minimising transmission time.  ",
+        "answer": "compression, compressing, data reduction, encoding, zipping"
+    },
+    "Stress testing helps to understand how performance _____ under extreme conditions.": {
+        "question": "Stress testing helps to understand how performance _____ under extreme conditions.",
+        "answer": "degrades, degrade, deteriorates, deteriorate, declines, decline, drops, drop, reduces, reduce"
+    },
+    "Asymmetric encryption is also known as _____ key cryptography.  ": {
+        "question": "Asymmetric encryption is also known as _____ key cryptography.  ",
+        "answer": "public, public key, public-key, public/private key, non-symmetric"
+    },
+    "High _____ rates can significantly degrade application performance, leading to data corruption, increased retransmissions, and user dissatisfaction.  ": {
+        "question": "High _____ rates can significantly degrade application performance, leading to data corruption, increased retransmissions, and user dissatisfaction.  ",
+        "answer": "error, failure, packet loss, transmission error, bit error"
+    },
+    "One of the primary benefits of database denormalisation is that it can improve query _____ by reducing the complexity of data retrieval operations.  ": {
+        "question": "One of the primary benefits of database denormalisation is that it can improve query _____ by reducing the complexity of data retrieval operations.  ",
+        "answer": "performance, speed, efficiency, responsiveness, throughput"
+    },
+    "In _____ detection, the receiver checks the received data against the expected pattern to identify errors.  ": {
+        "question": "In _____ detection, the receiver checks the received data against the expected pattern to identify errors.  ",
+        "answer": "pattern, pattern-based, pattern matching, pattern recognition, expected pattern"
+    },
+    "_____ is the process of verifying the identity of a user or device before granting access to a system.  ": {
+        "question": "_____ is the process of verifying the identity of a user or device before granting access to a system.  ",
+        "answer": "Authentication, Auth, identity verification, login, user verification"
+    },
+    "A common trade-off of database denormalisation is that while it can speed up read operations, it may increase the complexity and cost of _____ operations.  ": {
+        "question": "A common trade-off of database denormalisation is that while it can speed up read operations, it may increase the complexity and cost of _____ operations.  ",
+        "answer": "write, update, insert, modification, data entry"
+    },
+    "The memory hierarchy is designed to provide a balance between speed and _____ , ensuring that frequently accessed data is available quickly.  ": {
+        "question": "The memory hierarchy is designed to provide a balance between speed and _____ , ensuring that frequently accessed data is available quickly.  ",
+        "answer": "capacity, storage, size, space, volume"
+    },
+    "Asymmetric encryption is commonly used for _____ exchange to securely share symmetric keys.  ": {
+        "question": "Asymmetric encryption is commonly used for _____ exchange to securely share symmetric keys.  ",
+        "answer": "key, key exchange, key distribution, key sharing, key transfer"
+    },
+    "Implementing _____ control mechanisms in network protocols can help manage congestion and maintain optimal data flow.  ": {
+        "question": "Implementing _____ control mechanisms in network protocols can help manage congestion and maintain optimal data flow.  ",
+        "answer": "flow, traffic, congestion, rate, bandwidth"
+    },
+    "Throughput is often measured in units such as _____ per second (Mbps) or gigabits per second (Gbps).  ": {
+        "question": "Throughput is often measured in units such as _____ per second (Mbps) or gigabits per second (Gbps).  ",
+        "answer": "megabits, Mbps, megabytes, MBps, Mbits"
+    },
+    "A particular database query might be the source of high latency, and techniques such as indexing, query optimisation, or even _____ could be considered to improve its performance.": {
+        "question": "A particular database query might be the source of high latency, and techniques such as indexing, query optimisation, or even _____ could be considered to improve its performance.",
+        "answer": "denormalisation"
+    },
+    "_____ compression reduces the size of data without any loss of information.  ": {
+        "question": "_____ compression reduces the size of data without any loss of information.  ",
+        "answer": "Lossless, loss-less, non-lossy, no-loss, exact"
+    },
+    "System logs can be invaluable for _____ analysis, helping administrators understand the root cause of performance issues.  ": {
+        "question": "System logs can be invaluable for _____ analysis, helping administrators understand the root cause of performance issues.  ",
+        "answer": "forensic, root cause, detailed, in-depth, diagnostic"
+    },
+    "Common types of client-side validation include checking for _____ fields, verifying the format of data (such as email addresses), and ensuring that passwords meet complexity requirements.  ": {
+        "question": "Common types of client-side validation include checking for _____ fields, verifying the format of data (such as email addresses), and ensuring that passwords meet complexity requirements.  ",
+        "answer": "missing, blank, omitted, absent, unentered"
+    },
+    "Implementing _____ controls is crucial in cloud-native environments to ensure that only authorised users and services can access resources.  ": {
+        "question": "Implementing _____ controls is crucial in cloud-native environments to ensure that only authorised users and services can access resources.  ",
+        "answer": "access, access control, permission, authorisation, authorization"
+    },
+    "_____ involves grouping multiple small messages or requests into a single larger transmission to reduce the number of round trips required for communication.  ": {
+        "question": "_____ involves grouping multiple small messages or requests into a single larger transmission to reduce the number of round trips required for communication.  ",
+        "answer": "batching, batch processing, bundling, aggregating, grouping"
+    },
+    "_____ memory, such as RAM, is slower than cache memory but faster than secondary storage.  ": {
+        "question": "_____ memory, such as RAM, is slower than cache memory but faster than secondary storage.  ",
+        "answer": "main, primary, RAM, volatile, system"
+    },
+    "The Principle of Least Privilege is crucial for preventing _____ escalation, where users gain higher access levels than intended.  ": {
+        "question": "The Principle of Least Privilege is crucial for preventing _____ escalation, where users gain higher access levels than intended.  ",
+        "answer": "privilege, permission, access, rights, authority"
+    },
+    "The _____ notation is commonly used to express the time complexity of an algorithm.  ": {
+        "question": "The _____ notation is commonly used to express the time complexity of an algorithm.  ",
+        "answer": "Big O, O notation, O, Big-O, big O"
+    },
+    "The use of _____ can help manage and secure containerised applications in cloud-native architectures by providing isolation and resource control.  ": {
+        "question": "The use of _____ can help manage and secure containerised applications in cloud-native architectures by providing isolation and resource control.  ",
+        "answer": "Kubernetes, k8s, container orchestration, container management, orchestration, containers"
+    },
+    "Big data analytics often requires the ability to process and analyse large volumes of data in _____ to provide timely insights.  ": {
+        "question": "Big data analytics often requires the ability to process and analyse large volumes of data in _____ to provide timely insights.  ",
+        "answer": "real-time, realtime, immediate, near-real-time, instantly"
+    },
+    "Unlike client-side validation, server-side validation ensures that potentially _____ client input is thoroughly checked before it is processed or stored.  ": {
+        "question": "Unlike client-side validation, server-side validation ensures that potentially _____ client input is thoroughly checked before it is processed or stored.  ",
+        "answer": "malicious, dangerous, hostile, unsafe, threatening"
+    },
+    "In asymmetric encryption, the _____ key must be kept secret to ensure the security of the encrypted data.  ": {
+        "question": "In asymmetric encryption, the _____ key must be kept secret to ensure the security of the encrypted data.  ",
+        "answer": "private, private key, decryption key, secret key, asymmetric key"
+    },
+    "Content caching can significantly reduce the need to fetch data from slower _____ storage, thus speeding up data retrieval.  ": {
+        "question": "Content caching can significantly reduce the need to fetch data from slower _____ storage, thus speeding up data retrieval.  ",
+        "answer": "disk, disk-based, hard drive, HDD, storage"
+    },
+    "Role-based _____ control (RBAC) is a method of restricting system access to authorised users based on their roles.  ": {
+        "question": "Role-based _____ control (RBAC) is a method of restricting system access to authorised users based on their roles.  ",
+        "answer": "access, auth, identity verification, login, user verification, Access"
+    },
+    "To improve throughput, techniques such as data _____ can be used to reduce the size of data packets before transmission.  ": {
+        "question": "To improve throughput, techniques such as data _____ can be used to reduce the size of data packets before transmission.  ",
+        "answer": "compression, compressing, encoding, reduction, zipping"
+    },
+    "_____ programming is a technique that solves complex problems by breaking them down into simpler subproblems and storing the results.  ": {
+        "question": "_____ programming is a technique that solves complex problems by breaking them down into simpler subproblems and storing the results.  ",
+        "answer": "Dynamic, dynamic programming, DP, dynamic prog, dynamic-programming"
+    },
+    "_____ compression reduces the size of data by removing some information, which may result in a loss of quality.  ": {
+        "question": "_____ compression reduces the size of data by removing some information, which may result in a loss of quality.  ",
+        "answer": "Lossy, lossy, loss-full, lossy compression, lossy-compression"
+    },
+    "High network overhead can lead to increased _____ times, which can degrade the user experience and limit the scalability of the application.  ": {
+        "question": "High network overhead can lead to increased _____ times, which can degrade the user experience and limit the scalability of the application.  ",
+        "answer": "response, latency, wait, load, processing"
+    },
+    "Load testing involves simulating real-world usage patterns with increasing loads to identify the _____ points of the system.": {
+        "question": "Load testing involves simulating real-world usage patterns with increasing loads to identify the _____ points of the system.",
+        "answer": "breaking, break, limit, limits, threshold, thresholds, breaks"
+    },
+    "Implementing an account _____ policy helps prevent brute-force attacks by locking the account after a specified number of failed login attempts.  ": {
+        "question": "Implementing an account _____ policy helps prevent brute-force attacks by locking the account after a specified number of failed login attempts.  ",
+        "answer": "lockout, lock-out, locking, lock, lock out"
+    },
+    "Performance bottlenecks can often be identified by analysing resource usage patterns, such as CPU, memory, disk I/O, and _____ bandwidth.": {
+        "question": "Performance bottlenecks can often be identified by analysing resource usage patterns, such as CPU, memory, disk I/O, and _____ bandwidth.",
+        "answer": "network, net, networking, bandwidth, internet"
+    },
+    "Asymmetric encryption can be used to create _____ signatures, which verify the authenticity of a message.  ": {
+        "question": "Asymmetric encryption can be used to create _____ signatures, which verify the authenticity of a message.  ",
+        "answer": "digital, electronic, cryptographic, secure, encrypted"
+    },
+    "In symmetric encryption, the same _____ is used for both encryption and decryption.  ": {
+        "question": "In symmetric encryption, the same _____ is used for both encryption and decryption.  ",
+        "answer": "key, secret key, shared key, encryption key, decryption key"
+    },
+    "_____ is the amount of data that can be transferred over a network in a given period.  ": {
+        "question": "_____ is the amount of data that can be transferred over a network in a given period.  ",
+        "answer": "throughput, bandwidth, data rate, transfer rate, capacity"
+    },
+    "To prevent _____ attacks, it is important to use a unique password for each account.  ": {
+        "question": "To prevent _____ attacks, it is important to use a unique password for each account.  ",
+        "answer": "brute-force, brute force, dictionary, guessing, password-cracking"
+    },
+    "To improve I/O performance, administrators can implement _____ mechanisms to store frequently accessed data in faster storage.  ": {
+        "question": "To improve I/O performance, administrators can implement _____ mechanisms to store frequently accessed data in faster storage.  ",
+        "answer": "caching, cache, cached, buffer, buffering"
+    },
+    "Detection and correction codes, such as _____ , are used to identify and fix errors in transmitted data.  ": {
+        "question": "Detection and correction codes, such as _____ , are used to identify and fix errors in transmitted data.  ",
+        "answer": "checksums, CRC, cyclic redundancy check, parity, error-correcting codes"
+    },
+    "Optimising code to reduce resource consumption and implementing resource allocation policies can help improve overall system _____ .  ": {
+        "question": "Optimising code to reduce resource consumption and implementing resource allocation policies can help improve overall system _____ .  ",
+        "answer": "performance, efficiency, speed, responsiveness, throughput"
+    },
+    "Using locking mechanisms that minimise contention is crucial in multi-user environments to prevent _____ and increased wait times.": {
+        "question": "Using locking mechanisms that minimise contention is crucial in multi-user environments to prevent _____ and increased wait times.",
+        "answer": "delays, delay, latency, wait times, waiting, holdups"
+    },
+    "Designing for infinite scalability might come at the cost of reduced _____ due to the overhead of distributed systems.": {
+        "question": "Designing for infinite scalability might come at the cost of reduced _____ due to the overhead of distributed systems.",
+        "answer": "performance, efficiency, speed, responsiveness, throughput, through-put"
+    },
+    "Implementing resource scheduling policies can help ensure that system _____ are allocated efficiently to avoid bottlenecks.": {
+        "question": "Implementing resource scheduling policies can help ensure that system _____ are allocated efficiently to avoid bottlenecks.",
+        "answer": "resources, resource, assets, asset, capacity, capacities, components"
+    },
+    "Ensuring _____ of data in transit between microservices is essential to protect sensitive information from being intercepted.  ": {
+        "question": "Ensuring _____ of data in transit between microservices is essential to protect sensitive information from being intercepted.  ",
+        "answer": "encryption, data encryption, secure transmission, cryptography, encrypted communication"
+    },
+    "Slow disk I/O can severely impact application performance, making it essential to monitor and optimise _____ speeds.  ": {
+        "question": "Slow disk I/O can severely impact application performance, making it essential to monitor and optimise _____ speeds.  ",
+        "answer": "read/write, read-write, read write, read-write, readwrite"
+    },
+    "Implementing _____ session IDs after login can help mitigate the risk of session hijacking attacks.  ": {
+        "question": "Implementing _____ session IDs after login can help mitigate the risk of session hijacking attacks.  ",
+        "answer": "regenerating, rotating, renewing, refreshing, updating"
+    },
+    "Indexing in databases involves creating _____ to data in a table to facilitate quick access and improve query performance.  ": {
+        "question": "Indexing in databases involves creating _____ to data in a table to facilitate quick access and improve query performance.  ",
+        "answer": "pointers, references, links, markers, indicators"
+    }
+}

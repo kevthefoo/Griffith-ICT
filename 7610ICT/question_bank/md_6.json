@@ -1,0 +1,398 @@
+{
+    "The risk of technology obsolescence can be mitigated by adopting _____ and future-proof solutions that are flexible and can be easily adapted to new technological developments.": {
+        "question": "The risk of technology obsolescence can be mitigated by adopting _____ and future-proof solutions that are flexible and can be easily adapted to new technological developments.",
+        "answer": "(no answer)"
+    },
+    "To ensure that users are informed about available updates, software developers may implement automated _____ mechanisms within the application.": {
+        "question": "To ensure that users are informed about available updates, software developers may implement automated _____ mechanisms within the application.",
+        "answer": "(no answer)"
+    },
+    "Stress testing is a method used to determine the stability of an application by pushing it _____ its normal operating limits to find the breaking point.": {
+        "question": "Stress testing is a method used to determine the stability of an application by pushing it _____ its normal operating limits to find the breaking point.",
+        "answer": "(no answer)"
+    },
+    "Project management tools are designed to assist project managers in _____ , scheduling, budgeting, and resource allocation for projects.": {
+        "question": "Project management tools are designed to assist project managers in _____ , scheduling, budgeting, and resource allocation for projects.",
+        "answer": "(no answer)"
+    },
+    "The data from heatmaps and clickstream analysis can be _____ with user feedback to uncover underlying reasons for user behavior and to inform design and usability improvements.": {
+        "question": "The data from heatmaps and clickstream analysis can be _____ with user feedback to uncover underlying reasons for user behavior and to inform design and usability improvements.",
+        "answer": "(no answer)"
+    },
+    "By using synthetic monitoring, developers can _____ potential problems that could affect users in different geographical areas, ensuring a more consistent experience for everyone.": {
+        "question": "By using synthetic monitoring, developers can _____ potential problems that could affect users in different geographical areas, ensuring a more consistent experience for everyone.",
+        "answer": "(no answer)"
+    },
+    "A/B testing is a method used to test and _____ UI/UX enhancements by comparing two versions of an application or webpage to determine which one performs better.": {
+        "question": "A/B testing is a method used to test and _____ UI/UX enhancements by comparing two versions of an application or webpage to determine which one performs better.",
+        "answer": "(no answer)"
+    },
+    "Knowledge of the technology stack enables better preparation and _____ for potential challenges in maintaining the application, such as compatibility issues or the need for specialised skills.": {
+        "question": "Knowledge of the technology stack enables better preparation and _____ for potential challenges in maintaining the application, such as compatibility issues or the need for specialised skills.",
+        "answer": "(no answer)"
+    },
+    "During load testing, developers can identify _____ points in the application that may need to be reinforced to handle real-world usage patterns.": {
+        "question": "During load testing, developers can identify _____ points in the application that may need to be reinforced to handle real-world usage patterns.",
+        "answer": "(no answer)"
+    },
+    "Beta testing or pilot releases of UI/UX enhancements allows developers to _____ the product in a controlled environment before a full-scale launch.": {
+        "question": "Beta testing or pilot releases of UI/UX enhancements allows developers to _____ the product in a controlled environment before a full-scale launch.",
+        "answer": "(no answer)"
+    },
+    "By examining the database configuration, developers can ensure that the settings are _____ for the specific workload and usage patterns of the application.": {
+        "question": "By examining the database configuration, developers can ensure that the settings are _____ for the specific workload and usage patterns of the application.",
+        "answer": "(no answer)"
+    },
+    "A key feature of Version control systems (VCS) is the ability to create _____ , which are snapshots of the project at a specific point in time, allowing developers to revert to previous versions if necessary.": {
+        "question": "A key feature of Version control systems (VCS) is the ability to create _____ , which are snapshots of the project at a specific point in time, allowing developers to revert to previous versions if necessary.",
+        "answer": "(no answer)"
+    },
+    "Technical debt is the _____ that arises when development teams take shortcuts or make compromises in the codebase, leading to increased maintenance efforts and complexity in the future.": {
+        "question": "Technical debt is the _____ that arises when development teams take shortcuts or make compromises in the codebase, leading to increased maintenance efforts and complexity in the future.",
+        "answer": "(no answer)"
+    },
+    "Regular code reviews can help identify potential performance issues such as _____ algorithms, which can significantly impact the application's speed and efficiency.": {
+        "question": "Regular code reviews can help identify potential performance issues such as _____ algorithms, which can significantly impact the application's speed and efficiency.",
+        "answer": "(no answer)"
+    },
+    "The debugging tools within an Integrated Development Environment (IDE) are crucial for _____ and fixing errors in the source code, allowing developers to execute the program step by step and monitor variable values.": {
+        "question": "The debugging tools within an Integrated Development Environment (IDE) are crucial for _____ and fixing errors in the source code, allowing developers to execute the program step by step and monitor variable values.",
+        "answer": "(no answer)"
+    },
+    "The Web Content Accessibility Guidelines (WCAG) helps ensure that websites and applications are _____ to a wide audience, including those with visual, auditory, motor, and cognitive impairments.": {
+        "question": "The Web Content Accessibility Guidelines (WCAG) helps ensure that websites and applications are _____ to a wide audience, including those with visual, auditory, motor, and cognitive impairments.",
+        "answer": "(no answer)"
+    },
+    "Kano Analysis is a method used to prioritise product features by categorising them into _____ , performance, and excitement features based on customer responses.": {
+        "question": "Kano Analysis is a method used to prioritise product features by categorising them into _____ , performance, and excitement features based on customer responses.",
+        "answer": "(no answer)"
+    },
+    "Failover mechanisms automatically _____ control to the backup system when the primary system experiences an outage, ensuring minimal disruption to service.": {
+        "question": "Failover mechanisms automatically _____ control to the backup system when the primary system experiences an outage, ensuring minimal disruption to service.",
+        "answer": "(no answer)"
+    },
+    "_____ is a collaborative tool used in Agile projects to capture and prioritise user requirements or desired product features.": {
+        "question": "_____ is a collaborative tool used in Agile projects to capture and prioritise user requirements or desired product features.",
+        "answer": "(no answer)"
+    },
+    "The Schedule Variance (SV) in Earned Value Management (EVM) is calculated by subtracting the Planned Value (PV) from the Earned Value (EV) and indicates whether the project is _____ or behind schedule.": {
+        "question": "The Schedule Variance (SV) in Earned Value Management (EVM) is calculated by subtracting the Planned Value (PV) from the Earned Value (EV) and indicates whether the project is _____ or behind schedule.",
+        "answer": "(no answer)"
+    },
+    "When applying Root Cause Analysis (RCA) techniques to application systems, it is important to _____ the problem by collecting data, interviewing stakeholders, and reviewing system logs to understand the sequence of events leading to the issue.": {
+        "question": "When applying Root Cause Analysis (RCA) techniques to application systems, it is important to _____ the problem by collecting data, interviewing stakeholders, and reviewing system logs to understand the sequence of events leading to the issue.",
+        "answer": "(no answer)"
+    },
+    "Customer Relationship Management (CRM) systems are designed to _____ manage interactions with customers and potential customers, helping businesses to improve their customer service, sales, and marketing efforts.": {
+        "question": "Customer Relationship Management (CRM) systems are designed to _____ manage interactions with customers and potential customers, helping businesses to improve their customer service, sales, and marketing efforts.",
+        "answer": "(no answer)"
+    },
+    "By using prototyping tools, teams can _____ potential issues and gather user feedback early in the design process, saving time and resources.": {
+        "question": "By using prototyping tools, teams can _____ potential issues and gather user feedback early in the design process, saving time and resources.",
+        "answer": "(no answer)"
+    },
+    "Software updates are critical for maintaining the security and performance of applications, as they often include patches for _____ that could be exploited by malicious actors.": {
+        "question": "Software updates are critical for maintaining the security and performance of applications, as they often include patches for _____ that could be exploited by malicious actors.",
+        "answer": "(no answer)"
+    },
+    "When teams operate in silos, they may develop _____ systems that do not integrate well with other parts of the organisation's IT infrastructure, complicating maintenance and evolution efforts.": {
+        "question": "When teams operate in silos, they may develop _____ systems that do not integrate well with other parts of the organisation's IT infrastructure, complicating maintenance and evolution efforts.",
+        "answer": "(no answer)"
+    },
+    "The \"Should have\" requirements in MoSCoW Analysis are those that are _____ for the project but not as critical as the \"Must have\" requirements.": {
+        "question": "The \"Should have\" requirements in MoSCoW Analysis are those that are _____ for the project but not as critical as the \"Must have\" requirements.",
+        "answer": "(no answer)"
+    },
+    "Implementing an Enterprise Resource Planning (ERP) system can lead to _____ in efficiency and productivity by streamlining processes and reducing manual data entry.": {
+        "question": "Implementing an Enterprise Resource Planning (ERP) system can lead to _____ in efficiency and productivity by streamlining processes and reducing manual data entry.",
+        "answer": "(no answer)"
+    },
+    "Legacy systems may lack the _____ required for current business operations, such as scalability, security features, and compatibility with contemporary software applications.": {
+        "question": "Legacy systems may lack the _____ required for current business operations, such as scalability, security features, and compatibility with contemporary software applications.",
+        "answer": "(no answer)"
+    },
+    "The _____ is a critical role in Agile projects, responsible for removing impediments and facilitating the team's success.": {
+        "question": "The _____ is a critical role in Agile projects, responsible for removing impediments and facilitating the team's success.",
+        "answer": "(no answer)"
+    },
+    "Knowledge transfer is the process of _____ expertise and understanding from one person or group to another, ensuring that important information about a system's architecture, functionality, and quirks is not lost when personnel change.": {
+        "question": "Knowledge transfer is the process of _____ expertise and understanding from one person or group to another, ensuring that important information about a system's architecture, functionality, and quirks is not lost when personnel change.",
+        "answer": "(no answer)"
+    },
+    "Popular project management tools like Asana, Trello, and Jira offer a range of features including _____ tracking, which allows teams to monitor the progress of tasks and milestones.": {
+        "question": "Popular project management tools like Asana, Trello, and Jira offer a range of features including _____ tracking, which allows teams to monitor the progress of tasks and milestones.",
+        "answer": "(no answer)"
+    },
+    "To minimise disruption and downtime during an application migration, it is common to implement a _____ strategy that involves testing the migration process in a controlled environment before rolling it out to the production system.": {
+        "question": "To minimise disruption and downtime during an application migration, it is common to implement a _____ strategy that involves testing the migration process in a controlled environment before rolling it out to the production system.",
+        "answer": "(no answer)"
+    },
+    "Predictive analytics relies on _____ techniques to identify patterns and correlations in data that can inform estimates for resource requirements in application systems.": {
+        "question": "Predictive analytics relies on _____ techniques to identify patterns and correlations in data that can inform estimates for resource requirements in application systems.",
+        "answer": "(no answer)"
+    },
+    "Automated testing tools and scripts can perform _____ to ensure that recent code changes have not adversely affected the existing functionality of the software.": {
+        "question": "Automated testing tools and scripts can perform _____ to ensure that recent code changes have not adversely affected the existing functionality of the software.",
+        "answer": "(no answer)"
+    },
+    "Infrastructure as Code (IaC) is a DevOps practice where systems administrators and operations teams manage and provision _____ through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.": {
+        "question": "Infrastructure as Code (IaC) is a DevOps practice where systems administrators and operations teams manage and provision _____ through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.",
+        "answer": "(no answer)"
+    },
+    "CI/CD encourages developers to _____ their code changes frequently, which helps to catch and resolve integration issues more quickly.": {
+        "question": "CI/CD encourages developers to _____ their code changes frequently, which helps to catch and resolve integration issues more quickly.",
+        "answer": "(no answer)"
+    },
+    "ITIL provides a comprehensive framework for IT service management (ITSM) that includes functions for _____ , service design, transition, operation, and continual service improvement.": {
+        "question": "ITIL provides a comprehensive framework for IT service management (ITSM) that includes functions for _____ , service design, transition, operation, and continual service improvement.",
+        "answer": "(no answer)"
+    },
+    "Evaluating the underlying infrastructure should include checking for _____ such as insufficient CPU, memory, or bandwidth, which can hinder the application's ability to handle increased load.": {
+        "question": "Evaluating the underlying infrastructure should include checking for _____ such as insufficient CPU, memory, or bandwidth, which can hinder the application's ability to handle increased load.",
+        "answer": "(no answer)"
+    },
+    "A phased rollout for software updates involves deploying the update in _____ to manage the risk of potential issues and to ensure a smoother transition for users.": {
+        "question": "A phased rollout for software updates involves deploying the update in _____ to manage the risk of potential issues and to ensure a smoother transition for users.",
+        "answer": "(no answer)"
+    },
+    "Analysing database query performance can help identify _____ queries that may be causing delays in data retrieval and overall application performance.": {
+        "question": "Analysing database query performance can help identify _____ queries that may be causing delays in data retrieval and overall application performance.",
+        "answer": "(no answer)"
+    },
+    "While automated tests can cover many scenarios, manual testing is still necessary to _____ aspects of the software that are difficult to automate, such as user experience and complex interactions.": {
+        "question": "While automated tests can cover many scenarios, manual testing is still necessary to _____ aspects of the software that are difficult to automate, such as user experience and complex interactions.",
+        "answer": "(no answer)"
+    },
+    "APM (Application Performance Management) tools can help in _____ the root cause of performance issues, which is crucial for maintaining a high-quality user experience.": {
+        "question": "APM (Application Performance Management) tools can help in _____ the root cause of performance issues, which is crucial for maintaining a high-quality user experience.",
+        "answer": "(no answer)"
+    },
+    "The purpose of stress testing is to uncover any potential issues that may not be evident during normal operation, so that they can be _____ before the application goes live.": {
+        "question": "The purpose of stress testing is to uncover any potential issues that may not be evident during normal operation, so that they can be _____ before the application goes live.",
+        "answer": "(no answer)"
+    },
+    "Application profiling tools can provide detailed insights into how the application is performing by monitoring and analysing various _____ such as response times, resource usage, and throughput.": {
+        "question": "Application profiling tools can provide detailed insights into how the application is performing by monitoring and analysing various _____ such as response times, resource usage, and throughput.",
+        "answer": "(no answer)"
+    },
+    "User Acceptance Testing (UAT) is a phase where _____ test the software to ensure it meets their requirements and is ready for deployment.": {
+        "question": "User Acceptance Testing (UAT) is a phase where _____ test the software to ensure it meets their requirements and is ready for deployment.",
+        "answer": "(no answer)"
+    },
+    "Communication platforms are designed to improve _____ within teams, whether they are working remotely or in a co-located environment, by providing a centralised space for conversation and collaboration.": {
+        "question": "Communication platforms are designed to improve _____ within teams, whether they are working remotely or in a co-located environment, by providing a centralised space for conversation and collaboration.",
+        "answer": "(no answer)"
+    },
+    "A key goal of patch management is to reduce _____ by promptly addressing security vulnerabilities before they can be exploited.": {
+        "question": "A key goal of patch management is to reduce _____ by promptly addressing security vulnerabilities before they can be exploited.",
+        "answer": "(no answer)"
+    },
+    "In MoSCoW Analysis, the \"Must have\" requirements are _____ for the project to be considered successful and are given the highest priority.": {
+        "question": "In MoSCoW Analysis, the \"Must have\" requirements are _____ for the project to be considered successful and are given the highest priority.",
+        "answer": "(no answer)"
+    },
+    "To overcome the impediments caused by organisational silos and communication barriers, it is essential to foster a culture of _____ and encourage cross-functional teams to work together towards common goals.": {
+        "question": "To overcome the impediments caused by organisational silos and communication barriers, it is essential to foster a culture of _____ and encourage cross-functional teams to work together towards common goals.",
+        "answer": "(no answer)"
+    },
+    "By following the Web Content Accessibility Guidelines (WCAG), developers can create positive and _____ user experiences that cater to a diverse user base, promoting inclusivity and equality on the web.": {
+        "question": "By following the Web Content Accessibility Guidelines (WCAG), developers can create positive and _____ user experiences that cater to a diverse user base, promoting inclusivity and equality on the web.",
+        "answer": "(no answer)"
+    },
+    "The goal of A/B testing is to make data-driven decisions by _____ which changes lead to improved user engagement and satisfaction.": {
+        "question": "The goal of A/B testing is to make data-driven decisions by _____ which changes lead to improved user engagement and satisfaction.",
+        "answer": "(no answer)"
+    },
+    "The Information Technology Infrastructure Library, commonly known as ITIL, is a set of detailed _____ that focuses on aligning IT services with the needs of the business, promoting consistency and best practice in the IT industry.": {
+        "question": "The Information Technology Infrastructure Library, commonly known as ITIL, is a set of detailed _____ that focuses on aligning IT services with the needs of the business, promoting consistency and best practice in the IT industry.",
+        "answer": "(no answer)"
+    },
+    "A Customer Relationship Management (CRM) can help a business to _____ customer data, providing insights into customer behaviour and preferences that can inform business strategies.": {
+        "question": "A Customer Relationship Management (CRM) can help a business to _____ customer data, providing insights into customer behaviour and preferences that can inform business strategies.",
+        "answer": "(no answer)"
+    },
+    "Proper index usage is crucial for optimising database operations, as it can significantly _____ the time taken to execute queries.": {
+        "question": "Proper index usage is crucial for optimising database operations, as it can significantly _____ the time taken to execute queries.",
+        "answer": "(no answer)"
+    },
+    "By conducting load testing, developers can ensure that the application will _____ and maintain performance even when faced with high demand or large volumes of data.": {
+        "question": "By conducting load testing, developers can ensure that the application will _____ and maintain performance even when faced with high demand or large volumes of data.",
+        "answer": "(no answer)"
+    },
+    "The maintenance of legacy systems can be _____ due to the scarcity of skilled personnel who are familiar with the old technology and programming languages.": {
+        "question": "The maintenance of legacy systems can be _____ due to the scarcity of skilled personnel who are familiar with the old technology and programming languages.",
+        "answer": "(no answer)"
+    },
+    "During a phased rollout, the initial _____ may include a small percentage of users to test the update in a live environment before a wider release.": {
+        "question": "During a phased rollout, the initial _____ may include a small percentage of users to test the update in a live environment before a wider release.",
+        "answer": "(no answer)"
+    },
+    "Overcoming resistance to change in the maintenance and evolution of application systems often requires effective _____ , which involves clear communication, training, and involvement of stakeholders in the change process.": {
+        "question": "Overcoming resistance to change in the maintenance and evolution of application systems often requires effective _____ , which involves clear communication, training, and involvement of stakeholders in the change process.",
+        "answer": "(no answer)"
+    },
+    "In Agile methodologies, work is typically broken down into small, manageable pieces called _____ .": {
+        "question": "In Agile methodologies, work is typically broken down into small, manageable pieces called _____ .",
+        "answer": "(no answer)"
+    },
+    "In CI/CD, automated _____ are crucial for ensuring that new code changes do not break existing functionality, helping to maintain the quality of the application system.": {
+        "question": "In CI/CD, automated _____ are crucial for ensuring that new code changes do not break existing functionality, helping to maintain the quality of the application system.",
+        "answer": "(no answer)"
+    },
+    "Beta testing or pilot releases involve _____ a new version of a product with a select group of users to gather feedback and validate UI/UX enhancements.": {
+        "question": "Beta testing or pilot releases involve _____ a new version of a product with a select group of users to gather feedback and validate UI/UX enhancements.",
+        "answer": "(no answer)"
+    },
+    "One of the key benefits of using project management tools is the ability to _____ in real-time, ensuring that all team members are up-to-date with the latest project information and changes.": {
+        "question": "One of the key benefits of using project management tools is the ability to _____ in real-time, ensuring that all team members are up-to-date with the latest project information and changes.",
+        "answer": "(no answer)"
+    },
+    "By examining the technology stack, developers can identify _____ technologies that may need to be updated or replaced to ensure the application remains secure and efficient.": {
+        "question": "By examining the technology stack, developers can identify _____ technologies that may need to be updated or replaced to ensure the application remains secure and efficient.",
+        "answer": "(no answer)"
+    },
+    "Heatmaps and clickstream analysis can _____ the paths users take within the application, providing valuable information on user engagement and interaction patterns.": {
+        "question": "Heatmaps and clickstream analysis can _____ the paths users take within the application, providing valuable information on user engagement and interaction patterns.",
+        "answer": "(no answer)"
+    },
+    "Redundancy involves having duplicate or extra components that can _____ the primary components if they fail, thus reducing the likelihood of system downtime.": {
+        "question": "Redundancy involves having duplicate or extra components that can _____ the primary components if they fail, thus reducing the likelihood of system downtime.",
+        "answer": "(no answer)"
+    },
+    "A prioritisation matrix helps teams to _____ user stories by comparing the relative value or priority of each story against the others in the backlog.": {
+        "question": "A prioritisation matrix helps teams to _____ user stories by comparing the relative value or priority of each story against the others in the backlog.",
+        "answer": "(no answer)"
+    },
+    "Enterprise Resource Planning (ERP) systems are designed to _____ various business processes and facilitate the flow of information across an organisation.": {
+        "question": "Enterprise Resource Planning (ERP) systems are designed to _____ various business processes and facilitate the flow of information across an organisation.",
+        "answer": "(no answer)"
+    },
+    "By testing updates in a staging environment, developers can identify and _____ potential issues that might arise in the production environment, reducing the risk of system downtime or failure.": {
+        "question": "By testing updates in a staging environment, developers can identify and _____ potential issues that might arise in the production environment, reducing the risk of system downtime or failure.",
+        "answer": "(no answer)"
+    },
+    "Heatmaps and clickstream analysis offer _____ insights into user behavior by revealing where users click and how they navigate through the application.": {
+        "question": "Heatmaps and clickstream analysis offer _____ insights into user behavior by revealing where users click and how they navigate through the application.",
+        "answer": "(no answer)"
+    },
+    "Affinity mapping is a technique where similar feedback from users is _____ to pinpoint recurring issues within an application system.": {
+        "question": "Affinity mapping is a technique where similar feedback from users is _____ to pinpoint recurring issues within an application system.",
+        "answer": "(no answer)"
+    },
+    "Creating UI/UX mockups enable designers to _____ the user experience by simulating the interaction with the new UI/UX features.": {
+        "question": "Creating UI/UX mockups enable designers to _____ the user experience by simulating the interaction with the new UI/UX features.",
+        "answer": "(no answer)"
+    },
+    "Version control systems (VCS) are tools that help software development teams _____ changes to source code over time, providing the ability to track and merge changes from multiple contributors.": {
+        "question": "Version control systems (VCS) are tools that help software development teams _____ changes to source code over time, providing the ability to track and merge changes from multiple contributors.",
+        "answer": "(no answer)"
+    },
+    "Predictive analytics in the context of application systems involves using _____ models to forecast future outcomes based on historical data and trends, which can be particularly useful for resource estimation.": {
+        "question": "Predictive analytics in the context of application systems involves using _____ models to forecast future outcomes based on historical data and trends, which can be particularly useful for resource estimation.",
+        "answer": "(no answer)"
+    },
+    "To determine the Cost Performance Index (CPI), which is a measure of the cost efficiency of budgeted resources, one would divide the Earned Value (EV) by the Actual Cost (AC). A CPI greater than one indicates that the project is _____ than planned.": {
+        "question": "To determine the Cost Performance Index (CPI), which is a measure of the cost efficiency of budgeted resources, one would divide the Earned Value (EV) by the Actual Cost (AC). A CPI greater than one indicates that the project is _____ than planned.",
+        "answer": "under budget, below budget, spending less, saving money, costing less, economising"
+    },
+    "During stress testing, developers can identify the maximum load that the application can handle before it starts to _____ or fail.": {
+        "question": "During stress testing, developers can identify the maximum load that the application can handle before it starts to _____ or fail.",
+        "answer": "(no answer)"
+    },
+    "By analysing the real-time performance data, teams can _____ the application's capacity and make informed decisions about scaling or optimising resources.": {
+        "question": "By analysing the real-time performance data, teams can _____ the application's capacity and make informed decisions about scaling or optimising resources.",
+        "answer": "(no answer)"
+    },
+    "When designing for accessibility, it is essential to include features such as _____ for images, which provide descriptive text for screen readers, enhancing the experience for visually impaired users.": {
+        "question": "When designing for accessibility, it is essential to include features such as _____ for images, which provide descriptive text for screen readers, enhancing the experience for visually impaired users.",
+        "answer": "(no answer)"
+    },
+    "Employing redundancy and failover mechanisms can also help in minimising downtime by ensuring that there are _____ systems in place to take over in the event of a primary system failure.": {
+        "question": "Employing redundancy and failover mechanisms can also help in minimising downtime by ensuring that there are _____ systems in place to take over in the event of a primary system failure.",
+        "answer": "(no answer)"
+    },
+    "Evaluating the underlying infrastructure, including servers, networks, and storage, can reveal _____ that may affect the scalability of the application.": {
+        "question": "Evaluating the underlying infrastructure, including servers, networks, and storage, can reveal _____ that may affect the scalability of the application.",
+        "answer": "(no answer)"
+    },
+    "As technology advances rapidly, businesses must be prepared to _____ their systems to avoid obsolescence, which can limit their competitiveness and operational effectiveness.": {
+        "question": "As technology advances rapidly, businesses must be prepared to _____ their systems to avoid obsolescence, which can limit their competitiveness and operational effectiveness.",
+        "answer": "(no answer)"
+    },
+    "Edge-case testing focuses on testing the software under extreme or _____ conditions that are not typical but could occur, to ensure robustness and reliability.": {
+        "question": "Edge-case testing focuses on testing the software under extreme or _____ conditions that are not typical but could occur, to ensure robustness and reliability.",
+        "answer": "(no answer)"
+    },
+    "By using automated testing tools and scripts, developers can _____ the testing process, saving time and reducing the likelihood of human error.": {
+        "question": "By using automated testing tools and scripts, developers can _____ the testing process, saving time and reducing the likelihood of human error.",
+        "answer": "(no answer)"
+    },
+    "Infrastructure as Code (IaC) allows for the _____ of infrastructure, enabling consistent and repeatable deployments that are easier to manage and scale.": {
+        "question": "Infrastructure as Code (IaC) allows for the _____ of infrastructure, enabling consistent and repeatable deployments that are easier to manage and scale.",
+        "answer": "(no answer)"
+    },
+    "A staging environment is a _____ version of the production environment, where updates can be tested under conditions that mimic the real-world use of the software.": {
+        "question": "A staging environment is a _____ version of the production environment, where updates can be tested under conditions that mimic the real-world use of the software.",
+        "answer": "(no answer)"
+    },
+    "_____ is a core Agile practice that involves regular meetings for the team to discuss progress, challenges, and plans for the next iteration.": {
+        "question": "_____ is a core Agile practice that involves regular meetings for the team to discuss progress, challenges, and plans for the next iteration.",
+        "answer": "(no answer)"
+    },
+    "Technology obsolescence refers to the process by which hardware or software becomes _____ compared to newer technologies, often leading to reduced efficiency and increased maintenance costs.": {
+        "question": "Technology obsolescence refers to the process by which hardware or software becomes _____ compared to newer technologies, often leading to reduced efficiency and increased maintenance costs.",
+        "answer": "(no answer)"
+    },
+    "Communication platforms like Slack, Microsoft Teams, and Discord enable _____ communication among team members, facilitating the exchange of messages, files, and ideas.": {
+        "question": "Communication platforms like Slack, Microsoft Teams, and Discord enable _____ communication among team members, facilitating the exchange of messages, files, and ideas.",
+        "answer": "(no answer)"
+    },
+    "Neglecting technical debt can _____ the development process, as it becomes harder to implement new features or make changes to the system.": {
+        "question": "Neglecting technical debt can _____ the development process, as it becomes harder to implement new features or make changes to the system.",
+        "answer": "(no answer)"
+    },
+    "Continuous monitoring of the application's performance in a production environment can provide _____ data on how the system is handling the current load.": {
+        "question": "Continuous monitoring of the application's performance in a production environment can provide _____ data on how the system is handling the current load.",
+        "answer": "(no answer)"
+    },
+    "The _____ in CI/CD refers to the process of automating the deployment of code to various environments, from development to staging and finally to production.": {
+        "question": "The _____ in CI/CD refers to the process of automating the deployment of code to various environments, from development to staging and finally to production.",
+        "answer": "(no answer)"
+    },
+    "Load testing is a crucial step in assessing an application's performance, as it involves simulating _____ traffic or data processing scenarios to understand how the application behaves under pressure.": {
+        "question": "Load testing is a crucial step in assessing an application's performance, as it involves simulating _____ traffic or data processing scenarios to understand how the application behaves under pressure.",
+        "answer": "(no answer)"
+    },
+    "When planning a migration, it is crucial to assess the _____ of the existing system to ensure compatibility with the new environment and to identify any potential issues that may arise during the transition.": {
+        "question": "When planning a migration, it is crucial to assess the _____ of the existing system to ensure compatibility with the new environment and to identify any potential issues that may arise during the transition.",
+        "answer": "(no answer)"
+    },
+    "User stories are a simple way to _____ the desired functionality from the perspective of the end user, often following the format of \"As a [type of user], I want [some feature] so that [some benefit].\"": {
+        "question": "User stories are a simple way to _____ the desired functionality from the perspective of the end user, often following the format of \"As a [type of user], I want [some feature] so that [some benefit].\"",
+        "answer": "(no answer)"
+    },
+    "Affinity mapping allows development teams to _____ the most prevalent problems by examining the collective user experience.": {
+        "question": "Affinity mapping allows development teams to _____ the most prevalent problems by examining the collective user experience.",
+        "answer": "(no answer)"
+    },
+    "DevOps relies on _____ to automate the process of software delivery and infrastructure management, enabling more frequent and reliable deployments.": {
+        "question": "DevOps relies on _____ to automate the process of software delivery and infrastructure management, enabling more frequent and reliable deployments.",
+        "answer": "(no answer)"
+    },
+    "Synthetic monitoring tools can help identify performance issues by _____ user interactions with the application from multiple locations around the world.": {
+        "question": "Synthetic monitoring tools can help identify performance issues by _____ user interactions with the application from multiple locations around the world.",
+        "answer": "(no answer)"
+    },
+    "Real User Monitoring (RUM) tools offer valuable _____ into the way real users engage with and perceive the application.": {
+        "question": "Real User Monitoring (RUM) tools offer valuable _____ into the way real users engage with and perceive the application.",
+        "answer": "(no answer)"
+    },
+    "By using application profiling tools, developers can track and _____ the application's performance over time and ensure that it meets the desired service levels.": {
+        "question": "By using application profiling tools, developers can track and _____ the application's performance over time and ensure that it meets the desired service levels.",
+        "answer": "(no answer)"
+    },
+    "Addressing technical debt involves _____ the existing codebase to improve its quality and reduce the long-term maintenance burden.": {
+        "question": "Addressing technical debt involves _____ the existing codebase to improve its quality and reduce the long-term maintenance burden.",
+        "answer": "(no answer)"
+    }
+}

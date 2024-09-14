@@ -1,0 +1,498 @@
+{
+    "_____ allows applications to be packaged with all their dependencies, enabling consistent and scalable deployment across different environments.": {
+        "question": "_____ allows applications to be packaged with all their dependencies, enabling consistent and scalable deployment across different environments.",
+        "answer": "Docker"
+    },
+    "_____ is a web-based platform for visualising organisational charts, ER diagrams, UML diagrams, and more.": {
+        "question": "_____ is a web-based platform for visualising organisational charts, ER diagrams, UML diagrams, and more.",
+        "answer": "Lucidchart, LucidChart, Lucid Chart, lucidchart, Lucid chart, lucid chart, Lucidcharts, LucidCharts, Lucid Charts, Lucid charts, lucid charts"
+    },
+    "_____ is a configuration management tool that can automate the deployment and management of applications across multiple servers.": {
+        "question": "_____ is a configuration management tool that can automate the deployment and management of applications across multiple servers.",
+        "answer": "Ansible"
+    },
+    "By conducting a thorough _____ , organisations can determine whether new technologies align with their performance and scalability requirements, ensuring that they make informed decisions about technology adoption.": {
+        "question": "By conducting a thorough _____ , organisations can determine whether new technologies align with their performance and scalability requirements, ensuring that they make informed decisions about technology adoption.",
+        "answer": "(no answer)"
+    },
+    "An effective _____ should include incident response planning, detailing the steps to be taken in the event of a security breach or data loss.": {
+        "question": "An effective _____ should include incident response planning, detailing the steps to be taken in the event of a security breach or data loss.",
+        "answer": "security and privacy policy, security & privacy policy, Security and privacy policy, Security and Privacy policy, Security and Privacy Policy, Security & privacy policy, Security & Privacy policy, Security & Privacy Policy"
+    },
+    "One common technique in _____ is to identify and eliminate bottlenecks that slow down the system, such as inefficient queries or resource contention.": {
+        "question": "One common technique in _____ is to identify and eliminate bottlenecks that slow down the system, such as inefficient queries or resource contention.",
+        "answer": "performance tuning"
+    },
+    "_____ involves capturing the current performance metrics of a system under typical and peak workloads to establish a reference point for future comparisons.": {
+        "question": "_____ involves capturing the current performance metrics of a system under typical and peak workloads to establish a reference point for future comparisons.",
+        "answer": "Baseline measurement"
+    },
+    "_____ can store frequently accessed data in memory, reducing the need to repeatedly query the database and thereby improving system responsiveness.": {
+        "question": "_____ can store frequently accessed data in memory, reducing the need to repeatedly query the database and thereby improving system responsiveness.",
+        "answer": "Caching"
+    },
+    "Conducting a thorough analysis of the domain requirements helps identify potential _____ that could impact the integration process.": {
+        "question": "Conducting a thorough analysis of the domain requirements helps identify potential _____ that could impact the integration process.",
+        "answer": "challenges"
+    },
+    "A key principle of _____ is to incorporate security measures at every stage of development, from initial design to deployment and maintenance.": {
+        "question": "A key principle of _____ is to incorporate security measures at every stage of development, from initial design to deployment and maintenance.",
+        "answer": "security-by-design"
+    },
+    "_____ is an IDE that can be used for various programming languages and includes features for visualising code dependencies.": {
+        "question": "_____ is an IDE that can be used for various programming languages and includes features for visualising code dependencies.",
+        "answer": "Eclipse"
+    },
+    "_____ provides data centre infrastructure management (DCIM) solutions for visualising and managing data centre assets.": {
+        "question": "_____ provides data centre infrastructure management (DCIM) solutions for visualising and managing data centre assets.",
+        "answer": "Nlyte"
+    },
+    "Engaging with _____ throughout the requirements identification process ensures that the gathered information is comprehensive and aligned with the actual needs of the domain.": {
+        "question": "Engaging with _____ throughout the requirements identification process ensures that the gathered information is comprehensive and aligned with the actual needs of the domain.",
+        "answer": "domain experts, Domain Experts, Domain experts, experts, Experts, Subject Matter Experts, Subject Matter experts, Subject matter experts, subject matter experts, domain expert, Domain expert, Domain Expert, Subject Matter Expert, Subject Matter expert, Subject matter expert, subject matter expert"
+    },
+    "By leveraging _____ , organisations can implement auto-scaling policies that automatically adjust the number of running containers based on real-time demand.": {
+        "question": "By leveraging _____ , organisations can implement auto-scaling policies that automatically adjust the number of running containers based on real-time demand.",
+        "answer": "Kubernetes"
+    },
+    "_____ is a standard for information security management systems (ISMS) that provides a systematic approach to managing sensitive company information.": {
+        "question": "_____ is a standard for information security management systems (ISMS) that provides a systematic approach to managing sensitive company information.",
+        "answer": "ISO/IEC 27001, ISO 27001, ISO27001, ISO-27001, ISO/IEC27001, ISO/IEC-27001"
+    },
+    "Using _____ tools helps in creating visual representations of data models, which can be easily understood by developers, data analysts, and domain experts.": {
+        "question": "Using _____ tools helps in creating visual representations of data models, which can be easily understood by developers, data analysts, and domain experts.",
+        "answer": "data modelling"
+    },
+    "NoSQL databases are often used for handling _____ data, which does not fit neatly into the tabular structure of relational databases.": {
+        "question": "NoSQL databases are often used for handling _____ data, which does not fit neatly into the tabular structure of relational databases.",
+        "answer": "unstructured, semi-structured, non-relational, unstructured data, semi-structured data, non-relational data"
+    },
+    "By involving users throughout the development process, _____ ensures that the final product is user-centred and effectively addresses the identified problems.": {
+        "question": "By involving users throughout the development process, _____ ensures that the final product is user-centred and effectively addresses the identified problems.",
+        "answer": "design thinking, design-thinking, Design thinking, Design Thinking, Design-thinking, Design-Thinking"
+    },
+    "A comprehensive analysis helps in defining the _____ and specifications needed for successful integration.": {
+        "question": "A comprehensive analysis helps in defining the _____ and specifications needed for successful integration.",
+        "answer": "technical requirements"
+    },
+    "_____ can be used to decouple processes by allowing different parts of a system to communicate asynchronously, thereby preventing bottlenecks and enabling concurrent work.": {
+        "question": "_____ can be used to decouple processes by allowing different parts of a system to communicate asynchronously, thereby preventing bottlenecks and enabling concurrent work.",
+        "answer": "Message queues"
+    },
+    "_____ is a type of performance testing that evaluates how a system behaves under expected and peak load conditions to identify potential bottlenecks and ensure stability.": {
+        "question": "_____ is a type of performance testing that evaluates how a system behaves under expected and peak load conditions to identify potential bottlenecks and ensure stability.",
+        "answer": "Load testing"
+    },
+    "_____ provides network topology mapping and performance monitoring in real-time.": {
+        "question": "_____ provides network topology mapping and performance monitoring in real-time.",
+        "answer": "Intermapper"
+    },
+    "By leveraging _____ , organisations can deploy and manage applications in isolated environments, making it easier to scale them horizontally across multiple hosts.": {
+        "question": "By leveraging _____ , organisations can deploy and manage applications in isolated environments, making it easier to scale them horizontally across multiple hosts.",
+        "answer": "containerisation"
+    },
+    "_____ is an approach where security considerations are integrated into the system development lifecycle from the very beginning, rather than being added as an afterthought.": {
+        "question": "_____ is an approach where security considerations are integrated into the system development lifecycle from the very beginning, rather than being added as an afterthought.",
+        "answer": "Security-by-design"
+    },
+    "_____ involves creating a middleware layer that translates requests and responses between different systems, ensuring seamless communication.": {
+        "question": "_____ involves creating a middleware layer that translates requests and responses between different systems, ensuring seamless communication.",
+        "answer": "API gateway"
+    },
+    "_____ is a widely recognised IT governance framework that provides a comprehensive approach to managing and governing enterprise IT.": {
+        "question": "_____ is a widely recognised IT governance framework that provides a comprehensive approach to managing and governing enterprise IT.",
+        "answer": "COBIT, Cobit, COBIT 5, Cobit 5, COBIT-5, Cobit-5"
+    },
+    "By using _____ , organisations can identify and eliminate waste in their processes, leading to more efficient workflows and reduced cycle times.": {
+        "question": "By using _____ , organisations can identify and eliminate waste in their processes, leading to more efficient workflows and reduced cycle times.",
+        "answer": "value stream mapping"
+    },
+    "_____ is an iterative process that encourages ideation, prototyping, and testing with real users to develop innovative solutions.": {
+        "question": "_____ is an iterative process that encourages ideation, prototyping, and testing with real users to develop innovative solutions.",
+        "answer": "Design thinking, design-thinking, Design thinking, Design Thinking, Design-thinking, Design-Thinking"
+    },
+    "The language used to perform operations on data in a relational database is called _____ .": {
+        "question": "The language used to perform operations on data in a relational database is called _____ .",
+        "answer": "SQL, Structured Query Language, S Q L, sql, structured query language, Structured query language"
+    },
+    "_____ allows for easy documentation of projects, with version control and collaboration features.": {
+        "question": "_____ allows for easy documentation of projects, with version control and collaboration features.",
+        "answer": "GitHub Wiki"
+    },
+    "XML stands for _____ , which is a markup language designed to store and transport data.": {
+        "question": "XML stands for _____ , which is a markup language designed to store and transport data.",
+        "answer": "eXtensible Markup Language, Extensible Markup Language, eXtensible Markup Lang, XML, xml, extensible markup language"
+    },
+    "_____ is an IDE from Microsoft that supports .NET framework development and includes tools for visualising software architecture.": {
+        "question": "_____ is an IDE from Microsoft that supports .NET framework development and includes tools for visualising software architecture.",
+        "answer": "Visual Studio, Microsoft Visual Studio"
+    },
+    "One of the key stages in _____ is empathising with users to understand their needs, challenges, and behaviours, which informs the design process.": {
+        "question": "One of the key stages in _____ is empathising with users to understand their needs, challenges, and behaviours, which informs the design process.",
+        "answer": "design thinking, design-thinking, Design thinking, Design Thinking, Design-thinking, Design-Thinking"
+    },
+    "_____ simulates real-world scenarios to validate the entire workflow of an application from start to finish.": {
+        "question": "_____ simulates real-world scenarios to validate the entire workflow of an application from start to finish.",
+        "answer": "End-to-end testing"
+    },
+    "_____ is a business analytics service by Microsoft that provides interactive visualisations and business intelligence capabilities.": {
+        "question": "_____ is a business analytics service by Microsoft that provides interactive visualisations and business intelligence capabilities.",
+        "answer": "Power BI"
+    },
+    "By conducting _____ , organisations can balance the need for enhanced performance and scalability with budget constraints, ensuring that resources are allocated efficiently.": {
+        "question": "By conducting _____ , organisations can balance the need for enhanced performance and scalability with budget constraints, ensuring that resources are allocated efficiently.",
+        "answer": "cost analysis"
+    },
+    "JavaScript is a _____ programming language commonly used to create interactive effects within web browsers.": {
+        "question": "JavaScript is a _____ programming language commonly used to create interactive effects within web browsers.",
+        "answer": "scripting, script, scripting language, script language"
+    },
+    "JavaScript is primarily a _____ language, meaning it runs on the user's web browser rather than on the server.": {
+        "question": "JavaScript is primarily a _____ language, meaning it runs on the user's web browser rather than on the server.",
+        "answer": "client-side, clientside, client side, client"
+    },
+    "_____ is a tool that automatically discovers and maps network topology with detailed diagrams.": {
+        "question": "_____ is a tool that automatically discovers and maps network topology with detailed diagrams.",
+        "answer": "SolarWinds Network Topology Mapper, SolarWinds, Solarwinds, SolarWinds Network Mapper, SolarWinds Topology Mapper, Solar Winds Network Topology Mapper, Solar Winds Network Mapper, Solar Winds Topology Mapper, SolarWinds NTM, Solar Winds NTM"
+    },
+    "_____ involves studying the specific characteristics, regulations, and standards of a domain to understand its unique process and workflow requirements.": {
+        "question": "_____ involves studying the specific characteristics, regulations, and standards of a domain to understand its unique process and workflow requirements.",
+        "answer": "Domain analysis"
+    },
+    "_____ refers to the time taken for a system to respond to a request, with lower values indicating better performance.": {
+        "question": "_____ refers to the time taken for a system to respond to a request, with lower values indicating better performance.",
+        "answer": "Average response time"
+    },
+    "_____ offers network automation, analysis, and visualisation capabilities.": {
+        "question": "_____ offers network automation, analysis, and visualisation capabilities.",
+        "answer": "NetBrain"
+    },
+    "_____ helps identify potential bottlenecks and inefficiencies in a process by allowing stakeholders to visualise and analyse the flow of activities under various conditions.": {
+        "question": "_____ helps identify potential bottlenecks and inefficiencies in a process by allowing stakeholders to visualise and analyse the flow of activities under various conditions.",
+        "answer": "Simulation modelling"
+    },
+    "_____ involves monitoring and analysing the usage of system resources such as CPU, memory, storage, and network bandwidth to identify underutilised or over-provisioned resources.": {
+        "question": "_____ involves monitoring and analysing the usage of system resources such as CPU, memory, storage, and network bandwidth to identify underutilised or over-provisioned resources.",
+        "answer": "Resource utilisation analysis"
+    },
+    "_____ helps visualise the current state of a process and design a future state that focuses on adding value from the customer's perspective.": {
+        "question": "_____ helps visualise the current state of a process and design a future state that focuses on adding value from the customer's perspective.",
+        "answer": "Value stream mapping"
+    },
+    "Involving _____ in workshops, interviews, and focus groups provides valuable insights into the day-to-day operations and pain points within the domain.": {
+        "question": "Involving _____ in workshops, interviews, and focus groups provides valuable insights into the day-to-day operations and pain points within the domain.",
+        "answer": "stakeholders"
+    },
+    "_____ measures the amount of data processed by a system over a specific period, indicating the system's capacity to handle workloads.": {
+        "question": "_____ measures the amount of data processed by a system over a specific period, indicating the system's capacity to handle workloads.",
+        "answer": "Average throughput"
+    },
+    "_____ automatically discovers and documents IT assets and their inter-relationships.": {
+        "question": "_____ automatically discovers and documents IT assets and their inter-relationships.",
+        "answer": "Device42"
+    },
+    "_____ can dynamically adjust resources based on demand, ensuring that the system can handle fluctuations in load without manual intervention.": {
+        "question": "_____ can dynamically adjust resources based on demand, ensuring that the system can handle fluctuations in load without manual intervention.",
+        "answer": "Auto-scaling"
+    },
+    "_____ is an in-memory data structure store that can be used as a database, cache, and message broker, known for its high performance and scalability.": {
+        "question": "_____ is an in-memory data structure store that can be used as a database, cache, and message broker, known for its high performance and scalability.",
+        "answer": "Redis"
+    },
+    "By using _____ , organisations can identify deviations between the actual processes and the documented processes, revealing inefficiencies and areas for improvement.": {
+        "question": "By using _____ , organisations can identify deviations between the actual processes and the documented processes, revealing inefficiencies and areas for improvement.",
+        "answer": "process mining"
+    },
+    "_____ involves testing individual components or units of code in isolation to ensure they function correctly.": {
+        "question": "_____ involves testing individual components or units of code in isolation to ensure they function correctly.",
+        "answer": "Unit testing"
+    },
+    "_____ is an IT governance framework that focuses on aligning IT services with the needs of the business and is widely used for IT service management.": {
+        "question": "_____ is an IT governance framework that focuses on aligning IT services with the needs of the business and is widely used for IT service management.",
+        "answer": "ITIL, ITIL v3, ITILv3, ITIL-v3, ITIL v4, ITILv4, ITIL-v4, Information Technology Infrastructure Library, information technology infrastructure library"
+    },
+    "_____ focuses on verifying the interactions between different components or systems to ensure they work together as expected.": {
+        "question": "_____ focuses on verifying the interactions between different components or systems to ensure they work together as expected.",
+        "answer": "Integration testing"
+    },
+    "_____ uses a combination of symmetric and asymmetric encryption to ensure the confidentiality and integrity of data transmitted over a network.": {
+        "question": "_____ uses a combination of symmetric and asymmetric encryption to ensure the confidentiality and integrity of data transmitted over a network.",
+        "answer": "Transport Layer Security, Transport Layer security, Transport layer security, transport layer security, TLS, tls"
+    },
+    "_____ in BPMN are used to show the flow of the process, indicating the sequence in which activities are performed.": {
+        "question": "_____ in BPMN are used to show the flow of the process, indicating the sequence in which activities are performed.",
+        "answer": "Arrows"
+    },
+    "_____ is an enterprise architecture modelling language that helps in creating visual representations of the architecture of software systems.": {
+        "question": "_____ is an enterprise architecture modelling language that helps in creating visual representations of the architecture of software systems.",
+        "answer": "ArchiMate, Archimate, Archi-Mate, Archi-mate, Archi Mate, Archi mate, archimate, archi-mate, archi mate"
+    },
+    "_____ is a protocol used for exchanging structured information in the implementation of web services, known for its extensibility and neutrality.": {
+        "question": "_____ is a protocol used for exchanging structured information in the implementation of web services, known for its extensibility and neutrality.",
+        "answer": "SOAP"
+    },
+    "_____ is a composite metric that combines various performance indicators to provide an overall assessment of system performance.": {
+        "question": "_____ is a composite metric that combines various performance indicators to provide an overall assessment of system performance.",
+        "answer": "Performance index"
+    },
+    "_____ evaluates a system's ability to switch to a backup system seamlessly in the event of a failure, ensuring continuous availability and minimal downtime.": {
+        "question": "_____ evaluates a system's ability to switch to a backup system seamlessly in the event of a failure, ensuring continuous availability and minimal downtime.",
+        "answer": "Failover testing"
+    },
+    "YAML stands for _____ , which is a human-readable data serialisation standard.": {
+        "question": "YAML stands for _____ , which is a human-readable data serialisation standard.",
+        "answer": "YAML Ain't Markup Language, YAML Ain't Markup Lang, YAML Aint Markup Language, YAML Aint Markup Lang"
+    },
+    "_____ involves simulating cyberattacks on a system to identify and exploit security weaknesses, providing insights into how an attacker might gain unauthorised access.": {
+        "question": "_____ involves simulating cyberattacks on a system to identify and exploit security weaknesses, providing insights into how an attacker might gain unauthorised access.",
+        "answer": "Penetration testing"
+    },
+    "During _____ , security experts attempt to exploit vulnerabilities in a controlled environment to assess the effectiveness of existing security measures and recommend improvements.": {
+        "question": "During _____ , security experts attempt to exploit vulnerabilities in a controlled environment to assess the effectiveness of existing security measures and recommend improvements.",
+        "answer": "penetration testing"
+    },
+    "Prioritising _____ in the integration strategy helps protect sensitive information from unauthorised access and potential breaches.": {
+        "question": "Prioritising _____ in the integration strategy helps protect sensitive information from unauthorised access and potential breaches.",
+        "answer": "security"
+    },
+    "By using _____ , organisations can create lightweight, portable containers that can be easily scaled horizontally to handle increased loads.": {
+        "question": "By using _____ , organisations can create lightweight, portable containers that can be easily scaled horizontally to handle increased loads.",
+        "answer": "Docker"
+    },
+    "_____ was established by the U.S. National Institute of Standards and Technology (NIST) in 2001 as a replacement for the older Data Encryption Standard (DES).": {
+        "question": "_____ was established by the U.S. National Institute of Standards and Technology (NIST) in 2001 as a replacement for the older Data Encryption Standard (DES).",
+        "answer": "Advanced Encryption Standard, AES"
+    },
+    "In JSON, data is represented as key-value pairs, where the key is a _____ and the value can be a string, number, object, array, true, false, or null.": {
+        "question": "In JSON, data is represented as key-value pairs, where the key is a _____ and the value can be a string, number, object, array, true, false, or null.",
+        "answer": "string, String, text, str, string key, text key, str key, txt key, Str"
+    },
+    "_____ can facilitate data exchange, manage transactions, and provide common services such as authentication and messaging in a distributed system.": {
+        "question": "_____ can facilitate data exchange, manage transactions, and provide common services such as authentication and messaging in a distributed system.",
+        "answer": "Middleware"
+    },
+    "_____ allows different systems to communicate and share data by providing a set of rules and protocols for building and interacting with software applications.": {
+        "question": "_____ allows different systems to communicate and share data by providing a set of rules and protocols for building and interacting with software applications.",
+        "answer": "(no answer)"
+    },
+    "Implementing _____ helps ensure that potential vulnerabilities are identified and mitigated early in the development process, reducing the risk of security breaches.": {
+        "question": "Implementing _____ helps ensure that potential vulnerabilities are identified and mitigated early in the development process, reducing the risk of security breaches.",
+        "answer": "security-by-design"
+    },
+    "By focusing on _____ , organisations can comply with regulatory requirements and avoid legal penalties associated with data breaches.": {
+        "question": "By focusing on _____ , organisations can comply with regulatory requirements and avoid legal penalties associated with data breaches.",
+        "answer": "security"
+    },
+    "In a _____ , users can define their own IP address ranges, create subnets, and configure route tables and network gateways to customise their network environment.": {
+        "question": "In a _____ , users can define their own IP address ranges, create subnets, and configure route tables and network gateways to customise their network environment.",
+        "answer": "Virtual Private Cloud, virtual private cloud, VPC, vpc"
+    },
+    "_____ involves analysing event logs to discover, monitor, and improve real processes by extracting knowledge from data generated by information systems.": {
+        "question": "_____ involves analysing event logs to discover, monitor, and improve real processes by extracting knowledge from data generated by information systems.",
+        "answer": "Process mining"
+    },
+    "A detailed analysis ensures that the integration strategy aligns with the _____ and goals of the specific ICT domain.": {
+        "question": "A detailed analysis ensures that the integration strategy aligns with the _____ and goals of the specific ICT domain.",
+        "answer": "objectives"
+    },
+    "_____ is a platform for hosting documentation, making it easy to publish and update technical documentation.": {
+        "question": "_____ is a platform for hosting documentation, making it easy to publish and update technical documentation.",
+        "answer": "Read the Docs"
+    },
+    "_____ measures how well a system performs under expected workload conditions, focusing on response times, throughput, and resource usage.": {
+        "question": "_____ measures how well a system performs under expected workload conditions, focusing on response times, throughput, and resource usage.",
+        "answer": "Performance testing"
+    },
+    "The _____ model is a data modelling methodology that uses entities and relationships to represent data structures and their interconnections.": {
+        "question": "The _____ model is a data modelling methodology that uses entities and relationships to represent data structures and their interconnections.",
+        "answer": "Entity-Relationship"
+    },
+    "In XML, elements are defined by _____ , which are user-defined tags that describe the data.": {
+        "question": "In XML, elements are defined by _____ , which are user-defined tags that describe the data.",
+        "answer": "tags, elements, labels, element, label, custom tags"
+    },
+    "In the relational model, data is organised into tables, also known as _____ , where each row represents a record and each column represents a property of the record.": {
+        "question": "In the relational model, data is organised into tables, also known as _____ , where each row represents a record and each column represents a property of the record.",
+        "answer": "Relations, Relation, Relational tables, relational tables, relations, relation, Entities, entities"
+    },
+    "In BPMN, a _____ represents an activity or task that needs to be performed within the business process.": {
+        "question": "In BPMN, a _____ represents an activity or task that needs to be performed within the business process.",
+        "answer": "rectangle"
+    },
+    "_____ distribute content across multiple servers located in different geographic regions, reducing latency and improving load times for users.": {
+        "question": "_____ distribute content across multiple servers located in different geographic regions, reducing latency and improving load times for users.",
+        "answer": "Content Delivery Networks, Content delivery networks, content delivery networks, Content Delivery Network, Content delivery network, content delivery network, CDNs, CDN, cdns, cdn"
+    },
+    "By implementing _____ , organisations can ensure that performance and scalability assessments are informed by real-world usage data, leading to more accurate and effective optimisation strategies.": {
+        "question": "By implementing _____ , organisations can ensure that performance and scalability assessments are informed by real-world usage data, leading to more accurate and effective optimisation strategies.",
+        "answer": "feedback loops"
+    },
+    "_____ is essential for identifying issues that arise from the interaction between different modules or services.": {
+        "question": "_____ is essential for identifying issues that arise from the interaction between different modules or services.",
+        "answer": "Integration testing"
+    },
+    "JSON stands for _____ , which is a lightweight data interchange format that is easy for humans to read and write.": {
+        "question": "JSON stands for _____ , which is a lightweight data interchange format that is easy for humans to read and write.",
+        "answer": "JavaScript Object Notation, JavaScript Obj Notation, Java Script Obj Notation, JS Object Notation, JS Obj Notation"
+    },
+    "_____ is often used in organisations to manage user permissions by grouping users into roles, which simplifies the process of assigning and revoking access rights.": {
+        "question": "_____ is often used in organisations to manage user permissions by grouping users into roles, which simplifies the process of assigning and revoking access rights.",
+        "answer": "Role-Based Access Control, RBAC, Role Based Access Control"
+    },
+    "_____ is a manual or automated process of examining source code to identify security flaws, bugs, and other issues that could be exploited by attackers.": {
+        "question": "_____ is a manual or automated process of examining source code to identify security flaws, bugs, and other issues that could be exploited by attackers.",
+        "answer": "Code review, code review, Code reviews, code reviews"
+    },
+    "_____ can help uncover hidden dependencies and bottlenecks in business processes, providing valuable insights for optimisation.": {
+        "question": "_____ can help uncover hidden dependencies and bottlenecks in business processes, providing valuable insights for optimisation.",
+        "answer": "Process mining"
+    },
+    "Leveraging existing _____ such as process maps, workflow diagrams, and system logs can provide a starting point for identifying domain-specific requirements.": {
+        "question": "Leveraging existing _____ such as process maps, workflow diagrams, and system logs can provide a starting point for identifying domain-specific requirements.",
+        "answer": "documentation"
+    },
+    "_____ is a popular tool for creating diagrams, including network diagrams, process flows, and system architecture.": {
+        "question": "_____ is a popular tool for creating diagrams, including network diagrams, process flows, and system architecture.",
+        "answer": "Microsoft Visio, MS Visio, Microsoft visio, MS visio, Visio, visio, ms visio"
+    },
+    "_____ provides observability for entire software stacks, including infrastructure, applications, and digital customer experiences.": {
+        "question": "_____ provides observability for entire software stacks, including infrastructure, applications, and digital customer experiences.",
+        "answer": "New Relic"
+    },
+    "_____ provides real-time monitoring of application performance and maps the flow of transactions across the application architecture.": {
+        "question": "_____ provides real-time monitoring of application performance and maps the flow of transactions across the application architecture.",
+        "answer": "AppDynamics"
+    },
+    "_____ helps determine if a system can handle the expected number of users and transactions efficiently.": {
+        "question": "_____ helps determine if a system can handle the expected number of users and transactions efficiently.",
+        "answer": "Performance testing"
+    },
+    "_____ is used to evaluate how a system behaves under high-stress conditions, such as peak traffic or resource exhaustion.": {
+        "question": "_____ is used to evaluate how a system behaves under high-stress conditions, such as peak traffic or resource exhaustion.",
+        "answer": "Stress testing"
+    },
+    "_____ is a method used to compare the current state of a system or process with the desired future state, identifying discrepancies and areas for improvement.": {
+        "question": "_____ is a method used to compare the current state of a system or process with the desired future state, identifying discrepancies and areas for improvement.",
+        "answer": "Gap Analysis"
+    },
+    "Understanding the domain requirements allows for the identification of _____ that can be leveraged to enhance the integration process.": {
+        "question": "Understanding the domain requirements allows for the identification of _____ that can be leveraged to enhance the integration process.",
+        "answer": "opportunities"
+    },
+    "In _____ , access decisions are based on attributes associated with the user, resource, and environment, providing more granular control compared to role-based access control.": {
+        "question": "In _____ , access decisions are based on attributes associated with the user, resource, and environment, providing more granular control compared to role-based access control.",
+        "answer": "Attribute-Based Access Control, Attribute Based Access Control, ABAC, abac, Attribute-based Access Control, Attribute-based access control, attribute-based access control, attribute based access control"
+    },
+    "_____ involves examining the system's design to ensure it supports scalability and can handle increased loads without performance degradation, often identifying areas for improvement or optimisation.": {
+        "question": "_____ involves examining the system's design to ensure it supports scalability and can handle increased loads without performance degradation, often identifying areas for improvement or optimisation.",
+        "answer": "Architecture review"
+    },
+    "A comprehensive _____ outlines the security controls and procedures in place to protect sensitive information and ensure compliance with relevant regulations.": {
+        "question": "A comprehensive _____ outlines the security controls and procedures in place to protect sensitive information and ensure compliance with relevant regulations.",
+        "answer": "security and privacy policy, security & privacy policy, Security and privacy policy, Security and Privacy policy, Security and Privacy Policy, Security & privacy policy, Security & Privacy policy, Security & Privacy Policy"
+    },
+    "_____ offers IT service management with a configuration management database (CMDB) for tracking IT assets and their relationships.": {
+        "question": "_____ offers IT service management with a configuration management database (CMDB) for tracking IT assets and their relationships.",
+        "answer": "ServiceNow"
+    },
+    "By implementing _____ , organisations can significantly reduce the load on their data sources, leading to faster response times and a more efficient system.": {
+        "question": "By implementing _____ , organisations can significantly reduce the load on their data sources, leading to faster response times and a more efficient system.",
+        "answer": "caching"
+    },
+    "_____ is a lean-management method used to analyse and design the flow of materials and information required to bring a product or service to a consumer.": {
+        "question": "_____ is a lean-management method used to analyse and design the flow of materials and information required to bring a product or service to a consumer.",
+        "answer": "Value stream mapping"
+    },
+    "By using _____ , organisations can ensure that their applications can interact with third-party services, enhancing functionality and user experience.": {
+        "question": "By using _____ , organisations can ensure that their applications can interact with third-party services, enhancing functionality and user experience.",
+        "answer": "API integration"
+    },
+    "Ensuring _____ in the integration strategy guarantees that data remains accurate, consistent, and reliable throughout its lifecycle.": {
+        "question": "Ensuring _____ in the integration strategy guarantees that data remains accurate, consistent, and reliable throughout its lifecycle.",
+        "answer": "data integrity"
+    },
+    "_____ offers AI-driven application performance monitoring and digital experience management.": {
+        "question": "_____ offers AI-driven application performance monitoring and digital experience management.",
+        "answer": "Dynatrace"
+    },
+    "_____ is an automated process that identifies security vulnerabilities in a system by scanning for known weaknesses and misconfigurations.": {
+        "question": "_____ is an automated process that identifies security vulnerabilities in a system by scanning for known weaknesses and misconfigurations.",
+        "answer": "Vulnerability scanning"
+    },
+    "Analysing _____ within the domain helps in understanding the current state of processes and workflows, revealing patterns and areas for improvement.": {
+        "question": "Analysing _____ within the domain helps in understanding the current state of processes and workflows, revealing patterns and areas for improvement.",
+        "answer": "artefacts"
+    },
+    "The _____ encryption algorithm uses key sizes of 128, 192, or 256 bits to encrypt and decrypt data.": {
+        "question": "The _____ encryption algorithm uses key sizes of 128, 192, or 256 bits to encrypt and decrypt data.",
+        "answer": "AES, Advanced Encryption Standard, A.E.S., A. E. S."
+    },
+    "_____ is the measure of how effectively a system's resources, such as CPU and memory, are being used.": {
+        "question": "_____ is the measure of how effectively a system's resources, such as CPU and memory, are being used.",
+        "answer": "Resource utilisation"
+    },
+    "The _____ model and UML are both methodologies that provide a standardised way to document data models, facilitating better communication among stakeholders.": {
+        "question": "The _____ model and UML are both methodologies that provide a standardised way to document data models, facilitating better communication among stakeholders.",
+        "answer": "Entity-Relationship"
+    },
+    "_____ is a powerful scripting language often used for automating system administration tasks and managing configurations.": {
+        "question": "_____ is a powerful scripting language often used for automating system administration tasks and managing configurations.",
+        "answer": "Python"
+    },
+    "During _____ , different scenarios are simulated to determine how well a system can handle increased workloads by adding resources, such as additional servers or increased processing power.": {
+        "question": "During _____ , different scenarios are simulated to determine how well a system can handle increased workloads by adding resources, such as additional servers or increased processing power.",
+        "answer": "scalability testing"
+    },
+    "Regular _____ helps ensure that a system continues to meet performance requirements as workloads and usage patterns change over time.": {
+        "question": "Regular _____ helps ensure that a system continues to meet performance requirements as workloads and usage patterns change over time.",
+        "answer": "performance tuning"
+    },
+    "_____ is a symmetric encryption algorithm widely used across the globe to secure data.": {
+        "question": "_____ is a symmetric encryption algorithm widely used across the globe to secure data.",
+        "answer": "Advanced Encryption Standard, AES, A.E.S., A. E. S., Advanced Encryption standard, Advanced encryption standard, advanced encryption standard"
+    },
+    "Conducting _____ helps in identifying the nuanced requirements essential for effective workflow design by immersing oneself in the domain's terminology and common practices.": {
+        "question": "Conducting _____ helps in identifying the nuanced requirements essential for effective workflow design by immersing oneself in the domain's terminology and common practices.",
+        "answer": "domain analysis"
+    },
+    "_____ subjects a system to extreme workloads to determine its breaking point and identify potential bottlenecks.": {
+        "question": "_____ subjects a system to extreme workloads to determine its breaking point and identify potential bottlenecks.",
+        "answer": "Stress testing"
+    },
+    "_____ is a powerful data visualisation tool that can be used to create interactive dashboards for IT metrics and inventory.": {
+        "question": "_____ is a powerful data visualisation tool that can be used to create interactive dashboards for IT metrics and inventory.",
+        "answer": "Tableau"
+    },
+    "_____ is a standardised modelling language that provides a way to visualise the design of a system, making it easier to communicate with stakeholders.": {
+        "question": "_____ is a standardised modelling language that provides a way to visualise the design of a system, making it easier to communicate with stakeholders.",
+        "answer": "Unified Modeling Language, Unified Modelling Language, unified modeling language, unified modelling language, uml, UML"
+    },
+    "By implementing _____ , organisations can track metrics such as page load times, transaction speeds, and error rates from the perspective of end-users, enabling more accurate performance assessments.": {
+        "question": "By implementing _____ , organisations can track metrics such as page load times, transaction speeds, and error rates from the perspective of end-users, enabling more accurate performance assessments.",
+        "answer": "Real-User Monitoring"
+    },
+    "Maintaining _____ during integration prevents data corruption and loss, ensuring that the system functions correctly and efficiently.": {
+        "question": "Maintaining _____ during integration prevents data corruption and loss, ensuring that the system functions correctly and efficiently.",
+        "answer": "data integrity"
+    },
+    "_____ ensures that all components of a system work together seamlessly in a production-like environment.": {
+        "question": "_____ ensures that all components of a system work together seamlessly in a production-like environment.",
+        "answer": "End-to-end testing"
+    },
+    "Effective _____ helps organisations allocate resources efficiently, avoiding both under-provisioning, which can lead to performance issues, and over-provisioning, which can result in unnecessary costs.": {
+        "question": "Effective _____ helps organisations allocate resources efficiently, avoiding both under-provisioning, which can lead to performance issues, and over-provisioning, which can result in unnecessary costs.",
+        "answer": "capacity planning"
+    },
+    "_____ involves creating a digital twin of a real-world process to experiment with different scenarios and predict outcomes without disrupting actual operations.": {
+        "question": "_____ involves creating a digital twin of a real-world process to experiment with different scenarios and predict outcomes without disrupting actual operations.",
+        "answer": "Simulation modelling"
+    },
+    "_____ can significantly reduce the risk of unauthorised access, as it is much harder for attackers to compromise multiple authentication factors simultaneously.": {
+        "question": "_____ can significantly reduce the risk of unauthorised access, as it is much harder for attackers to compromise multiple authentication factors simultaneously.",
+        "answer": "Multi-Factor Authentication, Multi-factor Authentication, Multi-factor authentication, multi-factor authentication, MultiFactor Authentication, Multifactor Authentication, Multifactor authentication, multifactor authentication, MFA, mfa"
+    },
+    "_____ is a graphical representation for specifying business processes in a workflow, providing a standardised method for depicting steps, decisions, and events.": {
+        "question": "_____ is a graphical representation for specifying business processes in a workflow, providing a standardised method for depicting steps, decisions, and events.",
+        "answer": "Business Process Modelling Notation, Business Process Modeling Notation, business process modelling notation, business process modeling notation, BPMN, bpmn"
+    }
+}
