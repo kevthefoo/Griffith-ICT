@@ -1,0 +1,33 @@
+
+USE DB_Week7;
+
+INSERT INTO staff VALUES (NULL, 'Buffy Summers', '1987-09-15', 27000);
+
+
+INSERT INTO staff VALUES (NULL, 'Buffy Summers', '1987-09-15', 27000);
+
+INSERT INTO Staff(StaffName, DateOfBirth, Salary) VALUES ('Teddy Bear', '1983-12-03', 87125.02);
+
+
+INSERT INTO STAFF VALUES (NULL,'John Smith', '1972-9-20', 25000);
+INSERT INTO STAFF VALUES (NULL,'Jane Doe', '1969-1-25', 55000);
+INSERT INTO STAFF VALUES (NULL,'Jacek Jones', '1984-10-19', 35000);
+
+
+INSERT INTO DEPARTMENT 
+	VALUES (1, 'Sales', 500000, 2);
+
+INSERT INTO WORKALLOCATION 
+	VALUES (2, 1, 1);
+
+INSERT INTO WORKALLOCATION
+	VALUES (3, 1, 0.5);
+
+
+INSERT INTO Staff (StaffName, DateOfBirth, Salary) VALUES 
+('Teddy Bear', '1983-12-03', 87125.02),
+('Fred Smith', '1956-06-30', 25125.02);
+
+
+CREATE TABLE Staff3 
+SELECT * FROM Staff;

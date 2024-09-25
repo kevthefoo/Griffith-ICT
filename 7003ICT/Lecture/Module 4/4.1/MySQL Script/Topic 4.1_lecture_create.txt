@@ -1,0 +1,42 @@
+
+CREATE DATABASE IF NOT EXISTS 
+DB_Week7;
+
+USE DB_Week7;
+
+SHOW TABLES;
+
+CREATE TABLE IF NOT EXISTS STAFF (
+	StaffID              INT PRIMARY KEY AUTO_INCREMENT,
+	StaffName        VARCHAR(30),
+	DateOfBirth      DATE,
+	Salary  	        DECIMAL(10,2)
+) ENGINE = InnoDB;
+
+
+CREATE TABLE IF NOT EXISTS DEPARTMENT(
+	DepartmentID            INT PRIMARY KEY AUTO_INCREMENT,
+	DepartmentName      VARCHAR(30),
+	Budget	                   DOUBLE,
+	ManagerID                 INT NOT NULL,
+	FOREIGN KEY (ManagerID) REFERENCES Staff(StaffID)
+) ENGINE=InnoDB; 
+
+
+CREATE TABLE  IF NOT EXISTS
+WORKALLOCATION(
+	StaffID                  INT,
+	DepartmentID	 INT,
+	PercentageTime	 DOUBLE,
+	PRIMARY KEY (StaffID, DepartmentID),
+	FOREIGN KEY (StaffID) REFERENCES STAFF(StaffID),
+	FOREIGN KEY (DepartmentID) REFERENCES DEPARTMENT(DepartmentID)
+) ENGINE = InnoDB;	
+
+CREATE TABLE staff2 (
+StaffId int( 11 ) NOT NULL,
+StaffName varchar( 30 ) DEFAULT NULL ,
+DateOfBirth date DEFAULT NULL ,
+Salary decimal( 10, 2 ) DEFAULT NULL ,
+PRIMARY KEY ( StaffId )
+) ENGINE = InnoDB;

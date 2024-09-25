@@ -1,0 +1,71 @@
+USE MovieCo;
+
+
+SELECT *
+FROM Staff
+Where Salary > (SELECT AVG(Salary)
+		FROM Staff);
+
+
+SELECT * 
+FROM staff 
+Where StaffID = (SELECT W.StaffID 
+                 FROM workallocation AS W 
+                 GROUP BY W.StaffID 
+                 ORDER BY COUNT(*) DESC 
+                 LIMIT 0,1);
+
+
+
+SELECT *
+FROM department
+Where DepartmentID = (SELECT W.DepartmentID
+			FROM workallocation AS W                
+               		GROUP BY W.DepartmentID
+               		ORDER BY COUNT(*) DESC
+               		LIMIT 0,1);
+
+
+
+SELECT Wa.DepartmentID
+FROM workallocation AS Wa                 
+GROUP BY Wa.DepartmentID 
+HAVING COUNT(*) = 	(SELECT COUNT(*)
+			FROM workallocation AS W                
+               		GROUP BY W.DepartmentID
+               		ORDER BY COUNT(*) DESC
+               		LIMIT 0,1);
+
+
+
+SELECT *
+FROM department
+WHERE DepartmentID IN (SELECT Wa.DepartmentID
+			FROM workallocation AS Wa                 
+			GROUP BY Wa.DepartmentID 
+			HAVING COUNT(*) = 	(SELECT COUNT(*)
+						FROM workallocation AS W                
+               					GROUP BY W.DepartmentID
+               					ORDER BY COUNT(*) DESC
+               					LIMIT 0,1));
+
+
+
+SELECT Dp.DepartmentID, Dp.DepartmentName, COUNT(*)
+FROM workallocation AS WA, department AS Dp
+WHERE WA.DepartmentID = Dp.DepartmentID 
+GROUP BY WA.DepartmentID
+HAVING WA.DepartmentID = ANY(SELECT D.DepartmentID
+				FROM department AS D
+				WHERE D.DepartmentName IN ('Sales','Finance')); 
+
+
+
+SELECT St.StaffID, St.StaffName, Wa.DepartmentID, Wa.PercentageTime
+		FROM Staff AS St, workallocation AS Wa
+		WHERE St.StaffID = Wa.StaffID
+       			 AND St.StaffName <> 'Fred Smith'
+			AND (Wa.DepartmentID, WA.PercentageTime) 		= ANY (SELECT W.DepartmentID, W.PercentageTime
+											FROM Staff AS S, workallocation AS W
+											WHERE S.StaffID = W.StaffID
+											AND S.StaffName = 'Fred Smith');

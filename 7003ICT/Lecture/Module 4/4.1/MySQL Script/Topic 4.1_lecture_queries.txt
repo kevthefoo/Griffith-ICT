@@ -1,0 +1,39 @@
+
+USE DB_Week7;
+
+
+CREATE TABLE Staff3 
+SELECT * FROM Staff;
+
+
+UPDATE Staff
+	SET StaffName = 'Buffy Winters'
+	WHERE StaffId = 1;
+
+
+UPDATE Staff
+	SET Salary = 1.1 * Salary;
+
+
+DELETE 
+FROM Staff
+WHERE StaffID = 1;
+
+DELETE 
+FROM Staff2
+WHERE Salary > 80000;
+
+
+DROP TABLE Staff2;
+
+
+ALTER TABLE Staff
+	ADD  Address VARCHAR(30);
+
+
+ALTER TABLE staff3
+	MODIFY Salary INT(11);
+
+
+ALTER TABLE Staff
+	DROP COLUMN Address;

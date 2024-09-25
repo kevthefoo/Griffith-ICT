@@ -1,0 +1,8 @@
+/* Create & use database */
+CREATE DATABASE IF NOT EXISTS xxs;
+USE asFashionU;
+
+CREATE TABLE IF NOT EXISTS CUSTOMER(
+Cust_Number 	INT PRIMARY KEY AUTO_INCREMENT,
+Cust_FName...
+

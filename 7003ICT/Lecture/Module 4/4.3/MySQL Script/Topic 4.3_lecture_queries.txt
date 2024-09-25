@@ -1,0 +1,170 @@
+SELECT CONCAT(StaffName, ' was born on ', DateOfBirth) AS 'Staff date of birth'
+	FROM Staff;
+
+
+SELECT DepartmentName, CAST(Budget AS DECIMAL(9,2)) AS 'Annual Budget'
+FROM DEPARTMENT
+ORDER BY 'Annual Budget' DESC;
+
+
+SELECT StaffName, CONCAT('$', CAST(Salary AS CHAR(12))) AS 'Annual Salary'
+From Staff
+ORDER BY Salary;
+
+
+SELECT AVG(Budget)
+FROM department;
+
+
+SELECT CONCAT('$',CAST((AVG(Budget)) AS CHAR(10))) AS 'Average department budget'
+FROM department;
+
+SELECT MAX(Budget) AS 'Maximum Department budget'
+FROM department;
+
+
+
+SELECT Budget AS 'Maximum Department budget'
+FROM department
+ORDER BY Budget DESC
+LIMIT 0,1;
+
+
+
+SELECT COUNT(*) AS 'Number of departments with budget < $1m'
+FROM department
+WHERE Budget < 1000000;
+
+
+
+SELECT COUNT(*) AS 'Number of staff'
+FROM staff;
+
+
+
+SELECT SUM(Budget) AS 'Total budget $'
+FROM department;
+
+
+
+SELECT CONCAT('$', CAST(SUM(Budget) AS CHAR(10))) AS 'Total budget'
+FROM department;
+
+
+SELECT StaffID, SUM(PercentageTime) 
+FROM workallocation
+GROUP BY StaffID;
+
+
+SELECT StaffID, COUNT(DepartmentID) AS '# of department', 
+               SUM(PercentageTime) AS 'Total time fraction'
+FROM workallocation
+GROUP BY StaffID;
+
+
+
+SELECT StaffID, COUNT(DepartmentID) AS '# of department', 
+               SUM(PercentageTime) AS 'Total time fraction'
+FROM workallocation
+GROUP BY StaffID;
+
+
+
+
+SELECT StaffID, SUM(PercentageTime) 
+FROM workallocation
+GROUP BY StaffID
+HAVING SUM(PercentageTime) < 1;
+
+
+
+SELECT StaffID, COUNT(*) 
+FROM workallocation
+GROUP BY StaffID
+HAVING COUNT(*) = 2;
+
+
+
+SELECT StaffID, COUNT(*) 
+FROM workallocation
+GROUP BY StaffID;
+
+
+
+SELECT StaffID, COUNT(*) 
+FROM workallocation
+GROUP BY StaffID
+HAVING COUNT(*) > 1
+ORDER BY COUNT(*) ASC;
+
+
+
+SELECT DepartmentID, DepartmentName, ManagerID, StaffName
+FROM department, staff
+WHERE department.ManagerID = staff.StaffID;
+
+
+SELECT D.DepartmentID, D.DepartmentName, D.ManagerID, S.StaffName
+FROM department AS D, staff AS S
+WHERE D.ManagerID = S.StaffID;
+
+
+
+SELECT D.DepartmentID, D.DepartmentName, S.StaffID, S.StaffName
+FROM department AS D, staff AS S
+WHERE D.ManagerID = S.StaffID;
+
+
+SELECT *
+FROM department AS D, staff AS S
+WHERE D.ManagerID = S.StaffID;
+
+
+SELECT D.DepartmentID, D.DepartmentName, D.ManagerID, S.StaffName
+FROM department AS D, staff AS S
+WHERE D.ManagerID = S.StaffID;
+
+
+SELECT D.DepartmentID, D.DepartmentName, D.ManagerID, S.StaffName, WA.PercentageTime
+FROM department AS D, staff AS S, workallocation AS WA
+WHERE D.ManagerID = S.StaffID 
+	AND S.StaffID = WA.StaffID
+    	AND D.DepartmentID = WA.DepartmentID;
+
+
+
+SELECT D.DepartmentID, D.DepartmentName, D.ManagerID, S.StaffName, WA.PercentageTime
+FROM department AS D, staff AS S, workallocation AS WA
+WHERE D.ManagerID = S.StaffID 
+	AND S.StaffID = WA.StaffID
+    	AND D.DepartmentID = WA.DepartmentID
+ORDER BY PercentageTime DESC;
+
+
+
+SELECT S.StaffID, S.StaffName, COUNT(*) 
+FROM Staff AS S, Department AS D, Workallocation AS W
+WHERE S.StaffID = W.StaffID 
+	AND D.DepartmentID = W.DepartmentID
+GROUP BY W.StaffID
+HAVING COUNT(*) > 1
+ORDER BY COUNT(*) ASC;
+
+
+
+
+SELECT StaffID, COUNT(*) 
+FROM workallocation
+GROUP BY StaffID
+HAVING COUNT(*) > 1
+ORDER BY COUNT(*) ASC;
+
+
+SELECT StaffName, DATE_FORMAT(DateOfBirth,'%d/%m/%Y') AS 'Date of birth'
+FROM Staff
+Order by DateOfBirth;
+
+
+SELECT StaffName, DATE_FORMAT(DateOfBirth,'%d-%m-%Y') AS 'Date of birth'
+FROM Staff
+Order by DateOfBirth;

@@ -1,0 +1,108 @@
+SELECT * 
+FROM Staff;
+
+SELECT StaffName, DateOfBirth
+FROM Staff;
+
+SELECT YEAR(DateOfBirth)
+FROM Staff;
+
+SELECT DISTINCT YEAR(DateOfBirth)
+FROM Staff;
+
+SELECT YEAR(DateOfBirth) AS 'Years of birth for staff'
+FROM Staff;
+
+
+SELECT YEAR(S.DateOfBirth) AS 'Years of birth for staff'
+FROM Staff as S;
+
+
+SELECT StaffName, DateOfBirth
+FROM Staff
+Order by DateOfBirth;
+
+SELECT StaffName, DateOfBirth
+FROM Staff
+Order by DateOfBirth ASC;
+
+
+SELECT StaffName, DateOfBirth
+FROM Staff
+Order by DateOfBirth DESC;
+
+SELECT StaffName, DateOfBirth
+FROM Staff
+Order by DateOfBirth DESC
+Limit 0,1;
+
+
+SELECT DepartmentID, DepartmentName, Budget
+FROM Department
+ORDER BY Budget DESC
+LIMIT 2,1;
+
+SELECT StaffName, DateOfBirth, Salary 
+FROM staff 
+Where StaffName = 'Rupam Deb';
+
+SELECT DepartmentName, Budget
+FROM DEPARTMENT 
+Where Budget >= 1000000;
+
+SELECT DepartmentName, Budget
+FROM DEPARTMENT 
+Where DepartmentName IN ('Sales','Marketing');
+
+SELECT DepartmentName, Budget
+FROM DEPARTMENT 
+Where DepartmentName NOT IN ('Sales','Marketing');
+
+SELECT DepartmentName, ManagerID
+FROM DEPARTMENT 
+Where ManagerID IS NOT NULL;
+
+SELECT *
+FROM Staff
+Where DateOfBirth >= '1975-01-01' AND DateOfBirth <= '1985-12-31';
+
+SELECT *
+FROM Staff
+Where DateOfBirth < '1975-01-01' OR DateOfBirth > '1985-12-31';
+
+SELECT DepartmentName, 1.1*Budget AS 'New Budget'
+FROM DEPARTMENT 
+Where Budget > 1000000;
+
+SELECT *
+FROM DEPARTMENT 
+Where NOT DepartmentName = 'Finance';
+
+
+SELECT DepartmentName, CAST(Budget AS DECIMAL(9,2)) AS 'Annual Budget'
+FROM DEPARTMENT
+ORDER BY 'Annual Budget' DESC; 
+
+SELECT StaffName, CONCAT('$', CAST(Salary AS CHAR(12))) AS 'Annual Salary'
+From Staff
+ORDER BY Salary;
+
+SELECT StaffName
+FROM Staff
+Where StaffName LIKE '% D%';
+
+SELECT StaffName
+FROM Staff
+Where StaffName LIKE 'J%';
+
+SELECT StaffName 
+FROM Staff 
+Where StaffName LIKE '% ___' OR StaffName LIKE '% ____';
+
+SELECT *
+FROM Staff
+Where DateOfBirth BETWEEN '1975-01-01' AND '1985-12-31';
+
+SELECT *
+FROM Staff
+Where DateOfBirth NOT BETWEEN '1975-01-01' AND '1985-12-31';
