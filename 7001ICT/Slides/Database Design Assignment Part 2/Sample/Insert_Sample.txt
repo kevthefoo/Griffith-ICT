@@ -1,7 +1,0 @@
-use xxx;
-
-/* Insert data */
-
-# CUSTOMER
-INSERT INTO CUSTOMER
-(Cust_FName,...
