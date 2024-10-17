@@ -1,0 +1,740 @@
+Types of SQL statements:
+Data Definition Language (DDL) - Defines and modifies a schema, does not manipulate data 
+e.g. CREATE / DROP / ALTER table
+
+Data Manipulation Language (DML) - Language used to retrieve, add, modify and delete data
+e.g. SELECT / INSERT / UPDATE / DELETE
+
+Data Control Language (DCL) - Used for providing, withdrawing access privileges
+e.g. GRANT / REVOKE
+
+Transaction Control Language (TCL) statements are used to manage the changes made by DML statements.
+It allows statements to be grouped together into logical transactions. Example: COMMIT, ROLLBACK etc.
+
+
+-----------------------------------------------------------------------------------
+SELECT
+
+Syntax:
+SELECT column1, column2, ...
+FROM table_name;
+[WHERE where_condition]
+[GROUP BY {col_name | expr | position} ]
+[HAVING where_condition]
+[ORDER BY {col_name | expr | position} [ASC | DESC], ...]
+[LIMIT {[offset,] row_count | row_count OFFSET offset}]
+
+Example:
+SELECT id FROM Student
+
+SELECT * FROM Student
+-----------------------------------------------------------------------------------
+AS
+
+Syntax:
+SELECT column_name_1 AS alias_name_1, column_name_2 AS alias_name_2...
+FROM table_name;
+
+SELECT column_name
+FROM table_name AS alias_name;
+
+Example:
+SELECT student_name AS Name
+FROM Students;
+
+SELECT student_name AS Name, age AS Age
+FROM Students;
+
+SELECT S.student_name
+FROM Students AS S;
+
+-----------------------------------------------------------------------------------
+ORDER
+
+Syntax:
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1 [ASC|DESC], column2 [ASC|DESC], ...;
+
+Example:
+SELECT student_name, age
+FROM Students
+ORDER BY age;
+
+SELECT student_name, age
+FROM Students
+ORDER BY age DESC;
+
+SELECT student_name, age
+FROM Students
+ORDER BY age ASC, student_name ASC;
+
+-----------------------------------------------------------------------------------
+LIMIT
+
+Syntax:
+SELECT column1, column2, ...
+FROM table_name
+LIMIT number_of_rows;
+
+SELECT column1, column2, ...
+FROM table_name
+LIMIT number_of_rows OFFSET offset_value;
+
+Example:
+SELECT student_name, age
+FROM Students
+LIMIT 5;
+
+SELECT student_name, age
+FROM Students
+ORDER BY age ASC
+LIMIT 3;
+
+SELECT student_name, age
+FROM Students
+LIMIT 5 OFFSET 10;
+
+-----------------------------------------------------------------------------------
+WHERE
+
+Syntax:
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+Common Operators with WHERE:
+= : Equal to
+<> or != : Not equal to
+> : Greater than
+< : Less than
+>= : Greater than or equal to
+<= : Less than or equal to
+BETWEEN : Within a range of values
+LIKE : Pattern matching (e.g., for strings)
+IN : Match any in a list of values
+IS NULL : Check if a value is NULL
+
+Example:
+SELECT first_name, last_name
+FROM Employees
+WHERE department = 'HR';
+
+SELECT student_name, department, age
+FROM Students
+WHERE department = 'HR' AND age > 21;
+
+-----------------------------------------------------------------------------------
+HAVING
+
+Syntax:
+SELECT column1, aggregate_function(column2)
+FROM table_name
+GROUP BY column1
+HAVING condition;
+
+Example:
+SELECT department, COUNT(*) AS student_count
+FROM Students
+GROUP BY department
+HAVING COUNT(*) > 10;
+
+SELECT customer_id, SUM(order_amount) AS total_purchases
+FROM Orders
+GROUP BY customer_id
+HAVING SUM(order_amount) > 1000;
+
+SELECT product_name, AVG(price) AS avg_price
+FROM Products
+GROUP BY product_name
+HAVING AVG(price) > 50;
+
+SELECT product_name, SUM(sales_amount) AS total_sales
+FROM Sales
+WHERE YEAR(sale_date) = 2024
+GROUP BY product_name
+HAVING SUM(sales_amount) > 10000;
+
+-----------------------------------------------------------------------------------
+DISTINCT
+
+Syntax:
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+Example:
+SELECT DISTINCT department
+FROM Students;
+
+-----------------------------------------------------------------------------------
+CREATE
+
+Syntax:
+CREATE DATABASE [IF NOT EXISTS] database_name;
+
+CREATE TABLE IF NOT EXISTS table_name (
+    column1 datatype [PRIMARY KEY] [AUTO_INCREMENT],
+    column2 datatype [NOT NULL],
+    ...
+    FOREIGN KEY (column_name) REFERENCES table_x(column_name)
+)ENGINE = InnoDB;
+
+
+Example:
+CREATE DATABASE IF NOT EXISTS School;
+
+CREATE TABLE Students (
+    student_id INT,
+    student_name VARCHAR(100),
+    age INT
+)ENGINE = InnoDB;
+-----------------------------------------------------------------------------------
+INSERT INTO
+
+Syntax:
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+Example:
+INSERT INTO Students (student_id, student_name, age) VALUES (1, 'John Doe', 20);
+
+INSERT INTO staff VALUES (NULL, 'Buffy Summers', '1987-09-15', 27000)
+
+INSERT INTO Students (student_id, student_name, age)
+VALUES 
+(3, 'Mark Brown', 23),
+(4, 'Lisa Black', 21);
+
+-----------------------------------------------------------------------------------
+UPDATE
+
+Syntax:
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+Example:
+UPDATE Students
+SET age = 21
+WHERE student_id = 1;
+-----------------------------------------------------------------------------------
+DELETE
+
+Syntax:
+DELETE FROM table_name
+WHERE condition;
+
+Example:
+DELETE FROM Students
+WHERE student_id = 1;
+
+DELETE FROM Students
+WHERE age < 18;
+
+DELETE FROM table_name;
+-----------------------------------------------------------------------------------
+ALTER
+
+Syntax:
+ALTER TABLE table_name
+ACTION;
+
+Example:
+ALTER TABLE table_name
+ADD column_name datatype;
+
+ALTER TABLE Students
+ADD email VARCHAR(100);
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+ALTER TABLE Students
+DROP COLUMN age;
+
+ALTER TABLE table_name
+MODIFY column_name new_datatype;
+
+ALTER TABLE Students
+MODIFY student_name VARCHAR(150);
+
+ALTER TABLE table_name
+RENAME COLUMN old_column_name TO new_column_name;
+
+ALTER TABLE Students
+RENAME COLUMN student_name TO full_name;
+
+ALTER TABLE old_table_name
+RENAME TO new_table_name;
+
+ALTER TABLE Students
+RENAME TO Pupils;
+-----------------------------------------------------------------------------------
+DROP
+
+Syntax:
+DROP TABLE table_name;
+DROP DATABASE database_name;
+DROP VIEW view_name;
+DROP INDEX index_name;
+
+Example:
+DROP TABLE Students;
+
+DROP DATABASE School;
+
+DROP VIEW Student_View;
+
+DROP INDEX student_index;
+-----------------------------------------------------------------------------------
+CONCAT
+
+Syntax:
+SELECT CONCAT(string1, string2, ..., stringN) AS alias_name
+FROM table_name;
+
+Example:
+SELECT CONCAT(first_name, ' ', last_name) AS full_name
+FROM Students;
+
+SELECT CONCAT('Student: ', first_name, ' ', last_name) AS full_name
+FROM Students;
+
+SELECT CONCAT(first_name, ' ', last_name, ' is ', age, ' years old') AS description
+FROM Students;
+-----------------------------------------------------------------------------------
+CAST
+
+Syntax:
+CAST(expression AS target_data_type)
+
+Example:
+SELECT CAST(age_str AS INT) AS age
+FROM Students;
+
+SELECT CAST(student_id AS VARCHAR(10)) AS student_id_str
+FROM Students;
+
+SELECT CAST(birth_date AS VARCHAR(10)) AS birth_date_str
+FROM Students;
+
+SELECT CAST(price AS INT) AS price_int
+FROM Products;
+-----------------------------------------------------------------------------------
+LIKE/NOT LIKE
+
+Syntax:
+SELECT column1, column2, ...
+FROM table_name
+WHERE column_name LIKE pattern;
+
+Wildcards Used with LIKE:
+%: Represents zero, one, or more characters.
+Example: 'A%' matches any string that starts with 'A', such as 'Apple', 'Ape', or 'A123'.
+
+_: Represents a single character.
+Example: 'A_' matches any two-character string that starts with 'A', such as 'An', 'Ab', or 'A9'.
+
+Example:
+SELECT name
+FROM Students
+WHERE name LIKE BINARY 'A%';
+
+SELECT name
+FROM Employees
+WHERE name LIKE 'A___y';
+
+SELECT customer_name
+FROM Customers
+WHERE customer_name LIKE 'J%a%o%';
+
+SELECT discount_code
+FROM Discounts
+WHERE discount_code LIKE '100\%';
+
+SELECT name
+FROM People
+WHERE name LIKE 'S_m%';
+
+SELECT item_name
+FROM Items
+WHERE item_name LIKE '%a_b%';
+
+SELECT product_name
+FROM Products
+WHERE product_name LIKE '_a%';
+
+SELECT student_name
+FROM Students
+WHERE student_name LIKE 'J_n';
+
+SELECT student_name
+FROM Students
+WHERE student_name LIKE 'J%';
+
+SELECT employee_name
+FROM Employees
+WHERE employee_name LIKE '%son';
+
+SELECT city_name
+FROM Cities
+WHERE city_name LIKE '%e%';
+-----------------------------------------------------------------------------------
+BETWEEN
+
+Syntax:
+SELECT column1, column2, ...
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+Example:
+SELECT student_name, age
+FROM Students
+WHERE age BETWEEN 18 AND 25;
+
+SELECT student_name, age
+FROM Students
+WHERE age NOT BETWEEN 18 AND 25;
+
+SELECT student_name, birth_date
+FROM Students
+WHERE birth_date BETWEEN '2000-01-01' AND '2005-12-31';
+
+SELECT student_name
+FROM Students
+WHERE student_name BETWEEN 'A' AND 'M';
+
+SELECT student_name, age, birth_date
+FROM Students
+WHERE age BETWEEN 18 AND 25
+  AND birth_date BETWEEN '2000-01-01' AND '2005-12-31';
+
+-----------------------------------------------------------------------------------
+GROUP
+
+Syntax:
+SELECT column1, aggregate_function(column2)
+FROM table_name
+GROUP BY column1;
+
+Example:
+SELECT department, COUNT(*) AS student_count
+FROM Students
+GROUP BY department;
+
+SELECT product_name, SUM(sales_amount) AS total_sales
+FROM Sales
+GROUP BY product_name;
+
+SELECT department, COUNT(*) AS student_count
+FROM Students
+GROUP BY department
+HAVING COUNT(*) > 50;
+
+SELECT department, grade_level, COUNT(*) AS student_count
+FROM Students
+GROUP BY department, grade_level;
+
+SELECT department, AVG(salary) AS avg_salary
+FROM Employees
+GROUP BY department;
+
+SELECT LEFT(last_name, 1) AS first_letter, COUNT(*) AS employee_count
+FROM Employees
+GROUP BY LEFT(last_name, 1);
+
+SELECT product_name, SUM(sales_amount) AS total_sales
+FROM Sales
+WHERE region = 'North'
+GROUP BY product_name
+HAVING SUM(sales_amount) > 10000;
+
+-----------------------------------------------------------------------------------
+AVG
+
+Syntax:
+SELECT AVG(column_name)
+FROM table_name;
+
+Example:
+SELECT AVG(age) AS avg_age
+FROM Students;
+
+SELECT AVG(age) AS avg_age
+FROM Students
+WHERE department = 'Science';
+
+SELECT department, AVG(age) AS avg_age
+FROM Students
+GROUP BY department;
+
+SELECT department, AVG(age) AS avg_age
+FROM Students
+GROUP BY department
+HAVING AVG(age) > 21;
+
+SELECT AVG(monthly_salary * 12) AS avg_annual_salary
+FROM Employees;
+-----------------------------------------------------------------------------------
+MAX
+
+Syntax:
+SELECT MAX(column_name)
+FROM table_name;
+
+Example:
+SELECT MAX(age) AS max_age
+FROM Students;
+
+SELECT MAX(age) AS max_age
+FROM Students
+WHERE department = 'Science';
+
+SELECT department, MAX(age) AS max_age
+FROM Students
+GROUP BY department;
+
+SELECT department, MAX(age) AS max_age
+FROM Students
+GROUP BY department
+HAVING MAX(age) > 22;
+
+-----------------------------------------------------------------------------------
+MIN
+
+Syntax:
+SELECT MIN(column_name)
+FROM table_name;
+
+Example:
+SELECT MIN(age) AS min_age
+FROM Students;
+
+SELECT MIN(age) AS min_age
+FROM Students
+WHERE department = 'Science';
+
+SELECT department, MIN(age) AS min_age
+FROM Students
+GROUP BY department;
+
+SELECT department, MIN(age) AS min_age
+FROM Students
+GROUP BY department
+HAVING MIN(age) < 20;
+
+-----------------------------------------------------------------------------------
+COUNT
+
+Syntax:
+SELECT COUNT(column_name)
+FROM table_name;
+
+Example:
+SELECT COUNT(*) AS total_students
+FROM Students;
+
+SELECT COUNT(age) AS number_of_ages
+FROM Students;
+
+SELECT COUNT(*) AS science_students
+FROM Students
+WHERE department = 'Science';
+
+SELECT department, COUNT(*) AS student_count
+FROM Students
+GROUP BY department;
+
+SELECT COUNT(DISTINCT department) AS distinct_departments
+FROM Students;
+
+SELECT COUNT(CASE WHEN age > 20 THEN 1 END) AS students_above_20
+FROM Students;
+
+SELECT AVG(age) AS avg_age, COUNT(*) AS total_students
+FROM Students;
+
+-----------------------------------------------------------------------------------
+SUM
+
+Syntax:
+SELECT SUM(column_name)
+FROM table_name;
+
+Example:
+SELECT SUM(sales_amount) AS total_sales
+FROM Sales;
+
+SELECT SUM(sales_amount) AS total_sales_product_A
+FROM Sales
+WHERE product_name = 'Product A';
+
+SELECT product_name, SUM(sales_amount) AS total_sales
+FROM Sales
+GROUP BY product_name;
+
+SELECT product_name, SUM(sales_amount) AS total_sales
+FROM Sales
+GROUP BY product_name
+HAVING SUM(sales_amount) > 10000;
+
+SELECT SUM(sales_online) + SUM(sales_in_store) AS total_sales
+FROM Sales;
+
+SELECT SUM(quantity_sold * price_per_unit) AS total_revenue
+FROM Sales;
+
+SELECT SUM(sales_amount) AS total_sales
+FROM Sales;
+
+SELECT SUM(DISTINCT sales_amount) AS unique_total_sales
+FROM Sales;
+
+-----------------------------------------------------------------------------------
+JOIN
+
+Types of Joins:
+There are several types of joins in SQL, each used depending on how you want to combine the tables:
+
+INNER JOIN: Returns rows where there is a match in both tables.
+LEFT JOIN (or LEFT OUTER JOIN): Returns all rows from the left table and the matched rows from the right table. If there’s no match, the result is NULL for columns from the right table.
+RIGHT JOIN (or RIGHT OUTER JOIN): Returns all rows from the right table and the matched rows from the left table. If there’s no match, the result is NULL for columns from the left table.
+FULL OUTER JOIN: Returns all rows when there is a match in either table. Rows with no match will have NULL for the missing side.
+CROSS JOIN: Returns the Cartesian product of the two tables (i.e., every row from the first table is combined with every row from the second table).
+
+Example:
+1. Inner Join:
+SELECT Students.student_name, Courses.course_name
+FROM Students
+INNER JOIN Courses ON Students.course_id = Courses.course_id;
+
+2. LEFT JOIN
+SELECT Students.student_name, Courses.course_name
+FROM Students
+LEFT JOIN Courses ON Students.course_id = Courses.course_id;
+
+3. RIGHT JOIN
+SELECT Students.student_name, Courses.course_name
+FROM Students
+RIGHT JOIN Courses ON Students.course_id = Courses.course_id;
+
+4. FULL OUTER JOIN
+SELECT Students.student_name, Courses.course_name
+FROM Students
+FULL OUTER JOIN Courses ON Students.course_id = Courses.course_id;
+
+5. CROSS JOIN
+SELECT Students.student_name, Courses.course_name
+FROM Students
+CROSS JOIN Courses;
+
+6. SELF JOIN
+SELECT e1.employee_name AS Employee, e2.employee_name AS Manager
+FROM Employees e1
+INNER JOIN Employees e2 ON e1.manager_id = e2.employee_id;
+
+-----------------------------------------------------------------------------------
+NOW
+
+Syntax:
+SELECT NOW();
+
+Example:
+SELECT NOW() AS current_timestamp;
+
+SELECT event_name, start_time
+FROM Events
+WHERE start_time < NOW();
+
+-----------------------------------------------------------------------------------
+CURDATE
+
+Syntax:
+SELECT CURDATE();
+
+Example:
+SELECT CURDATE() AS today;
+
+SELECT event_name, event_date
+FROM Events
+WHERE event_date = CURDATE();
+
+SELECT event_name, event_date
+FROM Events
+WHERE event_date > CURDATE();
+
+Important:
+%d/%m/%Y
+
+-----------------------------------------------------------------------------------
+TIME
+
+Syntax:
+SELECT TIME(column_name)
+FROM table_name;
+
+Example:
+SELECT TIME(NOW()) AS current_time;
+
+SELECT TIME(event_datetime) AS event_time
+FROM Events;
+
+SELECT event_name, event_datetime
+FROM Events
+WHERE TIME(event_datetime) > '15:00:00';
+
+-----------------------------------------------------------------------------------
+YEAR
+
+Syntax:
+SELECT YEAR(date_column)
+FROM table_name;
+
+Example:
+SELECT employee_name, YEAR(birth_date) AS birth_year
+FROM Employees;
+
+SELECT employee_name, hire_date
+FROM Employees
+WHERE YEAR(hire_date) = 2020;
+
+SELECT YEAR(NOW()) AS current_year;
+
+SELECT YEAR(hire_date) AS hire_year, COUNT(*) AS num_hired
+FROM Employees
+GROUP BY YEAR(hire_date);
+
+-----------------------------------------------------------------------------------
+SHOW
+
+The SHOW command in SQL is used to display information about the structure of databases, tables, columns, and other objects within 
+the database management system (DBMS). It is primarily used for database administration tasks, and it helps you see what is 
+available in the current database or server.
+
+SHOW DATABASES: Displays a list of all available databases on the server.
+SHOW TABLES: Shows all tables in the currently selected database.
+SHOW COLUMNS: Lists the columns (and their details) in a specific table.
+SHOW INDEX: Displays indexes for a specified table.
+SHOW CREATE TABLE: Shows the SQL CREATE TABLE statement for a given table.
+SHOW VARIABLES: Displays system variables and their values.
+SHOW STATUS: Shows the status information of the server.
+SHOW GRANTS: Displays the granted privileges for a user.
+
+Example:
+SHOW DATABASES;
+
+USE my_database;
+SHOW TABLES;
+
+SHOW COLUMNS FROM Customers;
+
+SHOW INDEX FROM Orders;
+
+SHOW CREATE TABLE Products;
+
+SHOW VARIABLES;
+
+SHOW STATUS;
+
+SHOW GRANTS FOR 'username'@'localhost';
+-----------------------------------------------------------------------------------

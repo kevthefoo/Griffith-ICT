@@ -1,0 +1,31 @@
+# Limitations of relational DBs
+Data model:
+A predefined data model (i.e., the schema) may not be suitable for unstructured or heterogeneous data
+
+Query language:
+The support for flexible and complex queries may not be required for specific applications
+
+Distributed data integrity:
+Relational database systems don’t scale well over distributed servers because of data partitioning and join problems.
+
+Complexity:
+Many unnecessary features for specific purposes
+
+# --------------------------------------------------------------------------------------
+
+# NoSQL
+Aims to provide better performance (query speed) and flexibility (ability to change structure and increase size).
+Also, better reliability
+
+Characteristics of NoSQL systems
+1. Flexible schema, easy to set up
+2. Support distributed database architectures
+3. Focus on massive scalability, high availability, and fault tolerance.
+4. Do not have a high-level query language
+5. It’s hence necessary to write applications in some lower-level programming language.
+
+In general NoSQL databases can be:
+key-value: SimpleDB, Redis, Memcached, Dynamo, Voldemort
+document: MongoDB, CouchDB
+column-oriented: BigTable, HBase, Hypertable, Cassandra, PNUTS
+graph: Neo4j, GraphDB
