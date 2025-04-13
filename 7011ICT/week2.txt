@@ -1,0 +1,22 @@
+Basic Data Structure:
+- List (array, linked list)
+- String
+- Stack
+- Queue
+- Priority queue
+- Graph
+- Tree
+- Set and Dictionary
+
+Stack ADT
+
+Queue ADT
+
+Data Structure	     Key Features
+Array	             Fast access, fixed size
+Linked List	         Dynamic allocation
+Stack	             LIFO, supports resizing
+Queue	             FIFO, circular buffer logic
+Tree	             Hierarchical, includes BST
+Graph	             Adjacency list/matrix
+Amortized Analysis	 Shows average-case efficiency

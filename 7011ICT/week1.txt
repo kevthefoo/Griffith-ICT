@@ -1,0 +1,66 @@
+How fast is an algorithm?
+Low memory usage? =====> Space Efficiency
+Small amount of time measured on a stopwatch? =====> Time Efficiency
+
+
+Constant Running Time
+Linear Running Time
+Quadratic Running Time
+
+Analysis of algorithm Efficiency
+- Running time and theoretical analysis
+- Big-O notation
+
+
+Best-case, average-case, worst-case
+
+Basic asymptotic efficiency classes
+
+
+What is recursion?
+
+Types of Recursion:
+- Direct Recursion
+- Indirect Recursion
+
+
+-------------------------------------------- ChatGPT --------------------------------------------
+How fast is an algorithm?
+- Time Efficiency = how fast the algorithm runs (on a stopwatch, if you will).
+- Space Efficiency = how much memory (RAM) the algorithm needs.
+
+Running Time Categories:
+These are like speed labels on different types of code.
+
+- Constant Time (O(1)): Always takes the same time, no matter the input.
+- Linear Time (O(n)): Time grows in proportion to the input size.
+- Quadratic Time (O(n²)): Time grows exponentially with input size. Watch out!
+
+Best-case, Average-case, Worst-case
+Let’s say you're searching for your lost sock in a drawer:
+
+- Best-case: First item you check is the sock.
+
+- Average-case: You find it halfway through.
+
+- Worst-case: Sock is the last item. Or worse... it’s in the laundry.
+
+Big-O usually looks at the worst-case to prepare for doomsday.
+
+Basic Asymptotic Efficiency Classes:
+
+Class	       Name  
+O(1)	       Constant 
+O(log n)	   Logarithmic	
+O(n)	       Linear
+O(n log n)	   Linearithmic
+O(n²)	       Quadratic	
+O(2ⁿ)	       Exponential
+O(n!)	       Factorial
+
+What is Recursion?
+Recursion is when a function calls itself. It’s like a Russian nesting doll of functions.
+
+Types of Recursion:
+- Direct Recursion: Function calls itself directly.
+- Indirect Recursion: Function A calls Function B, and B calls A.
