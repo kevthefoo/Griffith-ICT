@@ -7,6 +7,8 @@ Sorting Algorithms:
 - Insertion Sort
 - Bubble Sort
 - Merge Sort
+- Quick Sort
+- Heap Sort
 
 =====================================================================================================================
 Selection Sort:
@@ -15,7 +17,7 @@ Selection Sort:
     - Memory efficient (in-place)
 
 =====================================================================================================================
-- Insertion Sort:
+Insertion Sort:
     - Insert elements into correct position one-by-one
     - Best for nearly sorted arrays: O(n)
     - Worst case: O(n²)

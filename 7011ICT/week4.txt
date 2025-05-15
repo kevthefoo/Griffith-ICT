@@ -1,23 +1,24 @@
-Quick Sort & Heap Sort
+=================================================================================================================================
+Quick Sort:
 
-Quick Sort
-
+=================================================================================================================================
 Heap Sort
 
 
-Summary
------------------------------------------------------------------------------------------------------------------------------------------
-Algorithm	Time Complexity	                     Space Complexity	     Stability	     Other Notes
------------------------------------------------------------------------------------------------------------------------------------------
-Quick Sort	Avg: O(n log n), Worst: O(n²)	     O(log n)	             Not stable	     Faster in practice but worst case vulnerable
-Heap Sort	O(n log n) always	                 O(1)	                 Not stable	     Best for real-time & memory-limited systems
-Merge Sort	O(n log n) always	                 O(n)	                 Stable	         Best for linked lists & external storage
------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================
+Summary Table
+--------------------------------------------------------------------------------------------------------------------------------
+Algorithm	Time Complexity	                  Space Complexity	  Stability	      Other Notes
+--------------------------------------------------------------------------------------------------------------------------------
+Quick Sort	Avg: O(n log n), Worst: O(n²)	  O(log n)	          Not stable	  Faster in practice but worst case vulnerable
+Heap Sort	O(n log n) always	              O(1)	              Not stable	  Best for real-time & memory-limited systems
+Merge Sort	O(n log n) always	              O(n)	              Stable	      Best for linked lists & external storage
+--------------------------------------------------------------------------------------------------------------------------------
 
 
------------------------------------------------------------------------------------------------------
-Quick Sort → General usage, fastest in most cases
+Use Case:
+- Merge Sort → When stability is needed or working with linked lists / external storage
+- Quick Sort → General usage, fastest in most cases
+- Heap Sort → When memory is limited or worst-case performance guaranteed is critical
 
-Heap Sort → When memory is limited or worst-case performance guaranteed is critical
-
-Merge Sort → When stability is needed or working with linked lists / external storage
+=================================================================================================================================
