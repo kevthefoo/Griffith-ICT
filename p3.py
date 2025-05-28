@@ -94,7 +94,7 @@ def insertSort(arr):
     return sortedArr
 
 # Selection Sort
-def SelectionSort (arr):
+def selectionSort (arr):
     # Create an empty list to store the sorted elements
     sortedArr = []
     
@@ -123,127 +123,127 @@ sizes = [1000, 5000, 10000, 20000, 30000, 40000, 50000, 100000]
 
 # -------------------------------- Random Array Test--------------------------------
 # Generate a random array
-# for size in sizes:
-#     randomArray = []
-#     for n in range(size):
-#         randomArray.append(n)
+for size in sizes:
+    randomArray = []
+    for n in range(size):
+        randomArray.append(n)
 
-#     # Shuffle the array
-#     random.shuffle(randomArray)
+    # Shuffle the array
+    random.shuffle(randomArray)
 
-#     with open("random_array.txt", "a") as f:
-#         f.write(f"Size of the array: {size}\n")
+    with open("random_array.txt", "a") as f:
+        f.write(f"Size of the array: {size}\n")
     
 
 
-#     startTime = time.time()
-#     result = quickSort(randomArray)
-#     endTime = time.time()
-#     with open("random_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array")
+    startTime = time.time()
+    result = quickSort(randomArray)
+    endTime = time.time()
+    with open("random_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
+    print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array")
 
-#     startTime = time.time()
-#     mergeSort(randomArray)
-#     endTime = time.time()
-#     with open("random_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an random array")
+    startTime = time.time()
+    mergeSort(randomArray)
+    endTime = time.time()
+    with open("random_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an random array\n")
+    print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an random array")
 
-#     startTime = time.time()
-#     insertSort(randomArray)
-#     endTime = time.time()
-#     with open("random_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an random array")
+    startTime = time.time()
+    insertSort(randomArray)
+    endTime = time.time()
+    with open("random_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an random array\n")
+    print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an random array")
 
-#     startTime = time.time()
-#     SelectionSort(randomArray)
-#     endTime = time.time()
-#     with open("random_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n\n")
-#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an random array")
+    startTime = time.time()
+    selectionSort(randomArray)
+    endTime = time.time()
+    with open("random_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an random array\n\n")
+    print(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an random array")
 
 
 # -------------------------------- Reversed Array Test--------------------------------
 # Generate a reversed sorted array
-# for size in sizes:
-#     reverseArray = []
-#     for n in range(size):
-#         reverseArray.append(n)
+for size in sizes:
+    reverseArray = []
+    for n in range(size):
+        reverseArray.append(n)
 
-#     reverseArray.reverse()
+    reverseArray.reverse()
 
-#     with open("reversed_array.txt", "a") as f:
-#         f.write(f"Size of the array: {size}\n")
+    with open("reversed_array.txt", "a") as f:
+        f.write(f"Size of the array: {size}\n")
     
-#     startTime = time.time()
-#     result = quickSort(reverseArray)
-#     endTime = time.time()
-#     with open("reversed_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array")
+    startTime = time.time()
+    result = quickSort(reverseArray)
+    endTime = time.time()
+    with open("reversed_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
+    print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array")
 
-#     startTime = time.time()
-#     mergeSort(reverseArray)
-#     endTime = time.time()
-#     with open("reversed_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an reversed array")
+    startTime = time.time()
+    mergeSort(reverseArray)
+    endTime = time.time()
+    with open("reversed_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an reversed array\n")
+    print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an reversed array")
 
-#     startTime = time.time()
-#     insertSort(reverseArray)
-#     endTime = time.time()
-#     with open("reversed_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an reversed array")
+    startTime = time.time()
+    insertSort(reverseArray)
+    endTime = time.time()
+    with open("reversed_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an reversed array\n")
+    print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an reversed array")
 
-#     startTime = time.time()
-#     SelectionSort(reverseArray)
-#     endTime = time.time()
-#     with open("reversed_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n\n")
-#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an reversedom array")
+    startTime = time.time()
+    selectionSort(reverseArray)
+    endTime = time.time()
+    with open("reversed_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an reversed array\n\n")
+    print(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an reversedom array")
 
 # -------------------------------- Duplicate Value Array Test--------------------------------
 # Generate a duplicate value array
-# for size in sizes:
-#     duplicateArray = []
-#     for n in range(size):
-#         duplicateArray.append(random.randint(0, 10))
+for size in sizes:
+    duplicateArray = []
+    for n in range(size):
+        duplicateArray.append(random.randint(0, 10))
 
 
-#     with open("duplicate_array.txt", "a") as f:
-#         f.write(f"Size of the array: {size}\n")
+    with open("duplicate_array.txt", "a") as f:
+        f.write(f"Size of the array: {size}\n")
     
 
-#     startTime = time.time()
-#     result = quickSort(duplicateArray)
-#     endTime = time.time()
-#     with open("duplicate_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array")
+    startTime = time.time()
+    result = quickSort(duplicateArray)
+    endTime = time.time()
+    with open("duplicate_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
+    print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array")
 
-#     startTime = time.time()
-#     mergeSort(duplicateArray)
-#     endTime = time.time()
-#     with open("duplicate_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an duplicate value array")
+    startTime = time.time()
+    mergeSort(duplicateArray)
+    endTime = time.time()
+    with open("duplicate_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an duplicate value array\n")
+    print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an duplicate value array")
 
-#     startTime = time.time()
-#     insertSort(duplicateArray)
-#     endTime = time.time()
-#     with open("duplicate_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
-#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an duplicate value array")
+    startTime = time.time()
+    insertSort(duplicateArray)
+    endTime = time.time()
+    with open("duplicate_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an duplicate value array\n")
+    print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an duplicate value array")
 
-#     startTime = time.time()
-#     SelectionSort(duplicateArray)
-#     endTime = time.time()
-#     with open("duplicate_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n\n")
-#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an duplicate value array")
+    startTime = time.time()
+    selectionSort(duplicateArray)
+    endTime = time.time()
+    with open("duplicate_array.txt", "a") as f:
+        f.write(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an duplicate value array\n\n")
+    print(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an duplicate value array")
 
 
 
@@ -271,22 +271,22 @@ sizes = [1000, 5000, 10000, 20000, 30000, 40000, 50000, 100000]
 #     mergeSort(extremeArray)
 #     endTime = time.time()
 #     with open("extreme_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n")
+#         f.write(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an extreme value array\n")
 #     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an extreme value array")
 
 #     startTime = time.time()
 #     insertSort(extremeArray)
 #     endTime = time.time()
 #     with open("extreme_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n")
+#         f.write(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an extreme value array\n")
 #     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an extreme value array")
 
 #     startTime = time.time()
-#     SelectionSort(extremeArray)
+#     selectionSort(extremeArray)
 #     endTime = time.time()
 #     with open("extreme_array.txt", "a") as f:
-#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n\n")
-#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an extreme value array")
+#         f.write(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an extreme value array\n\n")
+#     print(f"Time taken: {endTime - startTime} seconds with selectionSort with {size} elements in an extreme value array")
 
 
 
@@ -301,12 +301,12 @@ sizes = [1000, 5000, 10000, 20000, 30000, 40000, 50000, 100000]
 
 
 
-# The results show that QuickSort and MergeSort are significantly faster than InsertSort and SelectionSort for larger arrays.
-# QuickSort and MergeSort have a time complexity of O(n log n), while InsertSort and SelectionSort have a time complexity of O(n^2).
+# The results show that QuickSort and MergeSort are significantly faster than InsertSort and selectionSort for larger arrays.
+# QuickSort and MergeSort have a time complexity of O(n log n), while InsertSort and selectionSort have a time complexity of O(n^2).
 # This demonstrates the efficiency of divide-and-conquer algorithms like QuickSort and MergeSort for sorting large datasets.
 # The time taken for each sorting algorithm increases with the size of the array, but QuickSort and MergeSort remain efficient even for larger datasets.
 # The results also highlight the importance of choosing the right sorting algorithm based on the size and nature of the data.
 # The performance of sorting algorithms can vary based on the characteristics of the input data, such as whether it is already partially sorted or contains many duplicate elements.
 # In practice, QuickSort is often preferred for its average-case performance and in-place sorting capabilities, while MergeSort is used when stable sorting is required or when dealing with linked lists.
 # The choice of sorting algorithm can also depend on the specific requirements of the application, such as memory constraints and the need for stability in sorting.
-# Overall, the results demonstrate the effectiveness of QuickSort and MergeSort for sorting large arrays, while highlighting the limitations of InsertSort and SelectionSort for larger datasets.
+# Overall, the results demonstrate the effectiveness of QuickSort and MergeSort for sorting large arrays, while highlighting the limitations of InsertSort and selectionSort for larger datasets.

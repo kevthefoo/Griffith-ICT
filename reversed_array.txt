@@ -1,48 +1,48 @@
 Size of the array: 1000
-Time taken: 0.003204822540283203 seconds with QuickSort with 1000 elements in an reversed array
-Time taken: 0.0006313323974609375 seconds with QuickSort with 1000 elements in an reversed array
-Time taken: 0.0 seconds with QuickSort with 1000 elements in an reversed array
-Time taken: 0.015502452850341797 seconds with QuickSort with 1000 elements in an reversed array
+Time taken: 0.003204822540283203 seconds with quickSort with 1000 elements in an reversed array
+Time taken: 0.0006313323974609375 seconds with mergeSort with 1000 elements in an reversed array
+Time taken: 0.0 seconds with insertSort with 1000 elements in an reversed array
+Time taken: 0.015502452850341797 seconds with selectionSort with 1000 elements in an reversed array
 
 Size of the array: 5000
-Time taken: 0.006669044494628906 seconds with QuickSort with 5000 elements in an reversed array
-Time taken: 0.011598825454711914 seconds with QuickSort with 5000 elements in an reversed array
-Time taken: 0.004581928253173828 seconds with QuickSort with 5000 elements in an reversed array
-Time taken: 0.3723735809326172 seconds with QuickSort with 5000 elements in an reversed array
+Time taken: 0.006669044494628906 seconds with quickSort with 5000 elements in an reversed array
+Time taken: 0.011598825454711914 seconds with mergeSort with 5000 elements in an reversed array
+Time taken: 0.004581928253173828 seconds with insertSort with 5000 elements in an reversed array
+Time taken: 0.3723735809326172 seconds with selectionSort with 5000 elements in an reversed array
 
 Size of the array: 10000
-Time taken: 0.022426366806030273 seconds with QuickSort with 10000 elements in an reversed array
-Time taken: 0.018366575241088867 seconds with QuickSort with 10000 elements in an reversed array
-Time taken: 0.015448570251464844 seconds with QuickSort with 10000 elements in an reversed array
-Time taken: 1.5490210056304932 seconds with QuickSort with 10000 elements in an reversed array
+Time taken: 0.022426366806030273 seconds with quickSort with 10000 elements in an reversed array
+Time taken: 0.018366575241088867 seconds with mergeSort with 10000 elements in an reversed array
+Time taken: 0.015448570251464844 seconds with insertSort with 10000 elements in an reversed array
+Time taken: 1.5490210056304932 seconds with selectionSort with 10000 elements in an reversed array
 
 Size of the array: 20000
-Time taken: 0.0408477783203125 seconds with QuickSort with 20000 elements in an reversed array
-Time taken: 0.04641890525817871 seconds with QuickSort with 20000 elements in an reversed array
-Time taken: 0.04637598991394043 seconds with QuickSort with 20000 elements in an reversed array
-Time taken: 6.314342498779297 seconds with QuickSort with 20000 elements in an reversed array
+Time taken: 0.0408477783203125 seconds with quickSort with 20000 elements in an reversed array
+Time taken: 0.04641890525817871 seconds with mergeSort with 20000 elements in an reversed array
+Time taken: 0.04637598991394043 seconds with insertSort with 20000 elements in an reversed array
+Time taken: 6.314342498779297 seconds with selectionSort with 20000 elements in an reversed array
 
 Size of the array: 30000
-Time taken: 0.05135369300842285 seconds with QuickSort with 30000 elements in an reversed array
-Time taken: 0.05869293212890625 seconds with QuickSort with 30000 elements in an reversed array
-Time taken: 0.11419343948364258 seconds with QuickSort with 30000 elements in an reversed array
-Time taken: 14.588743209838867 seconds with QuickSort with 30000 elements in an reversed array
+Time taken: 0.05135369300842285 seconds with quickSort with 30000 elements in an reversed array
+Time taken: 0.05869293212890625 seconds with mergeSort with 30000 elements in an reversed array
+Time taken: 0.11419343948364258 seconds with insertSort with 30000 elements in an reversed array
+Time taken: 14.588743209838867 seconds with selectionSort with 30000 elements in an reversed array
 
 Size of the array: 40000
-Time taken: 0.08524823188781738 seconds with QuickSort with 40000 elements in an reversed array
-Time taken: 0.06187081336975098 seconds with QuickSort with 40000 elements in an reversed array
-Time taken: 0.1994340419769287 seconds with QuickSort with 40000 elements in an reversed array
-Time taken: 25.285762310028076 seconds with QuickSort with 40000 elements in an reversed array
+Time taken: 0.08524823188781738 seconds with quickSort with 40000 elements in an reversed array
+Time taken: 0.06187081336975098 seconds with mergeSort with 40000 elements in an reversed array
+Time taken: 0.1994340419769287 seconds with insertSort with 40000 elements in an reversed array
+Time taken: 25.285762310028076 seconds with selectionSort with 40000 elements in an reversed array
 
 Size of the array: 50000
-Time taken: 0.08826518058776855 seconds with QuickSort with 50000 elements in an reversed array
-Time taken: 0.09984326362609863 seconds with QuickSort with 50000 elements in an reversed array
-Time taken: 0.31672048568725586 seconds with QuickSort with 50000 elements in an reversed array
-Time taken: 59.8646035194397 seconds with QuickSort with 50000 elements in an reversed array
+Time taken: 0.08826518058776855 seconds with quickSort with 50000 elements in an reversed array
+Time taken: 0.09984326362609863 seconds with mergeSort with 50000 elements in an reversed array
+Time taken: 0.31672048568725586 seconds with insertSort with 50000 elements in an reversed array
+Time taken: 59.8646035194397 seconds with selectionSort with 50000 elements in an reversed array
 
 Size of the array: 100000
-Time taken: 0.18355035781860352 seconds with QuickSort with 100000 elements in an reversed array
-Time taken: 0.19094514846801758 seconds with QuickSort with 100000 elements in an reversed array
-Time taken: 1.4366059303283691 seconds with QuickSort with 100000 elements in an reversed array
-Time taken: 161.44582772254944 seconds with QuickSort with 100000 elements in an reversed array
+Time taken: 0.18355035781860352 seconds with quickSort with 100000 elements in an reversed array
+Time taken: 0.19094514846801758 seconds with mergeSort with 100000 elements in an reversed array
+Time taken: 1.4366059303283691 seconds with insertSort with 100000 elements in an reversed array
+Time taken: 161.44582772254944 seconds with selectionSort with 100000 elements in an reversed array
 
