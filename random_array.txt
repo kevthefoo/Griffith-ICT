@@ -1,0 +1,48 @@
+Size of the array: 1000
+Time taken: 0.0 seconds with QuickSort with 1000 elements in an random array
+Time taken: 0.004484415054321289 seconds with QuickSort with 1000 elements in an random array
+Time taken: 0.001615285873413086 seconds with QuickSort with 1000 elements in an random array
+Time taken: 0.015927553176879883 seconds with QuickSort with 1000 elements in an random array
+
+Size of the array: 5000
+Time taken: 0.005460023880004883 seconds with QuickSort with 5000 elements in an random array
+Time taken: 0.014878273010253906 seconds with QuickSort with 5000 elements in an random array
+Time taken: 0.14719390869140625 seconds with QuickSort with 5000 elements in an random array
+Time taken: 0.29032158851623535 seconds with QuickSort with 5000 elements in an random array
+
+Size of the array: 10000
+Time taken: 0.021673917770385742 seconds with QuickSort with 10000 elements in an random array
+Time taken: 0.011207103729248047 seconds with QuickSort with 10000 elements in an random array
+Time taken: 0.6317710876464844 seconds with QuickSort with 10000 elements in an random array
+Time taken: 1.1613092422485352 seconds with QuickSort with 10000 elements in an random array
+
+Size of the array: 20000
+Time taken: 0.041599273681640625 seconds with QuickSort with 20000 elements in an random array
+Time taken: 0.052983760833740234 seconds with QuickSort with 20000 elements in an random array
+Time taken: 2.4617233276367188 seconds with QuickSort with 20000 elements in an random array
+Time taken: 4.672710418701172 seconds with QuickSort with 20000 elements in an random array
+
+Size of the array: 30000
+Time taken: 0.06188201904296875 seconds with QuickSort with 30000 elements in an random array
+Time taken: 0.07533907890319824 seconds with QuickSort with 30000 elements in an random array
+Time taken: 5.534465551376343 seconds with QuickSort with 30000 elements in an random array
+Time taken: 10.434088706970215 seconds with QuickSort with 30000 elements in an random array
+
+Size of the array: 40000
+Time taken: 0.08349609375 seconds with QuickSort with 40000 elements in an random array
+Time taken: 0.10701346397399902 seconds with QuickSort with 40000 elements in an random array
+Time taken: 9.894315481185913 seconds with QuickSort with 40000 elements in an random array
+Time taken: 20.420411109924316 seconds with QuickSort with 40000 elements in an random array
+
+Size of the array: 50000
+Time taken: 0.12729763984680176 seconds with QuickSort with 50000 elements in an random array
+Time taken: 0.12715792655944824 seconds with QuickSort with 50000 elements in an random array
+Time taken: 15.658193349838257 seconds with QuickSort with 50000 elements in an random array
+Time taken: 33.79187536239624 seconds with QuickSort with 50000 elements in an random array
+
+Size of the array: 100000
+Time taken: 0.24046874046325684 seconds with QuickSort with 100000 elements in an random array
+Time taken: 0.2982168197631836 seconds with QuickSort with 100000 elements in an random array
+Time taken: 73.08184576034546 seconds with QuickSort with 100000 elements in an random array
+Time taken: 176.332510471344 seconds with QuickSort with 100000 elements in an random array
+

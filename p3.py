@@ -1,42 +1,54 @@
 import time, random
 
-# QuickSort
+# Quick Sort
 def quickSort(arr):
+    # If the list has less than 2 elements, it's already sorted
     if len(arr)<=1:
         return arr
-    
-    # Use the middle element as pivot
+
+    # Choose the middle element as the pivot
     pivot = arr[len(arr) // 2]
 
+    # Partition elements into three groups: less than the pivot, greater than the pivot, and equal to the pivot
     greaterNum = []
-    for num in arr[0:-1]:
-        if num >= pivot:
+    for num in arr:
+        if num > pivot:
             greaterNum.append(num)
 
     lessNum = []
-    for num in arr[0:-1]:
+    for num in arr:
         if num < pivot:
             lessNum.append(num)
 
-    return quickSort(lessNum) + [pivot] + quickSort(greaterNum)
+    equalNum = []
+    for num in arr:
+        if num == pivot:
+            equalNum.append(num)
+    
+    # Recursively sort the less and greater lists and combine with the equal list
+    return quickSort(lessNum) + equalNum + quickSort(greaterNum)
 
+# Merge Sort
 def mergeSort(arr):
+    # If the list has less than 2 elements, it's already sorted
     if len(arr)<=1:
         return arr
     
+    # Find the middle index to divide the array into two halves (left and right)
     midNumIndex = len(arr)//2
     arrLeft = arr[0:midNumIndex]
     arrRight = arr[midNumIndex:]
 
+    # Recursively sort both halves
     leftSort = mergeSort(arrLeft)
     rightSort = mergeSort(arrRight)
 
-
-
-    # Compare left and right array and merge
+    # Merge the sorted left and right halves into a single sorted list
     mergedArr = []
     i = 0
     j = 0
+
+    # Compare elements from both halves and append the smaller one to mergedArr
     while i < len(leftSort) and j < len(rightSort):
         if leftSort[i] <= rightSort[j]:
             mergedArr.append(leftSort[i])
@@ -50,121 +62,244 @@ def mergeSort(arr):
 
     return mergedArr
 
+# Insertion Sort
 def insertSort(arr):
+    # Initialize the sorted array with the first element
     target = arr[0]
     sortedArr = []
     sortedArr.append(target)
-
+    
+    # Loop through the remaining elements of the input array
     for i in range(1, len(arr)):
         compareNum = arr[i]
 
+        # If the current number is smaller than the first element in sortedArr, insert it at the beginning
         if compareNum < sortedArr[0]:
             sortedArr.insert(0, compareNum)
             continue
         
         inserted = False
+
+        # Find the correct position in sortedArr for insertion
         for _ in sortedArr:
             if compareNum < _:
                 sortedArr.insert(sortedArr.index(_), compareNum)
                 inserted = True
                 break
-
+        
+        # If the number is larger than all elements in sortedArr, append it to the end
         if not inserted:
             sortedArr.append(compareNum)
 
-    
     return sortedArr
 
+# Selection Sort
 def SelectionSort (arr):
+    # Create an empty list to store the sorted elements
     sortedArr = []
     
     while len(arr) > 0:
+        # Assume the first element is the minimum
         minNum = arr[0]
+
+        # Find the real minimum number in the array
         for num in arr:
             if num < minNum:
                 minNum = num
+
+        # Append the minimum number to the sorted array
         sortedArr.append(minNum)
+
+        # Remove the minimum number from the originla array
         arr.remove(minNum)
 
     
     return sortedArr
 
-# Generate a random array of 1000 integers
-testArray = []
-for n in range(100000):
-    testArray.append(n)
 
-# Shuffle the array
-random.shuffle(testArray)
 
-startTime = time.time()
-quickSort(testArray)
-endTime = time.time()
+# Performance Testing
+sizes = [1000, 5000, 10000, 20000, 30000, 40000, 50000, 100000]
 
-print(f"Time taken: {endTime - startTime} seconds with QuickSort")
+# -------------------------------- Random Array Test--------------------------------
+# Generate a random array
+# for size in sizes:
+#     randomArray = []
+#     for n in range(size):
+#         randomArray.append(n)
 
-startTime = time.time()
-mergeSort(testArray)
-endTime = time.time()
-print(f"Time taken: {endTime - startTime} seconds with MergeSort")
+#     # Shuffle the array
+#     random.shuffle(randomArray)
 
-startTime = time.time()
-insertSort(testArray)
-endTime = time.time()
-print(f"Time taken: {endTime - startTime} seconds with InsertSort")
+#     with open("random_array.txt", "a") as f:
+#         f.write(f"Size of the array: {size}\n")
+    
 
-startTime = time.time()
-SelectionSort(testArray)
-endTime = time.time()
-print(f"Time taken: {endTime - startTime} seconds with SelectionSort")
 
-# 1000
-# Time taken: 0.003264188766479492 seconds with QuickSort
-# Time taken: 0.0022249221801757812 seconds with MergeSort
-# Time taken: 0.0013077259063720703 seconds with InsertSort
-# Time taken: 0.01538705825805664 seconds with SelectionSort
+#     startTime = time.time()
+#     result = quickSort(randomArray)
+#     endTime = time.time()
+#     with open("random_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array")
 
-# 5000
-# Time taken: 0.0 seconds with QuickSort
-# Time taken: 0.023931503295898438 seconds with MergeSort
-# Time taken: 0.20273184776306152 seconds with InsertSort
-# Time taken: 0.3132917881011963 seconds with SelectionSort
+#     startTime = time.time()
+#     mergeSort(randomArray)
+#     endTime = time.time()
+#     with open("random_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an random array")
 
-# 10000
-# Time taken: 0.020653486251831055 seconds with QuickSort
-# Time taken: 0.0279843807220459 seconds with MergeSort
-# Time taken: 0.6679341793060303 seconds with InsertSort
-# Time taken: 1.3104441165924072 seconds with SelectionSort
+#     startTime = time.time()
+#     insertSort(randomArray)
+#     endTime = time.time()
+#     with open("random_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an random array")
 
-# 20000
-# Time taken: 0.04881167411804199 seconds with QuickSort
-# Time taken: 0.04585862159729004 seconds with MergeSort
-# Time taken: 2.767672061920166 seconds with InsertSort
-# Time taken: 5.106107950210571 seconds with SelectionSort
+#     startTime = time.time()
+#     SelectionSort(randomArray)
+#     endTime = time.time()
+#     with open("random_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an random array\n\n")
+#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an random array")
 
-# 30000
-# Time taken: 0.05002284049987793 seconds with QuickSort
-# Time taken: 0.08237409591674805 seconds with MergeSort
-# Time taken: 6.081153631210327 seconds with InsertSort
-# Time taken: 11.526447296142578 seconds with SelectionSort
 
-# 40000
-# Time taken: 0.10033226013183594 seconds with QuickSort
-# Time taken: 0.10285806655883789 seconds with MergeSort
-# Time taken: 11.329471111297607 seconds with InsertSort
-# Time taken: 23.195240259170532 seconds with SelectionSort
+# -------------------------------- Reversed Array Test--------------------------------
+# Generate a reversed sorted array
+# for size in sizes:
+#     reverseArray = []
+#     for n in range(size):
+#         reverseArray.append(n)
 
-# 50000
-# Time taken: 0.10627055168151855 seconds with QuickSort
-# Time taken: 0.16108059883117676 seconds with MergeSort
-# Time taken: 17.022825956344604 seconds with InsertSort
-# Time taken: 36.10710859298706 seconds with SelectionSort
+#     reverseArray.reverse()
 
-# 100000
-# Time taken: 0.2216641902923584 seconds with QuickSort
-# Time taken: 0.3230922222137451 seconds with MergeSort
-# Time taken: 97.29859185218811 seconds with InsertSort
-# Time taken: 230.0204803943634 seconds with SelectionSort
+#     with open("reversed_array.txt", "a") as f:
+#         f.write(f"Size of the array: {size}\n")
+    
+#     startTime = time.time()
+#     result = quickSort(reverseArray)
+#     endTime = time.time()
+#     with open("reversed_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array")
+
+#     startTime = time.time()
+#     mergeSort(reverseArray)
+#     endTime = time.time()
+#     with open("reversed_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an reversed array")
+
+#     startTime = time.time()
+#     insertSort(reverseArray)
+#     endTime = time.time()
+#     with open("reversed_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an reversed array")
+
+#     startTime = time.time()
+#     SelectionSort(reverseArray)
+#     endTime = time.time()
+#     with open("reversed_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an reversed array\n\n")
+#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an reversedom array")
+
+# -------------------------------- Duplicate Value Array Test--------------------------------
+# Generate a duplicate value array
+# for size in sizes:
+#     duplicateArray = []
+#     for n in range(size):
+#         duplicateArray.append(random.randint(0, 10))
+
+
+#     with open("duplicate_array.txt", "a") as f:
+#         f.write(f"Size of the array: {size}\n")
+    
+
+#     startTime = time.time()
+#     result = quickSort(duplicateArray)
+#     endTime = time.time()
+#     with open("duplicate_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array")
+
+#     startTime = time.time()
+#     mergeSort(duplicateArray)
+#     endTime = time.time()
+#     with open("duplicate_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an duplicate value array")
+
+#     startTime = time.time()
+#     insertSort(duplicateArray)
+#     endTime = time.time()
+#     with open("duplicate_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an duplicate value array")
+
+#     startTime = time.time()
+#     SelectionSort(duplicateArray)
+#     endTime = time.time()
+#     with open("duplicate_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an duplicate value array\n\n")
+#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an duplicate value array")
+
+
+
+# -------------------------------- Extreme Value Array Test--------------------------------
+# Generate a extreme value array
+# for size in sizes:
+#     extremeArray = []
+#     for n in range(size):
+#         extremeArray.append(n)
+
+
+#     with open("extreme_array.txt", "a") as f:
+#         f.write(f"Size of the array: {size}\n")
+    
+
+
+#     startTime = time.time()
+#     result = quickSort(extremeArray)
+#     endTime = time.time()
+#     with open("extreme_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array")
+
+#     startTime = time.time()
+#     mergeSort(extremeArray)
+#     endTime = time.time()
+#     with open("extreme_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with MergeSort with {size} elements in an extreme value array")
+
+#     startTime = time.time()
+#     insertSort(extremeArray)
+#     endTime = time.time()
+#     with open("extreme_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n")
+#     print(f"Time taken: {endTime - startTime} seconds with InsertSort with {size} elements in an extreme value array")
+
+#     startTime = time.time()
+#     SelectionSort(extremeArray)
+#     endTime = time.time()
+#     with open("extreme_array.txt", "a") as f:
+#         f.write(f"Time taken: {endTime - startTime} seconds with QuickSort with {size} elements in an extreme value array\n\n")
+#     print(f"Time taken: {endTime - startTime} seconds with SelectionSort with {size} elements in an extreme value array")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # The results show that QuickSort and MergeSort are significantly faster than InsertSort and SelectionSort for larger arrays.
 # QuickSort and MergeSort have a time complexity of O(n log n), while InsertSort and SelectionSort have a time complexity of O(n^2).

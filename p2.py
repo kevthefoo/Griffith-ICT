@@ -9,16 +9,19 @@ class orderManager():
     
     # Process the first order in the queue
     def processOrder(self):
-        print(f"{ self.order[0]} is ready to process!\n")
-        self.order.pop(0)
+        if self.order:
+            print(f"{ self.order[0]} is ready to process!\n")
+            self.order.pop(0)
+        else:
+            print("No order to process!\n")
 
     # Remove a specific order from the queue
     def removeOrder(self, order_to_remove):
-        for order in self.order:
-            if order == order_to_remove:
-                self.order.remove(order_to_remove)
-                print("The order is cancelled!\n")
-                break
+        if order_to_remove in self.order:
+            self.order.remove(order_to_remove)
+            print("The order is cancelled!\n")
+        else:
+            print("Order not found!\n")
 
     # View the next order without removing it
     def nextOrder(self):
