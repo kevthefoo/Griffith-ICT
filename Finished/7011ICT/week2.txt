@@ -1,0 +1,35 @@
+=========================================================================================
+What is Data Structure?
+- A smart way to store and organize data so you can use it efficiently.
+
+=========================================================================================
+Basic Data Structure:
+- List (array, linked list)
+- String
+- Stack
+- Queue
+- Priority queue
+- Graph
+- Tree
+- Set and Dictionary
+
+---------------------------------------------------------
+Data Structure	        Key Features
+---------------------------------------------------------
+Array	                Fast access, fixed size
+Linked List	            Dynamic allocation
+Stack	                LIFO, supports resizing
+Queue	                FIFO, circular buffer logic
+Tree	                Hierarchical, includes BST
+Graph	                Adjacency list/matrix
+---------------------------------------------------------
+
+=========================================================================================
+What is ADT? (Abstract Data Type)
+- A data structure concept based on what it does, not how it does it.
+
+Stack ADT
+
+Queue ADT
+
+=========================================================================================
